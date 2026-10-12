@@ -1,0 +1,4 @@
+rank,item_id,isbn,title,author,score,source,reason,readers,smoothed_mean
+1,209588,0812550544,Haunted America (Haunted America),Michael Norman,8.138081550598145,als,"факторы пользователя и книги, изученные на обучении",5,7.71758759459942
+2,163484,0674194241,Deaf in America: Voices from a Culture,Carol Padden,8.106101036071777,als,"факторы пользователя и книги, изученные на обучении",3,7.71758759459942
+3,279408,1891620614,The Global Me: New Cosmopolitans and the Competitive Edge: Picking Globalism's Winners and Losers,G. Pascal Zachary,8.071829795837402,als,"факторы пользователя и книги, изученные на обучении",1,7.71758759459942

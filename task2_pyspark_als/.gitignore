@@ -1,0 +1,12 @@
+__pycache__/
+work/data/*.csv
+work/data/*.zip
+work/data/*.part
+work/*.log
+work/.ipynb_checkpoints/
+work/artifacts/smoke/
+work/artifacts/*/running.ipynb
+work/artifacts/*/failed.ipynb
+work/artifacts/*/book_recommendations.ipynb
+work/artifacts/*/checkpoints/
+*.tmp

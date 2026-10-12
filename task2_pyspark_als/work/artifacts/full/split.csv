@@ -1,0 +1,4 @@
+split,interactions,explicit_ratings,users,items
+validation,114843,43510,27783,70450
+train,920167,346700,92986,298103
+test,114770,43461,27685,70582

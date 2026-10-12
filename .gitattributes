@@ -4,3 +4,4 @@
 *.parquet binary
 *.crc binary
 task1_pyspark_ml/work/artifacts/full/models/** -text
+task2_pyspark_als/work/artifacts/full/inference/** -text

@@ -1,0 +1,4 @@
+rank,item_id,isbn,title,author,score,source,reason,readers,smoothed_mean
+1,247880,0971880107,Wild Animus,Rich Shapero,2020.0,popular,популярность по уникальным читателям обучающей выборки,2020,4.525088501969237
+2,47452,0316666343,The Lovely Bones: A Novel,Alice Sebold,1050.0,popular,популярность по уникальным читателям обучающей выборки,1050,8.146376427698279
+3,83496,0385504209,The Da Vinci Code,Dan Brown,703.0,popular,популярность по уникальным читателям обучающей выборки,703,8.35367878810312

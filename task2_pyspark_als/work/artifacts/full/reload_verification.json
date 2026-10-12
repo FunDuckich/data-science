@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "compared_predictions": 100,
+  "max_absolute_error": 4.9658055445434e-11,
+  "routes": {
+    "warm": [
+      "als"
+    ],
+    "cold": [
+      "popular"
+    ],
+    "onboarding": [
+      "content"
+    ]
+  },
+  "independent_ranking_check": {
+    "als": {
+      "recall_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "catalog_coverage": 0.001986191241842429
+    },
+    "popular": {
+      "recall_at_10": 0.017910714285714283,
+      "ndcg_at_10": 0.010120471658299286,
+      "catalog_coverage": 0.0001450234874996059
+    }
+  }
+}

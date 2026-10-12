@@ -1,0 +1,33 @@
+{
+  "train_cutoff": 120396.0,
+  "validation_cutoff": 145248.0,
+  "parts": [
+    {
+      "split": "train",
+      "rows": 170888,
+      "frauds": 360,
+      "min_time": 0.0,
+      "max_time": 120396.0,
+      "groups": 170248,
+      "fraud_rate": 0.002106642947427555
+    },
+    {
+      "split": "validation",
+      "rows": 56958,
+      "frauds": 57,
+      "min_time": 120397.0,
+      "max_time": 145248.0,
+      "groups": 56758,
+      "fraud_rate": 0.0010007373854419045
+    },
+    {
+      "split": "test",
+      "rows": 56961,
+      "frauds": 75,
+      "min_time": 145249.0,
+      "max_time": 172792.0,
+      "groups": 56720,
+      "fraud_rate": 0.0013166903670932743
+    }
+  ]
+}

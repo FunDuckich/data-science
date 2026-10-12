@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.png binary
+*.parquet binary
+*.crc binary
+task1_pyspark_ml/work/artifacts/full/models/** -text

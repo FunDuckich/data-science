@@ -1,0 +1,18 @@
+{
+  "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.0.3",
+    "scikit-learn": "1.5.2",
+    "matplotlib": "3.9.2",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.0",
+    "pyspark": "3.5.3"
+  },
+  "master": "local[6]",
+  "driver_memory": "4g",
+  "profile": "full",
+  "seed": 42,
+  "started_utc": "2026-10-12T00:43:23.509579+00:00"
+}

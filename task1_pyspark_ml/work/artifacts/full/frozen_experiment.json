@@ -1,0 +1,39 @@
+{
+  "winner": "rf",
+  "thresholds": {
+    "lr": 0.6635979181809827,
+    "rf": 0.35026399992189017,
+    "gbt": 0.46515897202344486
+  },
+  "parameters": {
+    "lr": {
+      "regParam": 0.001,
+      "elasticNetParam": 0.0,
+      "weightCol": "weight_10"
+    },
+    "rf": {
+      "numTrees": 200,
+      "maxDepth": 10,
+      "weightCol": ""
+    },
+    "gbt": {
+      "maxIter": 80,
+      "maxDepth": 5,
+      "weightCol": ""
+    }
+  },
+  "benchmark": {
+    "rows": 100000,
+    "positive_rows": 211,
+    "spark_reg_param": 0.01,
+    "sklearn_C": 0.001,
+    "spark_threshold": 0.02224700107031985,
+    "sklearn_threshold": 0.022254365439134373,
+    "conversion_seconds_train_validation": 2.6168820740001593,
+    "spark_fit_seconds": 4.479443943999968,
+    "sklearn_fit_seconds": 1.9364262839999355,
+    "pandas_train_bytes": 35700132
+  },
+  "frozen_utc": "2026-10-12T01:04:29.892666+00:00",
+  "test_used_for_selection": false
+}

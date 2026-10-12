@@ -1,0 +1,2 @@
+rows,positive_rows,spark_reg_param,sklearn_C,spark_threshold,sklearn_threshold,conversion_seconds_train_validation,spark_fit_seconds,sklearn_fit_seconds,pandas_train_bytes
+100000,211,0.01,0.001,0.02224700107031985,0.022254365439134373,2.6168820740001593,4.479443943999968,1.9364262839999355,35700132

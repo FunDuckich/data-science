@@ -1,0 +1,17 @@
+{
+  "lr": {
+    "regParam": 0.001,
+    "elasticNetParam": 0.0,
+    "weightCol": "weight_10"
+  },
+  "rf": {
+    "numTrees": 200,
+    "maxDepth": 10,
+    "weightCol": ""
+  },
+  "gbt": {
+    "maxIter": 80,
+    "maxDepth": 5,
+    "weightCol": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "winner": "rf",
+  "thresholds": {
+    "lr": 0.6635979181809827,
+    "rf": 0.35026399992189017,
+    "gbt": 0.46515897202344486
+  },
+  "selection_data": "validation",
+  "test_used": false
+}

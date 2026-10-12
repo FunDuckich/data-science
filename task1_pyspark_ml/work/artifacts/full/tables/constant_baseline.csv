@@ -1,0 +1,2 @@
+threshold,precision,recall,f1,tp,fp,fn,tn,accuracy,false_alerts_per_10000,average_precision
+0.5,0.0,0.0,0.0,0,0,75,56886,0.9986833096329067,0.0,0.0013166903670932743

@@ -1,4 +1,0 @@
-rank,item_id,isbn,title,author,score,source,reason,readers,smoothed_mean
-1,567,0002256886,Araby,Gretta Mulrooney,2.0,content,совпадение автора (+2) и/или издателя (+1),3,7.6034669743293914
-2,588,000225851X,Godless in Eden: A Book of Essays,Fay Weldon,1.0,content,совпадение автора (+2) и/или издателя (+1),4,7.6034669743293914
-3,2264,0006550231,Statement,Brian Moore,1.0,content,совпадение автора (+2) и/или издателя (+1),4,7.6034669743293914

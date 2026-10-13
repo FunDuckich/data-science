@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.SQLTransformer","timestamp":1791767086113,"sparkVersion":"3.5.3","uid":"SQLTransformer_63fa3763b707","paramMap":{"statement":"SELECT *, LOG(1.0 + Amount_filled) AS log_amount FROM __THIS__"},"defaultParamMap":{}}

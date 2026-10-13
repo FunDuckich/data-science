@@ -1,7 +1,0 @@
-services:
-  jupyter_spark:
-    volumes: !override
-      - fraud_work:/home/jovyan/work
-
-volumes:
-  fraud_work:

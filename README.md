@@ -4,5 +4,5 @@
 
 | Задание | Содержание |
 | --- | --- |
-| [1. PySpark ML](task1_pyspark_ml/) | Выявление мошеннических транзакций, Spark Pipeline, CrossValidator и сравнение со sklearn |
+| [1. PySpark ML](task1_pyspark_ml/) | Выявление мошеннических транзакций, Spark Pipeline, TrainValidationSplit и сравнение со sklearn |
 | [2. Рекомендательные системы PySpark](task2_pyspark_als/) | Популярность, ручной поиск соседей, подбор ALS, оценка рекомендаций и гибрид с холодным стартом |

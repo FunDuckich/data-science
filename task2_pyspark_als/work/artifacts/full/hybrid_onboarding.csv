@@ -1,4 +1,0 @@
-rank,item_id,isbn,title,author,score,source,reason,readers,smoothed_mean
-1,567,0002256886,Araby,Gretta Mulrooney,2.0,content,совпадение автора (+2) и/или издателя (+1),3,7.6034669743293914
-2,2320,0006551823,MARBLE HEART,Gretta Mulrooney,2.0,content,совпадение автора (+2) и/или издателя (+1),1,7.622349499361325
-3,2234,0006547834,Miss Smillas Feeling for Snow,Peter Hoeg,1.0,content,совпадение автора (+2) и/или издателя (+1),28,7.81466685895587

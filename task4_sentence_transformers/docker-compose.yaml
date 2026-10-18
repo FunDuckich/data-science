@@ -1,0 +1,16 @@
+services:
+  jupyter:
+    build: .
+    gpus: all
+    cpus: 2
+    mem_limit: 2g
+    ports:
+      - "127.0.0.1:8891:8888"
+    volumes:
+      - ./work:/home/jovyan/work
+    environment:
+      JUPYTER_TOKEN: sentence_transformers
+      HF_HOME: /home/jovyan/work/.cache/huggingface
+      OMP_NUM_THREADS: 2
+      OPENBLAS_NUM_THREADS: 2
+      TOKENIZERS_PARALLELISM: "false"

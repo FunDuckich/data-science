@@ -1,0 +1,3 @@
+work/.cache/
+work/.ipynb_checkpoints/
+work/data/*.tmp

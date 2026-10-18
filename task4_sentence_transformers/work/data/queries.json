@@ -1,0 +1,258 @@
+[
+  {
+    "query_id": "q01",
+    "topic": "gpu",
+    "difficulty": "прямой",
+    "query": "Как записать загрузку GPU в файл во время обучения через nvidia-smi?",
+    "relevant": {
+      "operations/projects/gpu-performance-check": "Есть пример nvidia-smi dmon с записью stdout.txt во время обучения."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q02",
+    "topic": "gpu",
+    "difficulty": "перефразированный",
+    "query": "Почему одни машины в списке запускаются сразу, а другие приходится ждать?",
+    "relevant": {
+      "operations/projects/control-compute-resources": "Описаны зелёные, жёлтые и красные конфигурации и время их выделения."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q03",
+    "topic": "gpu",
+    "difficulty": "с условием",
+    "query": "Можно ли перейти на другую вычислительную машину и сохранить уже созданные переменные ноутбука?",
+    "relevant": {
+      "operations/projects/control-compute-resources": "Явно сказано, что сменить конфигурацию с сохранением состояния интерпретатора нельзя."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q04",
+    "topic": "gpu",
+    "difficulty": "прямой",
+    "query": "Какие конфигурации предлагают GPU A100 и сколько у них видеопамяти?",
+    "relevant": {
+      "concepts/configurations": "Таблица конфигураций содержит A100, число GPU и VRAM."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q05",
+    "topic": "окружение",
+    "difficulty": "перефразированный",
+    "query": "В ноутбуке не хватает библиотеки для графиков. Как добавить её и обновить окружение?",
+    "relevant": {
+      "operations/projects/install-dependencies": "Установка через %pip и повторная инициализация Kernel после установки."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q06",
+    "topic": "окружение",
+    "difficulty": "с условием",
+    "query": "Проекту нужна другая версия Python: как переключить её через готовый образ?",
+    "relevant": {
+      "operations/projects/python-version": "Выбор шаблона Docker-образа с нужной версией Python и активация."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q07",
+    "topic": "окружение",
+    "difficulty": "прямой",
+    "query": "Как создать и активировать собственный Docker-образ с нужными библиотеками для ноутбуков?",
+    "relevant": {
+      "operations/user-images": "Пошаговое создание образа и применение его к проекту.",
+      "concepts/docker": "Описаны настройка окружения, требования и способы хранения Docker-образов."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q08",
+    "topic": "окружение",
+    "difficulty": "перефразированный",
+    "query": "Как отправить скрипт на удалённое обучение, чтобы сервис сам собрал его зависимости?",
+    "relevant": {
+      "concepts/jobs/environment": "Автоматическая сборка Python-окружения с env.python: auto.",
+      "operations/projects/work-with-jobs": "Пример запуска задания с автоматической передачей кода и зависимостей.",
+      "concepts/jobs/index": "Конфигурация задания содержит параметры автоматической сборки окружения."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q09",
+    "topic": "данные",
+    "difficulty": "с условием",
+    "query": "Хочу видеть бакет S3 как папку в JupyterLab и разрешить запись файлов. Как подключить его?",
+    "relevant": {
+      "operations/data/s3-connectors": "Создание коннектора в режиме чтения и записи, активация и папка /s3/.",
+      "concepts/s3-connector": "Коннектор монтирует S3 в файловую систему; режимы чтения и записи."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q10",
+    "topic": "данные",
+    "difficulty": "прямой",
+    "query": "Как использовать секрет в Python через переменную окружения?",
+    "relevant": {
+      "operations/data/secrets": "Создание секрета и обращение через os.environ.",
+      "concepts/secrets": "Секреты предоставляются проекту как переменные окружения."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q11",
+    "topic": "данные",
+    "difficulty": "перефразированный",
+    "query": "В проекте закончилось место для файлов. Где увеличить доступный объём диска?",
+    "relevant": {
+      "operations/projects/storage-resize": "Шаги изменения размера хранилища проекта и необходимые права."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q12",
+    "topic": "данные",
+    "difficulty": "с условием",
+    "query": "Нужно хранить несколько терабайт моделей отдельно от диска проекта и использовать их из разных проектов.",
+    "relevant": {
+      "concepts/filestores": "Файловые хранилища до 8 ТБ, отдельно от проекта, с совместным доступом.",
+      "operations/data/filestores": "Создание, активация и предоставление доступа к файловому хранилищу."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q13",
+    "topic": "задания",
+    "difficulty": "прямой",
+    "query": "Как запустить DataSphere Jobs из командной строки с config.yaml?",
+    "relevant": {
+      "operations/projects/work-with-jobs": "Пример config.yaml и datasphere project job execute.",
+      "concepts/jobs/cli": "CLI описывает команду execute и файл конфигурации."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q14",
+    "topic": "задания",
+    "difficulty": "перефразированный",
+    "query": "Обучение завершилось в облаке. Как забрать полученные файлы на свой компьютер?",
+    "relevant": {
+      "operations/projects/use-job-results": "download-files и download_job_files скачивают результаты завершённых заданий.",
+      "concepts/jobs/cli": "Документирован download-files для результатов и логов.",
+      "operations/projects/work-with-jobs": "Выходные файлы задания возвращаются локально; пример model.zip."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q15",
+    "topic": "задания",
+    "difficulty": "с условием",
+    "query": "Как запускать обучение каждый день автоматически и не занимать процесс ожиданием его завершения?",
+    "relevant": {
+      "concepts/jobs/airflow": "DAG с расписанием и неблокирующий вызов с Airflow Sensor."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q16",
+    "topic": "задания",
+    "difficulty": "прямой",
+    "query": "Как повторить задание с другими входными файлами и продлить срок хранения его данных?",
+    "relevant": {
+      "concepts/jobs/fork": "fork_job переопределяет vars; set-data-ttl продлевает хранение для повторного запуска."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q17",
+    "topic": "инференс",
+    "difficulty": "перефразированный",
+    "query": "Модель уже обучена и сохранена в ONNX. Как сделать из неё сервис для получения предсказаний?",
+    "relevant": {
+      "tutorials/node-from-model": "Пошаговое развёртывание ONNX-модели в качестве сервиса.",
+      "operations/deploy/node-create": "Создание ноды из модели с поддержкой ONNX.",
+      "concepts/deploy/index": "Ноды из моделей обеспечивают API для ONNX и других форматов."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q18",
+    "topic": "инференс",
+    "difficulty": "с условием",
+    "query": "Хочу постепенно направлять трафик на новую версию модели, не меняя адрес сервиса для пользователей.",
+    "relevant": {
+      "concepts/deploy/index": "Алиас даёт постоянный эндпоинт и позволяет незаметно заменять ноды.",
+      "operations/deploy/alias-update": "Можно менять ноды алиаса и процент запросов каждой ноде.",
+      "operations/deploy/alias-create": "Настройка распределения запросов между нодами при создании алиаса."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q19",
+    "topic": "инференс",
+    "difficulty": "прямой",
+    "query": "Где смотреть метрики задержки запросов и ошибок опубликованной модели?",
+    "relevant": {
+      "concepts/deploy/monitoring": "Описаны метрики кодов ответа, времени запросов и дашборды.",
+      "concepts/deploy/metrics": "Справочник содержит ошибки инференса и метрики задержек."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q20",
+    "topic": "инференс",
+    "difficulty": "перефразированный",
+    "query": "Сервис пока не нужен. Как перестать платить за его вычисления, сохранив настройки для следующего запуска?",
+    "relevant": {
+      "operations/deploy/node-suspend-resume": "Приостановка останавливает инстансы и тарификацию, сохраняя ноду."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q21",
+    "topic": "доступ",
+    "difficulty": "с условием",
+    "query": "Нужно пригласить коллегу в проект, но его нет в списке доступных участников. Что делать?",
+    "relevant": {
+      "operations/projects/add-user": "Для пользователя, которого нет в списке, можно скопировать ссылку-приглашение."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q22",
+    "topic": "доступ",
+    "difficulty": "прямой",
+    "query": "Как добавить в свой проект ресурс, уже опубликованный в сообществе?",
+    "relevant": {
+      "operations/projects/use-shared-resource": "Вкладка Доступные и действие Добавить в проект.",
+      "concepts/resources": "Ресурсы сообщества могут использоваться в проектах."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q23",
+    "topic": "доступ",
+    "difficulty": "перефразированный",
+    "query": "Как не дать обучению потратить больше выделенного лимита, чтобы вычисления сами остановились?",
+    "relevant": {
+      "concepts/budget": "Пороги потребления останавливают вычисления, в отличие от уведомлений о бюджете.",
+      "operations/projects/restrictions": "Баланс проекта в юнитах; остановка при исчерпании."
+    },
+    "review": "ai_source_review; human_review_pending"
+  },
+  {
+    "query_id": "q24",
+    "topic": "доступ",
+    "difficulty": "с условием",
+    "query": "Хочу работать из VS Code, но выполнять ноутбук в облаке. Какие разрешения нужны и как подключиться?",
+    "relevant": {
+      "operations/projects/remote-connect": "Разрешение внешних IDE, роли admin/developer и подключение Jupyter Server."
+    },
+    "review": "ai_source_review; human_review_pending"
+  }
+]

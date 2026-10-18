@@ -6,3 +6,4 @@
 | --- | --- |
 | [1. PySpark ML](task1_pyspark_ml/) | Выявление мошеннических транзакций, Spark Pipeline, TrainValidationSplit и сравнение со sklearn |
 | [2. Рекомендательные системы PySpark](task2_pyspark_als/) | Популярность, ручной поиск соседей, подбор ALS, оценка рекомендаций и гибрид с холодным стартом |
+| [3. Рекуррентные модели PyTorch](task3_pytorch_lstm/) | Классификация AG News: SimpleRNN, LSTM, GRU и Bidirectional LSTM |

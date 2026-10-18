@@ -1,0 +1,6 @@
+work/data/train.csv
+work/data/test.csv
+work/data/*.zip
+work/.ipynb_checkpoints/
+work/models/
+__pycache__/

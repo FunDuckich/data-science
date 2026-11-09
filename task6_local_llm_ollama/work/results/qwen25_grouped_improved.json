@@ -1,0 +1,2281 @@
+{
+  "config": {
+    "model": "qwen2.5:1.5b",
+    "prompt": "Extract named entities using the CoNLL-2003 conventions. Return only JSON matching the supplied schema.\nPER: named people, without their job titles.\nLOC: named geographical places, countries and cities.\nORG: named companies, institutions and sports clubs. A city name used as a club in match results is ORG.\nMISC: nationalities, demonyms, national adjectives, and named events, competitions, leagues or other proper names outside PER/LOC/ORG.\nMISC is NOT a category for all remaining words. Do not extract dates, numbers, quantities, pronouns,\ngeneric occupations, generic institutions, commodities, ordinary noun phrases or headings without a proper name.\nCopy complete entity spans exactly as written, preserving capitalization and token spacing.\nDo not shorten names, convert adjectives to place names, or extract a location nested inside a club name.\nTreat bracket markers such as -LPR- and -RPR- as punctuation, not names.\nInclude all distinct mentions and preserve repeated occurrences. If no named entities occur, return empty lists.\nFor the list schema, output entities in their order of appearance. For grouped schema, include all four type keys.",
+    "schema": {
+      "$defs": {
+        "EntityGroups": {
+          "additionalProperties": false,
+          "properties": {
+            "PER": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Per",
+              "type": "array"
+            },
+            "LOC": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Loc",
+              "type": "array"
+            },
+            "ORG": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Org",
+              "type": "array"
+            },
+            "MISC": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Misc",
+              "type": "array"
+            }
+          },
+          "required": [
+            "PER",
+            "LOC",
+            "ORG",
+            "MISC"
+          ],
+          "title": "EntityGroups",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "entities": {
+          "$ref": "#/$defs/EntityGroups"
+        }
+      },
+      "required": [
+        "entities"
+      ],
+      "title": "GroupedAnswer",
+      "type": "object"
+    },
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 2048,
+      "num_predict": 512,
+      "num_thread": 2
+    }
+  },
+  "responses": [
+    {
+      "id": 6130,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [\"Thierry Dehaan\"] , \"LOC\": [] , \"ORG\": [] , \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Thierry Dehaan",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.4591354750000392,
+      "input_tokens": 262,
+      "output_tokens": 32,
+      "done_reason": "stop"
+    },
+    {
+      "id": 13184,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Saudi Arabia\"], \"ORG\": [], \"MISC\": [\"European grain traders\", \"officials\"]}}",
+      "entities": [
+        {
+          "text": "Saudi Arabia",
+          "type": "LOC"
+        },
+        {
+          "text": "European grain traders",
+          "type": "MISC"
+        },
+        {
+          "text": "officials",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8941087560001506,
+      "input_tokens": 276,
+      "output_tokens": 34,
+      "done_reason": "stop"
+    },
+    {
+      "id": 9391,
+      "split": "development",
+      "raw": "{\n    \"entities\": {\n        \"PER\": [],\n        \"LOC\": [\"Paris\"],\n        \"ORG\": []\n    \t,\n    \"MISC\": [\n        \"France\",\n        \"FIFA World Cup\"\n    ]\n} }",
+      "entities": [
+        {
+          "text": "Paris",
+          "type": "LOC"
+        },
+        {
+          "text": "France",
+          "type": "MISC"
+        },
+        {
+          "text": "FIFA World Cup",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.2760691149997,
+      "input_tokens": 265,
+      "output_tokens": 50,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6531,
+      "split": "development",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"West Bromwich\", \"Sheffield\"],\n    \"ORG\": []\n   ,\n  \"MISC\": [\"Division One\"]\n} }",
+      "entities": [
+        {
+          "text": "West Bromwich",
+          "type": "LOC"
+        },
+        {
+          "text": "Sheffield",
+          "type": "LOC"
+        },
+        {
+          "text": "Division One",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.2822342489998846,
+      "input_tokens": 263,
+      "output_tokens": 46,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6293,
+      "split": "development",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"England\"],\n    \"ORG\": [\"Worcestershire County Cricket Club\", \"Somerset County Cricket Club\"],\n    \"MISC\": []\n  }\n}",
+      "entities": [
+        {
+          "text": "England",
+          "type": "LOC"
+        },
+        {
+          "text": "Worcestershire County Cricket Club",
+          "type": "ORG"
+        },
+        {
+          "text": "Somerset County Cricket Club",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.1379345410000496,
+      "input_tokens": 285,
+      "output_tokens": 48,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10890,
+      "split": "development",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [],\n    \"ORG\": [],\n    \"MISC\": []\n  }\n}",
+      "entities": [],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7944408419998581,
+      "input_tokens": 276,
+      "output_tokens": 31,
+      "done_reason": "stop"
+    },
+    {
+      "id": 2159,
+      "split": "development",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [\n      \"Mariners\",\n      \"White Sox\",\n      \"Baltimore\",\n      \"Red Sox\"\n    ],\n    \"LOC\": [],\n    \"ORG\": []\n   ,\n  \"MISC\": []\n} }",
+      "entities": [
+        {
+          "text": "Mariners",
+          "type": "PER"
+        },
+        {
+          "text": "White Sox",
+          "type": "PER"
+        },
+        {
+          "text": "Baltimore",
+          "type": "PER"
+        },
+        {
+          "text": "Red Sox",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.436043857000186,
+      "input_tokens": 288,
+      "output_tokens": 57,
+      "done_reason": "stop"
+    },
+    {
+      "id": 4563,
+      "split": "development",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [],\n    \"ORG\": [],\n    \"MISC\": []\n  }\n}",
+      "entities": [],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7403703840000162,
+      "input_tokens": 254,
+      "output_tokens": 31,
+      "done_reason": "stop"
+    },
+    {
+      "id": 2310,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [\"Gwen Torrence\"], \"LOC\": [\"Atlanta\"] , \"ORG\": [] , \"MISC\": [\"bronze\"]}}",
+      "entities": [
+        {
+          "text": "Gwen Torrence",
+          "type": "PER"
+        },
+        {
+          "text": "Atlanta",
+          "type": "LOC"
+        },
+        {
+          "text": "bronze",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9226096400002461,
+      "input_tokens": 277,
+      "output_tokens": 34,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10013,
+      "split": "development",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [\n      \"Mark Roe\"\n    ],\n    \"LOC\": [\n      \"Australia\",\n      \"Italy\"\n    ]\n   ,\n    \"ORG\": []\n  ,\n    \"MISC\": []\n} }",
+      "entities": [
+        {
+          "text": "Mark Roe",
+          "type": "PER"
+        },
+        {
+          "text": "Australia",
+          "type": "LOC"
+        },
+        {
+          "text": "Italy",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.438955020999856,
+      "input_tokens": 278,
+      "output_tokens": 54,
+      "done_reason": "stop"
+    },
+    {
+      "id": 2549,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [\"Australia\", \"Sri Lanka\"], \"LOC\": [\"Australia\", \"Sri Lanka\"] , \"ORG\": [] , \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Australia",
+          "type": "PER"
+        },
+        {
+          "text": "Sri Lanka",
+          "type": "PER"
+        },
+        {
+          "text": "Australia",
+          "type": "LOC"
+        },
+        {
+          "text": "Sri Lanka",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9953023560001384,
+      "input_tokens": 282,
+      "output_tokens": 38,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6967,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [\"her\"] , \"LOC\": [] , \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "her",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8021995829999469,
+      "input_tokens": 282,
+      "output_tokens": 26,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6038,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"United States\"], \"ORG\": [\"State Security Court\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "United States",
+          "type": "LOC"
+        },
+        {
+          "text": "State Security Court",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7222892599997977,
+      "input_tokens": 262,
+      "output_tokens": 29,
+      "done_reason": "stop"
+    },
+    {
+      "id": 11493,
+      "split": "development",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [\n      \"Evelyn\"\n    ],\n    \"LOC\": [],\n    \"ORG\": [],\n    \"MISC\": []\n  }\n}",
+      "entities": [
+        {
+          "text": "Evelyn",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9430828879999353,
+      "input_tokens": 258,
+      "output_tokens": 39,
+      "done_reason": "stop"
+    },
+    {
+      "id": 5189,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Nizhny Novgorod\", \"Yekaterinburg\"], \"ORG\": [\"Uralmash\"] , \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Nizhny Novgorod",
+          "type": "LOC"
+        },
+        {
+          "text": "Yekaterinburg",
+          "type": "LOC"
+        },
+        {
+          "text": "Uralmash",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.0842780680000033,
+      "input_tokens": 277,
+      "output_tokens": 43,
+      "done_reason": "stop"
+    },
+    {
+      "id": 9727,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"Emnid\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Emnid",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7061482029998842,
+      "input_tokens": 281,
+      "output_tokens": 25,
+      "done_reason": "stop"
+    },
+    {
+      "id": 11677,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"precious metals\"], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "precious metals",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.6638027270000748,
+      "input_tokens": 256,
+      "output_tokens": 26,
+      "done_reason": "stop"
+    },
+    {
+      "id": 2810,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [\"Donald Tsang\"], \"LOC\": [\"Hong Kong\", \"Indonesia\", \"New Zealand\"] , \"ORG\": [] , \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Donald Tsang",
+          "type": "PER"
+        },
+        {
+          "text": "Hong Kong",
+          "type": "LOC"
+        },
+        {
+          "text": "Indonesia",
+          "type": "LOC"
+        },
+        {
+          "text": "New Zealand",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.0482976160001272,
+      "input_tokens": 281,
+      "output_tokens": 39,
+      "done_reason": "stop"
+    },
+    {
+      "id": 12409,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Athens\", \"Greece\"], \"ORG\": [\"Partizan Belgrade\", \"Olympiacos F.C.\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Athens",
+          "type": "LOC"
+        },
+        {
+          "text": "Greece",
+          "type": "LOC"
+        },
+        {
+          "text": "Partizan Belgrade",
+          "type": "ORG"
+        },
+        {
+          "text": "Olympiacos F.C.",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.0758839610002724,
+      "input_tokens": 262,
+      "output_tokens": 44,
+      "done_reason": "stop"
+    },
+    {
+      "id": 13549,
+      "split": "development",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"PULPEX\"], \"ORG\": [], \"MISC\": [\"OM\"]}}",
+      "entities": [
+        {
+          "text": "PULPEX",
+          "type": "LOC"
+        },
+        {
+          "text": "OM",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8245161909999297,
+      "input_tokens": 291,
+      "output_tokens": 29,
+      "done_reason": "stop"
+    },
+    {
+      "id": 3175,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Athens\"], \"ORG\": [], \"MISC\": [\"1996\"]}}",
+      "entities": [
+        {
+          "text": "Athens",
+          "type": "LOC"
+        },
+        {
+          "text": "1996",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8477800380001099,
+      "input_tokens": 265,
+      "output_tokens": 30,
+      "done_reason": "stop"
+    },
+    {
+      "id": 12917,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Antonio Kandir\"], \"LOC\": [], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Antonio Kandir",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8399450669999169,
+      "input_tokens": 285,
+      "output_tokens": 29,
+      "done_reason": "stop"
+    },
+    {
+      "id": 12493,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Martina Hingis\", \"Miriam Oremans\"], \"LOC\": [\"Switzerland\", \"Netherlands\"] , \"ORG\": [] , \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Martina Hingis",
+          "type": "PER"
+        },
+        {
+          "text": "Miriam Oremans",
+          "type": "PER"
+        },
+        {
+          "text": "Switzerland",
+          "type": "LOC"
+        },
+        {
+          "text": "Netherlands",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.0986722039997403,
+      "input_tokens": 292,
+      "output_tokens": 44,
+      "done_reason": "stop"
+    },
+    {
+      "id": 1788,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [],\n    \"ORG\": [],\n    \"MISC\": []\n  }\n}",
+      "entities": [],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.779764406999675,
+      "input_tokens": 257,
+      "output_tokens": 31,
+      "done_reason": "stop"
+    },
+    {
+      "id": 2253,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [],\n    \"ORG\": [\"Metres\"],\n    \"MISC\": [\"World Record\"]\n  }\n}",
+      "entities": [
+        {
+          "text": "Metres",
+          "type": "ORG"
+        },
+        {
+          "text": "World Record",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8853909889999159,
+      "input_tokens": 269,
+      "output_tokens": 37,
+      "done_reason": "stop"
+    },
+    {
+      "id": 11722,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [\"Turkey\"],\n    \"LOC\": [\"Jordan\"]\n   ,\n    \"ORG\": []\n  ,\n    \"MISC\": []\n} }",
+      "entities": [
+        {
+          "text": "Turkey",
+          "type": "PER"
+        },
+        {
+          "text": "Jordan",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.091533844999958,
+      "input_tokens": 269,
+      "output_tokens": 41,
+      "done_reason": "stop"
+    },
+    {
+      "id": 11149,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [\n      \"Gajdos\"\n    ],\n    \"LOC\": [],\n    \"ORG\": [],\n    \"MISC\": []\n  }\n}",
+      "entities": [
+        {
+          "text": "Gajdos",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9882423670001117,
+      "input_tokens": 287,
+      "output_tokens": 39,
+      "done_reason": "stop"
+    },
+    {
+      "id": 2655,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [],\n    \"ORG\": [],\n    \"MISC\": []\n  }\n}",
+      "entities": [],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7824620350002078,
+      "input_tokens": 256,
+      "output_tokens": 31,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10632,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"Bielefeld\", \"Duisburg\"],\n    \"ORG\": []\n   ,\n  \"MISC\": [\n    \"Arminia Bielefeld\",\n    \"Hirsch\"\n  ]\n} }",
+      "entities": [
+        {
+          "text": "Bielefeld",
+          "type": "LOC"
+        },
+        {
+          "text": "Duisburg",
+          "type": "LOC"
+        },
+        {
+          "text": "Arminia Bielefeld",
+          "type": "MISC"
+        },
+        {
+          "text": "Hirsch",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.5049803649999376,
+      "input_tokens": 294,
+      "output_tokens": 60,
+      "done_reason": "stop"
+    },
+    {
+      "id": 1962,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Cork\", \"Waqar Younis\"], \"LOC\": [\"Cork\"] , \"ORG\": [] , \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Cork",
+          "type": "PER"
+        },
+        {
+          "text": "Waqar Younis",
+          "type": "PER"
+        },
+        {
+          "text": "Cork",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9633164179999767,
+      "input_tokens": 267,
+      "output_tokens": 37,
+      "done_reason": "stop"
+    },
+    {
+      "id": 3362,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Ford\"], \"LOC\": [], \"ORG\": [\"firm\"] , \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Ford",
+          "type": "PER"
+        },
+        {
+          "text": "firm",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8954293049996522,
+      "input_tokens": 268,
+      "output_tokens": 27,
+      "done_reason": "stop"
+    },
+    {
+      "id": 7750,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Rotterdam\"], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Rotterdam",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7103111829997033,
+      "input_tokens": 268,
+      "output_tokens": 25,
+      "done_reason": "stop"
+    },
+    {
+      "id": 9822,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"China\"], \"ORG\": [], \"MISC\": [\"nuclear pact\", \"disarmament\"]}}",
+      "entities": [
+        {
+          "text": "China",
+          "type": "LOC"
+        },
+        {
+          "text": "nuclear pact",
+          "type": "MISC"
+        },
+        {
+          "text": "disarmament",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8875630869997622,
+      "input_tokens": 264,
+      "output_tokens": 34,
+      "done_reason": "stop"
+    },
+    {
+      "id": 7345,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"Opposition parties\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Opposition parties",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7236974349998491,
+      "input_tokens": 272,
+      "output_tokens": 26,
+      "done_reason": "stop"
+    },
+    {
+      "id": 7619,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"GBP\"], \"MISC\": [\"pound\"]}}",
+      "entities": [
+        {
+          "text": "GBP",
+          "type": "ORG"
+        },
+        {
+          "text": "pound",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7434077369998704,
+      "input_tokens": 257,
+      "output_tokens": 27,
+      "done_reason": "stop"
+    },
+    {
+      "id": 4047,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"Germany\", \"United Kingdom\"],\n    \"ORG\": [\"Stuttgart 2 -LPR- Balakow 50th\", \"Bobic 61st -RPR-\", \"Werder Bremen 1 -LPR- Votava\"],\n    \"MISC\": []\n  }\n}",
+      "entities": [
+        {
+          "text": "Germany",
+          "type": "LOC"
+        },
+        {
+          "text": "United Kingdom",
+          "type": "LOC"
+        },
+        {
+          "text": "Stuttgart 2 -LPR- Balakow 50th",
+          "type": "ORG"
+        },
+        {
+          "text": "Bobic 61st -RPR-",
+          "type": "ORG"
+        },
+        {
+          "text": "Werder Bremen 1 -LPR- Votava",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.7404923099998086,
+      "input_tokens": 291,
+      "output_tokens": 79,
+      "done_reason": "stop"
+    },
+    {
+      "id": 12684,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Christie\"], \"LOC\": [], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Christie",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7339156240000193,
+      "input_tokens": 276,
+      "output_tokens": 26,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10971,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"New York\"], \"ORG\": [\"Commodities\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "New York",
+          "type": "LOC"
+        },
+        {
+          "text": "Commodities",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7512050989998897,
+      "input_tokens": 270,
+      "output_tokens": 29,
+      "done_reason": "stop"
+    },
+    {
+      "id": 8992,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Meri\", \"Arnold Ruutel\"], \"LOC\": [], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Meri",
+          "type": "PER"
+        },
+        {
+          "text": "Arnold Ruutel",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9556637809996573,
+      "input_tokens": 305,
+      "output_tokens": 33,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10772,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Lyon\"], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Lyon",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7076015329998881,
+      "input_tokens": 268,
+      "output_tokens": 26,
+      "done_reason": "stop"
+    },
+    {
+      "id": 1287,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Lebed\"], \"LOC\": [\"Grozny\", \"Chechnya\"], \"ORG\": [], \"MISC\": [\"separatists\"]}}",
+      "entities": [
+        {
+          "text": "Lebed",
+          "type": "PER"
+        },
+        {
+          "text": "Grozny",
+          "type": "LOC"
+        },
+        {
+          "text": "Chechnya",
+          "type": "LOC"
+        },
+        {
+          "text": "separatists",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.0148817039998903,
+      "input_tokens": 293,
+      "output_tokens": 40,
+      "done_reason": "stop"
+    },
+    {
+      "id": 11812,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Lloyd\"] , \"LOC\": [] , \"ORG\": [] , \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Lloyd",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9034555470002488,
+      "input_tokens": 277,
+      "output_tokens": 28,
+      "done_reason": "stop"
+    },
+    {
+      "id": 7650,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Midwest\"], \"ORG\": [], \"MISC\": [\"hog\", \"trade\"]}}",
+      "entities": [
+        {
+          "text": "Midwest",
+          "type": "LOC"
+        },
+        {
+          "text": "hog",
+          "type": "MISC"
+        },
+        {
+          "text": "trade",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8216383650001262,
+      "input_tokens": 264,
+      "output_tokens": 31,
+      "done_reason": "stop"
+    },
+    {
+      "id": 5438,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"United States\"],\n    \"ORG\": [\"Major League Baseball\"]\n   ,\n    \"MISC\": []\n} }",
+      "entities": [
+        {
+          "text": "United States",
+          "type": "LOC"
+        },
+        {
+          "text": "Major League Baseball",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.0793719100001908,
+      "input_tokens": 256,
+      "output_tokens": 42,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6194,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Ukraine\"], \"ORG\": [], \"MISC\": [\"black soil\", \"diplomat\", \"rich enough to grow rubber boots\"]}}",
+      "entities": [
+        {
+          "text": "Ukraine",
+          "type": "LOC"
+        },
+        {
+          "text": "black soil",
+          "type": "MISC"
+        },
+        {
+          "text": "diplomat",
+          "type": "MISC"
+        },
+        {
+          "text": "rich enough to grow rubber boots",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.0219265929999892,
+      "input_tokens": 276,
+      "output_tokens": 41,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6667,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Bratislava\"], \"ORG\": [], \"MISC\": [\"Slovan\"]}}",
+      "entities": [
+        {
+          "text": "Bratislava",
+          "type": "LOC"
+        },
+        {
+          "text": "Slovan",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8604307840000729,
+      "input_tokens": 273,
+      "output_tokens": 32,
+      "done_reason": "stop"
+    },
+    {
+      "id": 8833,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"KB\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "KB",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.6958234119997542,
+      "input_tokens": 284,
+      "output_tokens": 24,
+      "done_reason": "stop"
+    },
+    {
+      "id": 949,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Sweden\"], \"ORG\": [], \"MISC\": [\"8.57\"]}}",
+      "entities": [
+        {
+          "text": "Sweden",
+          "type": "LOC"
+        },
+        {
+          "text": "8.57",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7674185659998329,
+      "input_tokens": 260,
+      "output_tokens": 30,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10621,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"Stadium\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Stadium",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.6812666240002727,
+      "input_tokens": 261,
+      "output_tokens": 25,
+      "done_reason": "stop"
+    },
+    {
+      "id": 3181,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Valletta\"], \"ORG\": [], \"MISC\": [\"Maltese\"]}}",
+      "entities": [
+        {
+          "text": "Valletta",
+          "type": "LOC"
+        },
+        {
+          "text": "Maltese",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8015206269997179,
+      "input_tokens": 267,
+      "output_tokens": 31,
+      "done_reason": "stop"
+    },
+    {
+      "id": 9127,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"Central Bank\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Central Bank",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.6922061289997146,
+      "input_tokens": 266,
+      "output_tokens": 25,
+      "done_reason": "stop"
+    },
+    {
+      "id": 12605,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"New York\"],\n    \"ORG\": []\n   ,\n  \"MISC\": [\n    \"United States\",\n    \"football\"\n  ]\n} }",
+      "entities": [
+        {
+          "text": "New York",
+          "type": "LOC"
+        },
+        {
+          "text": "United States",
+          "type": "MISC"
+        },
+        {
+          "text": "football",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.2439096399998562,
+      "input_tokens": 265,
+      "output_tokens": 49,
+      "done_reason": "stop"
+    },
+    {
+      "id": 9563,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Hasina\"], \"LOC\": [\"Dhaka\"], \"ORG\": [], \"MISC\": [\"BNP\"]}}",
+      "entities": [
+        {
+          "text": "Hasina",
+          "type": "PER"
+        },
+        {
+          "text": "Dhaka",
+          "type": "LOC"
+        },
+        {
+          "text": "BNP",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9515507579999394,
+      "input_tokens": 292,
+      "output_tokens": 33,
+      "done_reason": "stop"
+    },
+    {
+      "id": 5134,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Chindia\", \"Tirgoviste\"], \"ORG\": [\"F.C.\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Chindia",
+          "type": "LOC"
+        },
+        {
+          "text": "Tirgoviste",
+          "type": "LOC"
+        },
+        {
+          "text": "F.C.",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9240682270001344,
+      "input_tokens": 275,
+      "output_tokens": 36,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6234,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Ingwe\"], \"ORG\": [\"Coal\", \"Corporation\", \"Ltd\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Ingwe",
+          "type": "LOC"
+        },
+        {
+          "text": "Coal",
+          "type": "ORG"
+        },
+        {
+          "text": "Corporation",
+          "type": "ORG"
+        },
+        {
+          "text": "Ltd",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8718768290000298,
+      "input_tokens": 264,
+      "output_tokens": 35,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6487,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [], \"MISC\": []}}",
+      "entities": [],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.5753574089999347,
+      "input_tokens": 263,
+      "output_tokens": 22,
+      "done_reason": "stop"
+    },
+    {
+      "id": 12942,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Aguirre\"], \"LOC\": [], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Aguirre",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8550279579999369,
+      "input_tokens": 285,
+      "output_tokens": 27,
+      "done_reason": "stop"
+    },
+    {
+      "id": 7163,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [],\n    \"ORG\": [],\n    \"MISC\": []\n  }\n}",
+      "entities": [],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7339337490002436,
+      "input_tokens": 255,
+      "output_tokens": 31,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10266,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [\n      \"Luis Castilla\",\n      \"Alex Arias\"\n    ],\n    \"LOC\": [\n      \"Sheffield\"\n    ]\n   ,\n  \"ORG\": []\n  ,\n  \"MISC\": []\n} }",
+      "entities": [
+        {
+          "text": "Luis Castilla",
+          "type": "PER"
+        },
+        {
+          "text": "Alex Arias",
+          "type": "PER"
+        },
+        {
+          "text": "Sheffield",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.527695567000137,
+      "input_tokens": 289,
+      "output_tokens": 59,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10407,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"Men's Singles\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Men's Singles",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.6776939259998471,
+      "input_tokens": 259,
+      "output_tokens": 26,
+      "done_reason": "stop"
+    },
+    {
+      "id": 5620,
+      "split": "evaluation",
+      "raw": "{\n    \"entities\": {\n        \"PER\": [],\n        \"LOC\": [\"Museeuw\"],\n        \"ORG\": []\n    \t,\n    \"MISC\": [\"points\"]\n} }",
+      "entities": [
+        {
+          "text": "Museeuw",
+          "type": "LOC"
+        },
+        {
+          "text": "points",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.0658978510000452,
+      "input_tokens": 262,
+      "output_tokens": 42,
+      "done_reason": "stop"
+    },
+    {
+      "id": 5177,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"Russian Premier League\"], \"MISC\": [\"soccer\"]}}",
+      "entities": [
+        {
+          "text": "Russian Premier League",
+          "type": "ORG"
+        },
+        {
+          "text": "soccer",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7643510379998588,
+      "input_tokens": 270,
+      "output_tokens": 29,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10791,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Nantes\"], \"ORG\": [\"Paris SG\"] , \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Nantes",
+          "type": "LOC"
+        },
+        {
+          "text": "Paris SG",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7531385590000355,
+      "input_tokens": 260,
+      "output_tokens": 29,
+      "done_reason": "stop"
+    },
+    {
+      "id": 1069,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"stocks\", \"finished\", \"goods\"], \"MISC\": [\"+17\", \"+19\", \"+17\", \"+25\"]}}",
+      "entities": [
+        {
+          "text": "stocks",
+          "type": "ORG"
+        },
+        {
+          "text": "finished",
+          "type": "ORG"
+        },
+        {
+          "text": "goods",
+          "type": "ORG"
+        },
+        {
+          "text": "+17",
+          "type": "MISC"
+        },
+        {
+          "text": "+19",
+          "type": "MISC"
+        },
+        {
+          "text": "+17",
+          "type": "MISC"
+        },
+        {
+          "text": "+25",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.1724086890003491,
+      "input_tokens": 269,
+      "output_tokens": 46,
+      "done_reason": "stop"
+    },
+    {
+      "id": 8940,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Yeltsin\"], \"LOC\": [\"Moscow\"] , \"ORG\": [] , \"MISC\": [\"holiday\", \"capital\"]}}",
+      "entities": [
+        {
+          "text": "Yeltsin",
+          "type": "PER"
+        },
+        {
+          "text": "Moscow",
+          "type": "LOC"
+        },
+        {
+          "text": "holiday",
+          "type": "MISC"
+        },
+        {
+          "text": "capital",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.0165868639996916,
+      "input_tokens": 277,
+      "output_tokens": 36,
+      "done_reason": "stop"
+    },
+    {
+      "id": 9581,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Helibor\"], \"LOC\": [], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Helibor",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7081845050001903,
+      "input_tokens": 270,
+      "output_tokens": 26,
+      "done_reason": "stop"
+    },
+    {
+      "id": 11569,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [\n      \"MQM\"\n    ],\n    \"LOC\": [\n      \"India\",\n      \"Urdu-speaking Moslems\"\n    ]\n   ,\n    \"ORG\": []\n  ,\n    \"MISC\": [\n      \"Partition in 1947\"\n    ]\n} }",
+      "entities": [
+        {
+          "text": "MQM",
+          "type": "PER"
+        },
+        {
+          "text": "India",
+          "type": "LOC"
+        },
+        {
+          "text": "Urdu-speaking Moslems",
+          "type": "LOC"
+        },
+        {
+          "text": "Partition in 1947",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.6882679750001444,
+      "input_tokens": 277,
+      "output_tokens": 70,
+      "done_reason": "stop"
+    },
+    {
+      "id": 1198,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"Badi-Tondon\", \"Conakry\"],\n    \"ORG\": []\n   ,\n  \"MISC\": [\n    \"farming\",\n    \"town\"\n  ]\n} }",
+      "entities": [
+        {
+          "text": "Badi-Tondon",
+          "type": "LOC"
+        },
+        {
+          "text": "Conakry",
+          "type": "LOC"
+        },
+        {
+          "text": "farming",
+          "type": "MISC"
+        },
+        {
+          "text": "town",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.4896847700001672,
+      "input_tokens": 300,
+      "output_tokens": 56,
+      "done_reason": "stop"
+    },
+    {
+      "id": 3869,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"San Diego\"], \"ORG\": [], \"MISC\": [\"70\", \"60\", \"538\"]}}",
+      "entities": [
+        {
+          "text": "San Diego",
+          "type": "LOC"
+        },
+        {
+          "text": "70",
+          "type": "MISC"
+        },
+        {
+          "text": "60",
+          "type": "MISC"
+        },
+        {
+          "text": "538",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9633050349998484,
+      "input_tokens": 266,
+      "output_tokens": 38,
+      "done_reason": "stop"
+    },
+    {
+      "id": 1363,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Mohamed Fahim Rayyan\"], \"LOC\": [], \"ORG\": [], \"MISC\": [\"Cairo airport\"]}}",
+      "entities": [
+        {
+          "text": "Mohamed Fahim Rayyan",
+          "type": "PER"
+        },
+        {
+          "text": "Cairo airport",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9605066770000121,
+      "input_tokens": 289,
+      "output_tokens": 34,
+      "done_reason": "stop"
+    },
+    {
+      "id": 13577,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Germany\"], \"ORG\": [], \"MISC\": [\"anti-nuclear activists\", \"May\"]}}",
+      "entities": [
+        {
+          "text": "Germany",
+          "type": "LOC"
+        },
+        {
+          "text": "anti-nuclear activists",
+          "type": "MISC"
+        },
+        {
+          "text": "May",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8921578019999288,
+      "input_tokens": 290,
+      "output_tokens": 33,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10600,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Milan\"], \"LOC\": [\"Empoli\"] , \"ORG\": [] , \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Milan",
+          "type": "PER"
+        },
+        {
+          "text": "Empoli",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7927337959999932,
+      "input_tokens": 259,
+      "output_tokens": 30,
+      "done_reason": "stop"
+    },
+    {
+      "id": 613,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [\"Ferenc Horvath\"],\n    \"LOC\": []\n   ,\n  \"ORG\": [],\n  \"MISC\": []\n} }",
+      "entities": [
+        {
+          "text": "Ferenc Horvath",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.1244469250000293,
+      "input_tokens": 270,
+      "output_tokens": 42,
+      "done_reason": "stop"
+    },
+    {
+      "id": 11974,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Tasmania\"], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Tasmania",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.814120763000119,
+      "input_tokens": 292,
+      "output_tokens": 26,
+      "done_reason": "stop"
+    },
+    {
+      "id": 9796,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Peiris\"], \"LOC\": [], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Peiris",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7571156829999381,
+      "input_tokens": 291,
+      "output_tokens": 25,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6106,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [],\n    \"ORG\": [\"Microsoft\"],\n    \"MISC\": [\"raise\"]\n  }\n}",
+      "entities": [
+        {
+          "text": "Microsoft",
+          "type": "ORG"
+        },
+        {
+          "text": "raise",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8997901829998227,
+      "input_tokens": 267,
+      "output_tokens": 35,
+      "done_reason": "stop"
+    },
+    {
+      "id": 11997,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Cambodia\", \"Stung Treng\"], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Cambodia",
+          "type": "LOC"
+        },
+        {
+          "text": "Stung Treng",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9351860420001685,
+      "input_tokens": 288,
+      "output_tokens": 31,
+      "done_reason": "stop"
+    },
+    {
+      "id": 2723,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"Treat bracket markers such as -LPR- and -RPR- as punctuation, not names.\"], \"MISC\": [\"no replacements had been named\"]}}",
+      "entities": [
+        {
+          "text": "Treat bracket markers such as -LPR- and -RPR- as punctuation, not names.",
+          "type": "ORG"
+        },
+        {
+          "text": "no replacements had been named",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.1323829300004036,
+      "input_tokens": 258,
+      "output_tokens": 50,
+      "done_reason": "stop"
+    },
+    {
+      "id": 5092,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"United States\"],\n    \"ORG\": [\"New England Patriots\", \"Pittsburgh Steelers\"],\n    \"MISC\": [\"American football\"]\n  }\n}",
+      "entities": [
+        {
+          "text": "United States",
+          "type": "LOC"
+        },
+        {
+          "text": "New England Patriots",
+          "type": "ORG"
+        },
+        {
+          "text": "Pittsburgh Steelers",
+          "type": "ORG"
+        },
+        {
+          "text": "American football",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.0553843419997975,
+      "input_tokens": 254,
+      "output_tokens": 47,
+      "done_reason": "stop"
+    },
+    {
+      "id": 891,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"VOLVERE\"], \"MISC\": [\"DUTCH\", \"FIRST\", \"DIVISION\"]}}",
+      "entities": [
+        {
+          "text": "VOLVERE",
+          "type": "ORG"
+        },
+        {
+          "text": "DUTCH",
+          "type": "MISC"
+        },
+        {
+          "text": "FIRST",
+          "type": "MISC"
+        },
+        {
+          "text": "DIVISION",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9368523190000815,
+      "input_tokens": 264,
+      "output_tokens": 38,
+      "done_reason": "stop"
+    },
+    {
+      "id": 1313,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Brunswijk\", \"Freddy Pinas\"], \"LOC\": [\"Moengo\", \"Paramaribo\"] , \"ORG\": [] , \"MISC\": [\"Surinamese-born visitor from the Netherlands\"]}}",
+      "entities": [
+        {
+          "text": "Brunswijk",
+          "type": "PER"
+        },
+        {
+          "text": "Freddy Pinas",
+          "type": "PER"
+        },
+        {
+          "text": "Moengo",
+          "type": "LOC"
+        },
+        {
+          "text": "Paramaribo",
+          "type": "LOC"
+        },
+        {
+          "text": "Surinamese-born visitor from the Netherlands",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.429588997999872,
+      "input_tokens": 332,
+      "output_tokens": 53,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6985,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [\"Stich\"], \"LOC\": [], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Stich",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.707367867999892,
+      "input_tokens": 267,
+      "output_tokens": 25,
+      "done_reason": "stop"
+    },
+    {
+      "id": 13612,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"Russian\"],\n    \"ORG\": [\"Barentsburg\"],\n    \"MISC\": []\n  }\n}",
+      "entities": [
+        {
+          "text": "Russian",
+          "type": "LOC"
+        },
+        {
+          "text": "Barentsburg",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8980534880001869,
+      "input_tokens": 266,
+      "output_tokens": 37,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6120,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [\"Geert de Clercq\"]\n   ,\n  \"LOC\": [],\n  \"ORG\": [],\n  \"MISC\": []\n} }",
+      "entities": [
+        {
+          "text": "Geert de Clercq",
+          "type": "PER"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.207372609000231,
+      "input_tokens": 257,
+      "output_tokens": 41,
+      "done_reason": "stop"
+    },
+    {
+      "id": 4382,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"Verona\"],\n    \"ORG\": []\n   ,\n  \"MISC\": [\n    \"Italy\",\n    \"1996\",\n    \"08-24\"\n  ]\n} }",
+      "entities": [
+        {
+          "text": "Verona",
+          "type": "LOC"
+        },
+        {
+          "text": "Italy",
+          "type": "MISC"
+        },
+        {
+          "text": "1996",
+          "type": "MISC"
+        },
+        {
+          "text": "08-24",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.4316563810002663,
+      "input_tokens": 267,
+      "output_tokens": 59,
+      "done_reason": "stop"
+    },
+    {
+      "id": 11293,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Quepos\", \"San Jose\"], \"ORG\": [], \"MISC\": [\"Costa Rican Volcanic and Seismological Observatory\"]}}",
+      "entities": [
+        {
+          "text": "Quepos",
+          "type": "LOC"
+        },
+        {
+          "text": "San Jose",
+          "type": "LOC"
+        },
+        {
+          "text": "Costa Rican Volcanic and Seismological Observatory",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.1505929589998232,
+      "input_tokens": 347,
+      "output_tokens": 41,
+      "done_reason": "stop"
+    },
+    {
+      "id": 8831,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"637.50\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "637.50",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7570170489998418,
+      "input_tokens": 279,
+      "output_tokens": 29,
+      "done_reason": "stop"
+    },
+    {
+      "id": 9484,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Afghanistan\"], \"ORG\": [], \"MISC\": [\"Tehran\", \"Moscow\"]}}",
+      "entities": [
+        {
+          "text": "Afghanistan",
+          "type": "LOC"
+        },
+        {
+          "text": "Tehran",
+          "type": "MISC"
+        },
+        {
+          "text": "Moscow",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9441681319999589,
+      "input_tokens": 286,
+      "output_tokens": 35,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6578,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"Mauritius\", \"Malawi\", \"Mozambique\"],\n    \"ORG\": []\n   ,\n  \"MISC\": [\"group seven\"]\n} }",
+      "entities": [
+        {
+          "text": "Mauritius",
+          "type": "LOC"
+        },
+        {
+          "text": "Malawi",
+          "type": "LOC"
+        },
+        {
+          "text": "Mozambique",
+          "type": "LOC"
+        },
+        {
+          "text": "group seven",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.3115508000000773,
+      "input_tokens": 274,
+      "output_tokens": 52,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10915,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"area\"], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "area",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.6964649509995979,
+      "input_tokens": 293,
+      "output_tokens": 24,
+      "done_reason": "stop"
+    },
+    {
+      "id": 5754,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [\"Willem II\"],\n    \"LOC\": [\"Tilburg\", \"Fortuna Sittard\"]\n   ,\n  \"ORG\": []\n  ,\n  \"MISC\": []\n} }",
+      "entities": [
+        {
+          "text": "Willem II",
+          "type": "PER"
+        },
+        {
+          "text": "Tilburg",
+          "type": "LOC"
+        },
+        {
+          "text": "Fortuna Sittard",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.3469785820002471,
+      "input_tokens": 266,
+      "output_tokens": 52,
+      "done_reason": "stop"
+    },
+    {
+      "id": 4958,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"Bolton\"], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "Bolton",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7148981840000488,
+      "input_tokens": 269,
+      "output_tokens": 27,
+      "done_reason": "stop"
+    },
+    {
+      "id": 10428,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [], \"MISC\": [\"lost\", \"winning percentage\", \"games behind\"]}}",
+      "entities": [
+        {
+          "text": "lost",
+          "type": "MISC"
+        },
+        {
+          "text": "winning percentage",
+          "type": "MISC"
+        },
+        {
+          "text": "games behind",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8402573110001867,
+      "input_tokens": 264,
+      "output_tokens": 33,
+      "done_reason": "stop"
+    },
+    {
+      "id": 1820,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"中国\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "中国",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7413206390001505,
+      "input_tokens": 264,
+      "output_tokens": 24,
+      "done_reason": "stop"
+    },
+    {
+      "id": 9621,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [], \"ORG\": [\"Miscellaneous\"], \"MISC\": [\"charges\", \"Miscellaneous\"]}}",
+      "entities": [
+        {
+          "text": "Miscellaneous",
+          "type": "ORG"
+        },
+        {
+          "text": "charges",
+          "type": "MISC"
+        },
+        {
+          "text": "Miscellaneous",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8084832069998811,
+      "input_tokens": 263,
+      "output_tokens": 31,
+      "done_reason": "stop"
+    },
+    {
+      "id": 4628,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [\n      \"Ray Belim\",\n      \"James Weaver\"\n    ],\n    \"LOC\": [],\n    \"ORG\": [\n      \"J. J. Lehto\"\n    ]\n   ,\n  \"MISC\": []\n} }",
+      "entities": [
+        {
+          "text": "Ray Belim",
+          "type": "PER"
+        },
+        {
+          "text": "James Weaver",
+          "type": "PER"
+        },
+        {
+          "text": "J. J. Lehto",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 1.489184627999748,
+      "input_tokens": 284,
+      "output_tokens": 60,
+      "done_reason": "stop"
+    },
+    {
+      "id": 1244,
+      "split": "evaluation",
+      "raw": "{\n  \"entities\": {\n    \"PER\": [],\n    \"LOC\": [\"GDANSK\"],\n    \"ORG\": [],\n    \"MISC\": [\"Poland\"]\n  }\n}",
+      "entities": [
+        {
+          "text": "GDANSK",
+          "type": "LOC"
+        },
+        {
+          "text": "Poland",
+          "type": "MISC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.9199043029998393,
+      "input_tokens": 268,
+      "output_tokens": 38,
+      "done_reason": "stop"
+    },
+    {
+      "id": 7914,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"United Kingdom\"], \"ORG\": [\"Bank of England\", \"Citibank\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "United Kingdom",
+          "type": "LOC"
+        },
+        {
+          "text": "Bank of England",
+          "type": "ORG"
+        },
+        {
+          "text": "Citibank",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.878171932999976,
+      "input_tokens": 287,
+      "output_tokens": 34,
+      "done_reason": "stop"
+    },
+    {
+      "id": 6287,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"New York\", \"Stock\", \"Exchange\"], \"ORG\": [\"NASDAQ\"], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "New York",
+          "type": "LOC"
+        },
+        {
+          "text": "Stock",
+          "type": "LOC"
+        },
+        {
+          "text": "Exchange",
+          "type": "LOC"
+        },
+        {
+          "text": "NASDAQ",
+          "type": "ORG"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.8631874749999042,
+      "input_tokens": 284,
+      "output_tokens": 33,
+      "done_reason": "stop"
+    },
+    {
+      "id": 11678,
+      "split": "evaluation",
+      "raw": "{\"entities\": {\"PER\": [], \"LOC\": [\"London\"], \"ORG\": [], \"MISC\": []}}",
+      "entities": [
+        {
+          "text": "London",
+          "type": "LOC"
+        }
+      ],
+      "format_valid": true,
+      "error": null,
+      "seconds": 0.7122457360001135,
+      "input_tokens": 279,
+      "output_tokens": 24,
+      "done_reason": "stop"
+    }
+  ]
+}

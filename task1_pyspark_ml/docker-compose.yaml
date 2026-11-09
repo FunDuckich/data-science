@@ -7,8 +7,8 @@ services:
       - ./work:/home/jovyan/work
     environment:
       - JUPYTER_TOKEN=pyspark_ml
-      - PYSPARK_SUBMIT_ARGS=--driver-memory 4g pyspark-shell
+      - PYSPARK_SUBMIT_ARGS=--driver-memory 2g pyspark-shell
       - PYTHONPATH=/usr/local/spark/python:/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip
-      - OMP_NUM_THREADS=6
-      - OPENBLAS_NUM_THREADS=6
-      - MKL_NUM_THREADS=6
+      - OMP_NUM_THREADS=2
+      - OPENBLAS_NUM_THREADS=2
+      - MKL_NUM_THREADS=2

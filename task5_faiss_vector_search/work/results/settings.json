@@ -1,0 +1,15 @@
+{
+  "k": 10,
+  "dimensions": 384,
+  "chunks": 2003,
+  "queries": 24,
+  "faiss_version": "1.12.0",
+  "threads": 1,
+  "M": 16,
+  "efConstruction": 200,
+  "efSearch": 24,
+  "nlist": 32,
+  "nprobe": 16,
+  "query_repeats": 100,
+  "build_repeats": 3
+}

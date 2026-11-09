@@ -1,0 +1,6 @@
+experiment,mean_input_tokens,mean_output_tokens,truncated
+Qwen3 / base / groups,103.29,54.69,0
+Qwen3 / improved / groups,274.29,44.98,0
+Qwen3 / improved / list,274.29,46.94,0
+Qwen2.5 / improved / groups,274.29,36.48,0
+Qwen2.5 / improved / list,274.29,31.75,0

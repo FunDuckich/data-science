@@ -1,0 +1,1218 @@
+{
+  "6130": [
+    {
+      "text": "Thierry Dehaan",
+      "type": "PER",
+      "start": 4,
+      "end": 6
+    }
+  ],
+  "13184": [
+    {
+      "text": "European",
+      "type": "MISC",
+      "start": 1,
+      "end": 2
+    },
+    {
+      "text": "Saudis",
+      "type": "MISC",
+      "start": 8,
+      "end": 9
+    }
+  ],
+  "9391": [
+    {
+      "text": "PARIS",
+      "type": "LOC",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "6531": [
+    {
+      "text": "English",
+      "type": "MISC",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "West Bromwich",
+      "type": "ORG",
+      "start": 4,
+      "end": 6
+    },
+    {
+      "text": "Sheffield United",
+      "type": "ORG",
+      "start": 7,
+      "end": 9
+    }
+  ],
+  "6293": [
+    {
+      "text": "Alan Hunte",
+      "type": "PER",
+      "start": 5,
+      "end": 7
+    },
+    {
+      "text": "Tommy Martyn",
+      "type": "PER",
+      "start": 14,
+      "end": 16
+    },
+    {
+      "text": "Anthony Sullivan",
+      "type": "PER",
+      "start": 17,
+      "end": 19
+    },
+    {
+      "text": "Paul Newlove",
+      "type": "PER",
+      "start": 20,
+      "end": 22
+    }
+  ],
+  "10890": [],
+  "2159": [
+    {
+      "text": "American League",
+      "type": "MISC",
+      "start": 2,
+      "end": 4
+    },
+    {
+      "text": "Mariners",
+      "type": "ORG",
+      "start": 8,
+      "end": 9
+    },
+    {
+      "text": "White Sox",
+      "type": "ORG",
+      "start": 14,
+      "end": 16
+    },
+    {
+      "text": "Baltimore",
+      "type": "ORG",
+      "start": 19,
+      "end": 20
+    },
+    {
+      "text": "Red Sox",
+      "type": "ORG",
+      "start": 25,
+      "end": 27
+    },
+    {
+      "text": "Boston",
+      "type": "LOC",
+      "start": 29,
+      "end": 30
+    }
+  ],
+  "4563": [],
+  "2310": [
+    {
+      "text": "American",
+      "type": "MISC",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Gwen Torrence",
+      "type": "PER",
+      "start": 3,
+      "end": 5
+    },
+    {
+      "text": "Atlanta",
+      "type": "LOC",
+      "start": 10,
+      "end": 11
+    }
+  ],
+  "10013": [
+    {
+      "text": "Australia",
+      "type": "LOC",
+      "start": 1,
+      "end": 2
+    },
+    {
+      "text": "Mark Roe",
+      "type": "PER",
+      "start": 4,
+      "end": 6
+    },
+    {
+      "text": "Emanuele Canonica",
+      "type": "PER",
+      "start": 7,
+      "end": 9
+    },
+    {
+      "text": "Italy",
+      "type": "LOC",
+      "start": 10,
+      "end": 11
+    }
+  ],
+  "2549": [
+    {
+      "text": "Sri Lanka",
+      "type": "LOC",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "text": "Australia",
+      "type": "LOC",
+      "start": 3,
+      "end": 4
+    },
+    {
+      "text": "Sri Lankans",
+      "type": "MISC",
+      "start": 17,
+      "end": 19
+    }
+  ],
+  "6967": [],
+  "6038": [],
+  "11493": [
+    {
+      "text": "Evelyn Leopold",
+      "type": "PER",
+      "start": 0,
+      "end": 2
+    }
+  ],
+  "5189": [
+    {
+      "text": "Lokomotiv Nizhny Novgorod",
+      "type": "ORG",
+      "start": 0,
+      "end": 3
+    },
+    {
+      "text": "Uralmash Yekaterinburg",
+      "type": "ORG",
+      "start": 4,
+      "end": 6
+    }
+  ],
+  "9727": [
+    {
+      "text": "Emnid",
+      "type": "ORG",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "11677": [],
+  "2810": [
+    {
+      "text": "Hong Kong",
+      "type": "LOC",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "text": "Donald Tsang",
+      "type": "PER",
+      "start": 4,
+      "end": 6
+    },
+    {
+      "text": "Indonesia",
+      "type": "LOC",
+      "start": 8,
+      "end": 9
+    },
+    {
+      "text": "New Zealand",
+      "type": "LOC",
+      "start": 10,
+      "end": 12
+    }
+  ],
+  "12409": [
+    {
+      "text": "Partizan",
+      "type": "ORG",
+      "start": 1,
+      "end": 2
+    },
+    {
+      "text": "Olympiakos",
+      "type": "ORG",
+      "start": 3,
+      "end": 4
+    }
+  ],
+  "13549": [
+    {
+      "text": "PULPEX",
+      "type": "ORG",
+      "start": 8,
+      "end": 9
+    },
+    {
+      "text": "OM",
+      "type": "ORG",
+      "start": 15,
+      "end": 16
+    }
+  ],
+  "3175": [
+    {
+      "text": "ATHENS",
+      "type": "LOC",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "12917": [
+    {
+      "text": "Brazilian",
+      "type": "MISC",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Antonio Kandir",
+      "type": "PER",
+      "start": 3,
+      "end": 5
+    },
+    {
+      "text": "Congress",
+      "type": "ORG",
+      "start": 17,
+      "end": 18
+    }
+  ],
+  "12493": [
+    {
+      "text": "Martina Hingis",
+      "type": "PER",
+      "start": 2,
+      "end": 4
+    },
+    {
+      "text": "Switzerland",
+      "type": "LOC",
+      "start": 5,
+      "end": 6
+    },
+    {
+      "text": "Miriam Oremans",
+      "type": "PER",
+      "start": 8,
+      "end": 10
+    },
+    {
+      "text": "Netherlands",
+      "type": "LOC",
+      "start": 11,
+      "end": 12
+    }
+  ],
+  "1788": [],
+  "2253": [],
+  "11722": [
+    {
+      "text": "Turkey",
+      "type": "LOC",
+      "start": 2,
+      "end": 3
+    },
+    {
+      "text": "Jordan",
+      "type": "LOC",
+      "start": 4,
+      "end": 5
+    },
+    {
+      "text": "Middle East",
+      "type": "LOC",
+      "start": 13,
+      "end": 15
+    }
+  ],
+  "11149": [
+    {
+      "text": "Rudolf Gajdos",
+      "type": "PER",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "text": "Slovak",
+      "type": "MISC",
+      "start": 5,
+      "end": 6
+    },
+    {
+      "text": "Interpol",
+      "type": "ORG",
+      "start": 6,
+      "end": 7
+    },
+    {
+      "text": "Dutroux",
+      "type": "PER",
+      "start": 12,
+      "end": 13
+    },
+    {
+      "text": "Slovak",
+      "type": "MISC",
+      "start": 25,
+      "end": 26
+    }
+  ],
+  "2655": [
+    {
+      "text": "UK",
+      "type": "LOC",
+      "start": 1,
+      "end": 2
+    }
+  ],
+  "10632": [
+    {
+      "text": "Arminia Bielefeld",
+      "type": "ORG",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "text": "Von Heesen",
+      "type": "PER",
+      "start": 4,
+      "end": 6
+    },
+    {
+      "text": "Duisburg",
+      "type": "ORG",
+      "start": 8,
+      "end": 9
+    },
+    {
+      "text": "Hirsch",
+      "type": "PER",
+      "start": 11,
+      "end": 12
+    }
+  ],
+  "1962": [
+    {
+      "text": "D. Cork",
+      "type": "PER",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "text": "Moin Khan",
+      "type": "PER",
+      "start": 3,
+      "end": 5
+    },
+    {
+      "text": "Waqar Younis",
+      "type": "PER",
+      "start": 6,
+      "end": 8
+    }
+  ],
+  "3362": [
+    {
+      "text": "Ford",
+      "type": "ORG",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "7750": [
+    {
+      "text": "Rotterdam",
+      "type": "LOC",
+      "start": 11,
+      "end": 12
+    }
+  ],
+  "9822": [
+    {
+      "text": "disarmament-China",
+      "type": "MISC",
+      "start": 7,
+      "end": 8
+    }
+  ],
+  "7345": [],
+  "7619": [],
+  "4047": [
+    {
+      "text": "Stuttgart",
+      "type": "ORG",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Balakow",
+      "type": "PER",
+      "start": 3,
+      "end": 4
+    },
+    {
+      "text": "Bobic",
+      "type": "PER",
+      "start": 6,
+      "end": 7
+    },
+    {
+      "text": "Werder Bremen",
+      "type": "ORG",
+      "start": 9,
+      "end": 11
+    },
+    {
+      "text": "Votava",
+      "type": "PER",
+      "start": 13,
+      "end": 14
+    }
+  ],
+  "12684": [
+    {
+      "text": "Christie",
+      "type": "PER",
+      "start": 1,
+      "end": 2
+    },
+    {
+      "text": "Johnson",
+      "type": "PER",
+      "start": 19,
+      "end": 20
+    }
+  ],
+  "10971": [
+    {
+      "text": "New York Commodities",
+      "type": "ORG",
+      "start": 1,
+      "end": 4
+    }
+  ],
+  "8992": [
+    {
+      "text": "Meri",
+      "type": "PER",
+      "start": 1,
+      "end": 2
+    },
+    {
+      "text": "Estonia",
+      "type": "LOC",
+      "start": 5,
+      "end": 6
+    },
+    {
+      "text": "Soviet Union",
+      "type": "LOC",
+      "start": 16,
+      "end": 18
+    },
+    {
+      "text": "Arnold Ruutel",
+      "type": "PER",
+      "start": 25,
+      "end": 27
+    }
+  ],
+  "10772": [
+    {
+      "text": "Lyon",
+      "type": "ORG",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "1287": [
+    {
+      "text": "Lebed",
+      "type": "PER",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Chechen",
+      "type": "MISC",
+      "start": 10,
+      "end": 11
+    },
+    {
+      "text": "Grozny",
+      "type": "LOC",
+      "start": 22,
+      "end": 23
+    }
+  ],
+  "11812": [
+    {
+      "text": "Names",
+      "type": "MISC",
+      "start": 2,
+      "end": 3
+    },
+    {
+      "text": "Lloyd 's",
+      "type": "ORG",
+      "start": 12,
+      "end": 14
+    }
+  ],
+  "7650": [
+    {
+      "text": "U.S. Midwest",
+      "type": "LOC",
+      "start": 0,
+      "end": 2
+    }
+  ],
+  "5438": [
+    {
+      "text": "Major League",
+      "type": "MISC",
+      "start": 2,
+      "end": 4
+    }
+  ],
+  "6194": [
+    {
+      "text": "Ukraine",
+      "type": "LOC",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "6667": [
+    {
+      "text": "Slovan Bratislava",
+      "type": "ORG",
+      "start": 0,
+      "end": 2
+    }
+  ],
+  "8833": [
+    {
+      "text": "PF IKS KB PLUS",
+      "type": "ORG",
+      "start": 0,
+      "end": 4
+    }
+  ],
+  "949": [
+    {
+      "text": "Sweden",
+      "type": "LOC",
+      "start": 1,
+      "end": 2
+    }
+  ],
+  "10621": [],
+  "3181": [
+    {
+      "text": "VALLETTA",
+      "type": "LOC",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "9127": [
+    {
+      "text": "Central Bank",
+      "type": "ORG",
+      "start": 1,
+      "end": 3
+    }
+  ],
+  "12605": [
+    {
+      "text": "NEW YORK",
+      "type": "LOC",
+      "start": 0,
+      "end": 2
+    }
+  ],
+  "9563": [
+    {
+      "text": "Hasina",
+      "type": "PER",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Dhaka",
+      "type": "LOC",
+      "start": 9,
+      "end": 10
+    },
+    {
+      "text": "BNP",
+      "type": "ORG",
+      "start": 15,
+      "end": 16
+    }
+  ],
+  "5134": [
+    {
+      "text": "F.C. Chindia Tirgoviste",
+      "type": "ORG",
+      "start": 0,
+      "end": 3
+    }
+  ],
+  "6234": [
+    {
+      "text": "Ingwe Coal Corporation Ltd",
+      "type": "ORG",
+      "start": 0,
+      "end": 4
+    }
+  ],
+  "6487": [],
+  "12942": [
+    {
+      "text": "Angel Aguirre",
+      "type": "PER",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "text": "Popular Revolutionary Army",
+      "type": "ORG",
+      "start": 26,
+      "end": 29
+    }
+  ],
+  "7163": [],
+  "10266": [
+    {
+      "text": "Sheffield",
+      "type": "PER",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Luis Castilla",
+      "type": "PER",
+      "start": 19,
+      "end": 21
+    },
+    {
+      "text": "Alex Arias",
+      "type": "PER",
+      "start": 22,
+      "end": 24
+    },
+    {
+      "text": "Marlins",
+      "type": "ORG",
+      "start": 27,
+      "end": 28
+    }
+  ],
+  "10407": [],
+  "5620": [
+    {
+      "text": "Museeuw",
+      "type": "PER",
+      "start": 1,
+      "end": 2
+    }
+  ],
+  "5177": [
+    {
+      "text": "RUSSIAN",
+      "type": "MISC",
+      "start": 2,
+      "end": 3
+    }
+  ],
+  "10791": [
+    {
+      "text": "Paris SG",
+      "type": "ORG",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "text": "Nantes",
+      "type": "ORG",
+      "start": 3,
+      "end": 4
+    }
+  ],
+  "1069": [],
+  "8940": [
+    {
+      "text": "Yeltsin",
+      "type": "PER",
+      "start": 1,
+      "end": 2
+    },
+    {
+      "text": "Moscow",
+      "type": "LOC",
+      "start": 13,
+      "end": 14
+    }
+  ],
+  "9581": [
+    {
+      "text": "Helibor",
+      "type": "MISC",
+      "start": 1,
+      "end": 2
+    }
+  ],
+  "11569": [
+    {
+      "text": "MQM",
+      "type": "ORG",
+      "start": 1,
+      "end": 2
+    },
+    {
+      "text": "Urdu-speaking Moslems",
+      "type": "MISC",
+      "start": 4,
+      "end": 6
+    },
+    {
+      "text": "India",
+      "type": "LOC",
+      "start": 9,
+      "end": 10
+    },
+    {
+      "text": "Partition",
+      "type": "LOC",
+      "start": 11,
+      "end": 12
+    }
+  ],
+  "1198": [
+    {
+      "text": "Koranic",
+      "type": "MISC",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Badi-Tondon",
+      "type": "LOC",
+      "start": 14,
+      "end": 15
+    },
+    {
+      "text": "Conakry",
+      "type": "LOC",
+      "start": 29,
+      "end": 30
+    }
+  ],
+  "3869": [
+    {
+      "text": "SAN DIEGO",
+      "type": "ORG",
+      "start": 0,
+      "end": 2
+    }
+  ],
+  "1363": [
+    {
+      "text": "Mohamed Fahim Rayyan",
+      "type": "PER",
+      "start": 1,
+      "end": 4
+    },
+    {
+      "text": "Cairo",
+      "type": "LOC",
+      "start": 9,
+      "end": 10
+    }
+  ],
+  "13577": [
+    {
+      "text": "German",
+      "type": "MISC",
+      "start": 2,
+      "end": 3
+    }
+  ],
+  "10600": [
+    {
+      "text": "Empoli",
+      "type": "ORG",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Milan",
+      "type": "ORG",
+      "start": 2,
+      "end": 3
+    }
+  ],
+  "613": [
+    {
+      "text": "Ferenc Horvath",
+      "type": "PER",
+      "start": 0,
+      "end": 2
+    }
+  ],
+  "11974": [
+    {
+      "text": "Australia",
+      "type": "LOC",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Tasmania",
+      "type": "LOC",
+      "start": 37,
+      "end": 38
+    }
+  ],
+  "9796": [
+    {
+      "text": "Drew",
+      "type": "PER",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Peiris",
+      "type": "PER",
+      "start": 2,
+      "end": 3
+    }
+  ],
+  "6106": [],
+  "11997": [
+    {
+      "text": "Phnom Penh",
+      "type": "LOC",
+      "start": 21,
+      "end": 23
+    },
+    {
+      "text": "Stung Treng",
+      "type": "LOC",
+      "start": 24,
+      "end": 26
+    }
+  ],
+  "2723": [],
+  "5092": [],
+  "891": [
+    {
+      "text": "DUTCH",
+      "type": "MISC",
+      "start": 2,
+      "end": 3
+    }
+  ],
+  "1313": [
+    {
+      "text": "Brunswijk",
+      "type": "PER",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Freddy Pinas",
+      "type": "PER",
+      "start": 6,
+      "end": 8
+    },
+    {
+      "text": "Surinamese-born",
+      "type": "MISC",
+      "start": 10,
+      "end": 11
+    },
+    {
+      "text": "Netherlands",
+      "type": "LOC",
+      "start": 14,
+      "end": 15
+    },
+    {
+      "text": "Brunswijk",
+      "type": "PER",
+      "start": 17,
+      "end": 18
+    },
+    {
+      "text": "Moengo",
+      "type": "LOC",
+      "start": 35,
+      "end": 36
+    },
+    {
+      "text": "Paramaribo",
+      "type": "LOC",
+      "start": 46,
+      "end": 47
+    },
+    {
+      "text": "Ro Gajadhar",
+      "type": "PER",
+      "start": 51,
+      "end": 53
+    }
+  ],
+  "6985": [
+    {
+      "text": "Stich",
+      "type": "PER",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "13612": [
+    {
+      "text": "Russian",
+      "type": "MISC",
+      "start": 7,
+      "end": 8
+    },
+    {
+      "text": "Barentsburg",
+      "type": "LOC",
+      "start": 10,
+      "end": 11
+    }
+  ],
+  "6120": [
+    {
+      "text": "Geert de Clercq",
+      "type": "PER",
+      "start": 0,
+      "end": 3
+    }
+  ],
+  "4382": [
+    {
+      "text": "VERONA",
+      "type": "LOC",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Italy",
+      "type": "LOC",
+      "start": 2,
+      "end": 3
+    }
+  ],
+  "11293": [
+    {
+      "text": "GMT",
+      "type": "MISC",
+      "start": 8,
+      "end": 9
+    },
+    {
+      "text": "Quepos",
+      "type": "LOC",
+      "start": 24,
+      "end": 25
+    },
+    {
+      "text": "San Jose",
+      "type": "LOC",
+      "start": 38,
+      "end": 40
+    },
+    {
+      "text": "Costa Rican Volcanic and Seismologicial Observatory",
+      "type": "ORG",
+      "start": 42,
+      "end": 48
+    }
+  ],
+  "8831": [],
+  "9484": [
+    {
+      "text": "Afghanistan",
+      "type": "LOC",
+      "start": 8,
+      "end": 9
+    },
+    {
+      "text": "America",
+      "type": "LOC",
+      "start": 10,
+      "end": 11
+    },
+    {
+      "text": "Tehran",
+      "type": "LOC",
+      "start": 13,
+      "end": 14
+    },
+    {
+      "text": "Moscow",
+      "type": "LOC",
+      "start": 15,
+      "end": 16
+    },
+    {
+      "text": "Afghan",
+      "type": "MISC",
+      "start": 21,
+      "end": 22
+    },
+    {
+      "text": "Washington",
+      "type": "LOC",
+      "start": 25,
+      "end": 26
+    }
+  ],
+  "6578": [
+    {
+      "text": "Mauritius",
+      "type": "LOC",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Malawi",
+      "type": "LOC",
+      "start": 10,
+      "end": 11
+    },
+    {
+      "text": "Mozambique",
+      "type": "LOC",
+      "start": 12,
+      "end": 13
+    },
+    {
+      "text": "Zambia",
+      "type": "LOC",
+      "start": 15,
+      "end": 16
+    }
+  ],
+  "10915": [],
+  "5754": [
+    {
+      "text": "Willem II Tilburg",
+      "type": "ORG",
+      "start": 0,
+      "end": 3
+    },
+    {
+      "text": "Fortuna Sittard",
+      "type": "ORG",
+      "start": 4,
+      "end": 6
+    }
+  ],
+  "4958": [
+    {
+      "text": "Bolton",
+      "type": "ORG",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "10428": [],
+  "1820": [
+    {
+      "text": "China",
+      "type": "LOC",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "9621": [],
+  "4628": [
+    {
+      "text": "Ray Belim",
+      "type": "PER",
+      "start": 1,
+      "end": 3
+    },
+    {
+      "text": "Britain",
+      "type": "LOC",
+      "start": 4,
+      "end": 5
+    },
+    {
+      "text": "James Weaver",
+      "type": "PER",
+      "start": 7,
+      "end": 9
+    },
+    {
+      "text": "Britain",
+      "type": "LOC",
+      "start": 10,
+      "end": 11
+    }
+  ],
+  "1244": [
+    {
+      "text": "GDANSK",
+      "type": "LOC",
+      "start": 0,
+      "end": 1
+    },
+    {
+      "text": "Poland",
+      "type": "LOC",
+      "start": 2,
+      "end": 3
+    }
+  ],
+  "7914": [],
+  "6287": [
+    {
+      "text": "New York Stock Exchange",
+      "type": "ORG",
+      "start": 0,
+      "end": 4
+    },
+    {
+      "text": "NASDAQ",
+      "type": "MISC",
+      "start": 10,
+      "end": 11
+    }
+  ],
+  "11678": [
+    {
+      "text": "London",
+      "type": "LOC",
+      "start": 8,
+      "end": 9
+    }
+  ]
+}

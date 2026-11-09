@@ -1,0 +1,19 @@
+{
+  "dataset": "tner/conll2003",
+  "split": "train",
+  "seed": 42,
+  "sentences": 100,
+  "development": 20,
+  "evaluation": 80,
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 2048,
+    "num_predict": 512,
+    "num_thread": 2
+  },
+  "models": [
+    "qwen3:4b-instruct",
+    "qwen2.5:1.5b"
+  ]
+}

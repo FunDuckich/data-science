@@ -8,3 +8,5 @@
 | [2. Рекомендательные системы PySpark](task2_pyspark_als/) | Популярность, ручной поиск соседей, подбор ALS, оценка рекомендаций и гибрид с холодным стартом |
 | [3. Рекуррентные модели PyTorch](task3_pytorch_lstm/) | Классификация AG News: SimpleRNN, LSTM, GRU и Bidirectional LSTM |
 | [4. Семантический поиск](task4_sentence_transformers/) | Русская документация DataSphere: TF-IDF, три модели Sentence Transformers и два способа разбиения документов |
+| [5. Векторный поиск](task5_faiss_vector_search/) | FAISS: точный поиск, HNSW, IVF, качество, скорость и стоимость построения |
+| [6. Локальные языковые модели](task6_local_llm_ollama/) | NER на CoNLL-2003, Structured Output, сравнение форматов и моделей Ollama |

@@ -1,0 +1,14 @@
+services:
+  jupyter:
+    build: .
+    ports:
+      - "127.0.0.1:8892:8888"
+    volumes:
+      - ./work:/home/jovyan/work
+      - ../task4_sentence_transformers/work/data:/home/jovyan/task4_data:ro
+    environment:
+      JUPYTER_TOKEN: faiss_vector_search
+      OMP_NUM_THREADS: 1
+      OPENBLAS_NUM_THREADS: 1
+    cpus: 2
+    mem_limit: 2g

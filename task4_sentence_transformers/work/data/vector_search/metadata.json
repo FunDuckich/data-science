@@ -1,0 +1,8 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "max_tokens": 128,
+  "overlap": 0.2,
+  "normalized": true,
+  "dtype": "float32",
+  "dimensions": 384
+}

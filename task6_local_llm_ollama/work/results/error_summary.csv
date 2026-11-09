@@ -1,0 +1,11 @@
+experiment,split,fn,fp,type_errors,omissions,extra_mentions
+Qwen2.5 / improved / groups,development,26,33,7,19,26
+Qwen2.5 / improved / groups,evaluation,86,135,24,62,111
+Qwen2.5 / improved / list,development,25,18,7,18,11
+Qwen2.5 / improved / list,evaluation,97,71,16,81,55
+Qwen3 / base / groups,development,13,40,6,7,34
+Qwen3 / base / groups,evaluation,41,180,16,25,164
+Qwen3 / improved / groups,development,13,14,4,9,10
+Qwen3 / improved / groups,evaluation,40,73,8,32,65
+Qwen3 / improved / list,development,14,23,4,10,19
+Qwen3 / improved / list,evaluation,45,50,10,35,40

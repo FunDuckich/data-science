@@ -1,0 +1,501 @@
+experiment,id,split,text,fn,fp,type_errors,omissions,extra_mentions,missed,extra
+Qwen3 / base / groups,6130,development,The other was insurer Thierry Dehaan .,0,0,0,0,0,[],[]
+Qwen3 / base / groups,13184,development,"But European grain traders and officials said the Saudis might reduce the purchase to 600,000 tonnes .",2,5,1,1,4,"[('European', 'MISC'), ('Saudis', 'MISC')]","[('Europe', 'LOC'), ('Saudis', 'LOC'), ('European grain traders', 'ORG'), ('officials', 'ORG'), ('600,000 tonnes', 'MISC')]"
+Qwen3 / base / groups,9391,development,PARIS 1996-08-27,0,1,0,0,1,[],"[('1996-08-27', 'MISC')]"
+Qwen3 / base / groups,6531,development,English division one - West Bromwich v Sheffield United .,3,4,1,2,3,"[('English', 'MISC'), ('West Bromwich', 'ORG'), ('Sheffield United', 'ORG')]","[('West Bromwich', 'LOC'), ('Sheffield', 'LOC'), ('English division one', 'ORG'), ('West Bromwich v Sheffield United', 'MISC')]"
+Qwen3 / base / groups,6293,development,"In rain-soaked conditions , centre Alan Hunte grabbed a hat-trick of tries , while Tommy Martyn , Anthony Sullivan and Paul Newlove each scored two .",0,1,0,0,1,[],"[('rain-soaked conditions', 'MISC')]"
+Qwen3 / base / groups,10890,development,"It also wants to hear from those who committed the abuses , to whom it can offer amnesty in return for frankness .",0,2,0,0,2,[],"[('abuses', 'MISC'), ('amnesty', 'MISC')]"
+Qwen3 / base / groups,2159,development,"In the American League wild-card race , the Mariners are three games behind the White Sox , two behind Baltimore and two ahead of the Red Sox heading into Boston for a weekend series .",2,2,2,0,0,"[('American League', 'MISC'), ('Baltimore', 'ORG')]","[('Baltimore', 'LOC'), ('American League', 'ORG')]"
+Qwen3 / base / groups,4563,development,First race,0,1,0,0,1,[],"[('First race', 'MISC')]"
+Qwen3 / base / groups,2310,development,"American world champion Gwen Torrence , the bronze medallist in Atlanta , was second in 11.00 .",2,2,1,1,1,"[('American', 'MISC'), ('Atlanta', 'LOC')]","[('Atlanta', 'MISC'), ('11.00', 'MISC')]"
+Qwen3 / base / groups,10013,development,"-LPR- Australia -RPR- , Mark Roe , Emanuele Canonica -LPR- Italy -RPR-",0,2,0,0,2,[],"[('LPR', 'ORG'), ('RPR', 'ORG')]"
+Qwen3 / base / groups,2549,development,Sri Lanka and Australia agreed on Friday that relations between the two teams had healed since the Sri Lankans ' acrimonious tour last year .,1,0,0,1,0,"[('Sri Lankans', 'MISC')]",[]
+Qwen3 / base / groups,6967,development,"I know that if I want to play professional tennis I have to do my best to try to beat her and I ca n't be scared . """,0,2,0,0,2,[],"[('professional tennis', 'MISC'), ('her', 'MISC')]"
+Qwen3 / base / groups,6038,development,- State security court starts investigating suspects in unrest .,0,2,0,0,2,[],"[('State security court', 'ORG'), ('unrest', 'MISC')]"
+Qwen3 / base / groups,11493,development,Evelyn Leopold,0,0,0,0,0,[],[]
+Qwen3 / base / groups,5189,development,Lokomotiv Nizhny Novgorod 2 Uralmash Yekaterinburg 2,1,3,0,1,3,"[('Uralmash Yekaterinburg', 'ORG')]","[('Nizhny Novgorod', 'LOC'), ('Yekaterinburg', 'LOC'), ('Uralmash', 'ORG')]"
+Qwen3 / base / groups,9727,development,Emnid Aug 18 41.0 34.0 6.0 10.0 5.0,1,7,1,0,6,"[('Emnid', 'ORG')]","[('Emnid', 'PER'), ('Aug 18', 'MISC'), ('41.0', 'MISC'), ('34.0', 'MISC'), ('6.0', 'MISC'), ('10.0', 'MISC'), ('5.0', 'MISC')]"
+Qwen3 / base / groups,11677,development,PRECIOUS METALS,0,1,0,0,1,[],"[('PRECIOUS METALS', 'MISC')]"
+Qwen3 / base / groups,2810,development,"Hong Kong Financial Secretary Donald Tsang will visit Indonesia and New Zealand from August 25 to 31 , the government said on Friday .",0,1,0,0,1,[],"[('August 25 to 31', 'MISC')]"
+Qwen3 / base / groups,12409,development,Final Partizan v Olympiakos .,0,0,0,0,0,[],[]
+Qwen3 / base / groups,13549,development,"The first commodity to be traded on the PULPEX bourse will be pulp , but OM said trade would be extended to include products such as timber , recycled paper and other paper qualities .",1,4,0,1,4,"[('OM', 'ORG')]","[('pulp', 'MISC'), ('timber', 'MISC'), ('recycled paper', 'MISC'), ('other paper qualities', 'MISC')]"
+Qwen3 / base / groups,3175,evaluation,ATHENS 1996-08-23,0,1,0,0,1,[],"[('1996-08-23', 'MISC')]"
+Qwen3 / base / groups,12917,evaluation,"Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday , a ministry spokeswoman said .",2,2,0,2,2,"[('Brazilian', 'MISC'), ('Congress', 'ORG')]","[('Brazilian Planning Minister', 'ORG'), ('1997 federal budget', 'MISC')]"
+Qwen3 / base / groups,12493,evaluation,16 - Martina Hingis -LPR- Switzerland -RPR- beat Miriam Oremans -LPR- Netherlands -RPR- 6-4 6-4,0,4,0,0,4,[],"[('LPR', 'MISC'), ('RPR', 'MISC'), ('6-4', 'MISC'), ('6-4', 'MISC')]"
+Qwen3 / base / groups,1788,evaluation,Dollar / yen ....,0,1,0,0,1,[],"[('Dollar / yen', 'MISC')]"
+Qwen3 / base / groups,2253,evaluation,"metres world record -LPR- tabulated under time , name / nationality ,",0,4,0,0,4,[],"[('LPR', 'ORG'), ('metres world record', 'MISC'), ('time', 'MISC'), ('name / nationality', 'MISC')]"
+Qwen3 / base / groups,11722,evaluation,He said Turkey considered Jordan a suitable country with which to cooperate on Middle East matters .,0,1,0,0,1,[],"[('He', 'PER')]"
+Qwen3 / base / groups,11149,evaluation,"Rudolf Gajdos , head of Slovak Interpol , told a news conference Dutroux was also believed to have planned the kidnapping of at least one Slovak woman .",3,1,0,3,1,"[('Slovak', 'MISC'), ('Slovak', 'MISC'), ('Interpol', 'ORG')]","[('Slovak Interpol', 'ORG')]"
+Qwen3 / base / groups,2655,evaluation,- UK / CONT,0,1,0,0,1,[],"[('CONT', 'MISC')]"
+Qwen3 / base / groups,10632,evaluation,Arminia Bielefeld 1 -LPR- Von Heesen 56th -RPR- Duisburg 1 -LPR- Hirsch 65th -RPR- .,2,5,1,1,4,"[('Arminia Bielefeld', 'ORG'), ('Duisburg', 'ORG')]","[('Bielefeld', 'LOC'), ('Duisburg', 'LOC'), ('1', 'MISC'), ('56th', 'MISC'), ('65th', 'MISC')]"
+Qwen3 / base / groups,1962,evaluation,D. Cork c Moin Khan b Waqar Younis 0,0,1,0,0,1,[],"[('0', 'MISC')]"
+Qwen3 / base / groups,3362,evaluation,Ford owns 138.643 million shares in the firm .,0,1,0,0,1,[],"[('firm', 'ORG')]"
+Qwen3 / base / groups,7750,evaluation,""" There is no market at the moment , "" one Rotterdam trader said . """,0,1,0,0,1,[],"[('one Rotterdam trader', 'PER')]"
+Qwen3 / base / groups,9822,evaluation,Nuclear pact will be a step to disarmament-China .,1,3,0,1,3,"[('disarmament-China', 'MISC')]","[('China', 'ORG'), ('Nuclear pact', 'MISC'), ('disarmament', 'MISC')]"
+Qwen3 / base / groups,7345,evaluation,""" But there is a significant influence of opposition parties that are collecting points ahead of coming elections . """,0,2,0,0,2,[],"[('opposition parties', 'MISC'), ('coming elections', 'MISC')]"
+Qwen3 / base / groups,7619,evaluation,52 cents / pound,0,1,0,0,1,[],"[('52 cents / pound', 'MISC')]"
+Qwen3 / base / groups,4047,evaluation,"Stuttgart 2 -LPR- Balakow 50th , Bobic 61st -RPR- Werder Bremen 1 -LPR- Votava",3,6,2,1,4,"[('Stuttgart', 'ORG'), ('Balakow', 'PER'), ('Werder Bremen', 'ORG')]","[('Stuttgart', 'LOC'), ('Werder Bremen', 'LOC'), ('LPR', 'ORG'), ('RPR', 'ORG'), ('50th', 'MISC'), ('61st', 'MISC')]"
+Qwen3 / base / groups,12684,evaluation,But Christie did not announce his decision to run until the eve of the meeting when organisers also confirmed Johnson would take part .,0,0,0,0,0,[],[]
+Qwen3 / base / groups,10971,evaluation,-- New York Commodities 212-859-1646,0,2,0,0,2,[],"[('New York', 'LOC'), ('212-859-1646', 'MISC')]"
+Qwen3 / base / groups,8992,evaluation,"Neither Meri , who oversaw Estonia 's first steps into statehood after the collapse of the Soviet Union , nor his arch-rival , former communist Arnold Ruutel , have secured the 68 votes necessary from the 101-member parliament .",2,4,2,0,2,"[('Estonia', 'LOC'), ('Soviet Union', 'LOC')]","[('Estonia', 'MISC'), ('Soviet Union', 'MISC'), ('68 votes', 'MISC'), ('101-member parliament', 'MISC')]"
+Qwen3 / base / groups,10772,evaluation,Lyon 4 2 1 1 6 4 7,1,8,1,0,7,"[('Lyon', 'ORG')]","[('Lyon', 'LOC'), ('4', 'MISC'), ('4', 'MISC'), ('2', 'MISC'), ('1', 'MISC'), ('1', 'MISC'), ('6', 'MISC'), ('7', 'MISC')]"
+Qwen3 / base / groups,1287,evaluation,"Lebed said on Wednesday he had clinched a truce with Chechen separatists and he promised to halt a threatened bombing assault on Grozny , which the rebels have held since August 6 .",1,1,0,1,1,"[('Chechen', 'MISC')]","[('Chechen separatists', 'LOC')]"
+Qwen3 / base / groups,11812,evaluation,"The individual Names , however , now must decide whether to accept Lloyd 's settlement offer or reject the offer and pursue litigation .",2,4,1,1,3,"[('Names', 'MISC'), (""Lloyd 's"", 'ORG')]","[('Names', 'PER'), ('Lloyd', 'PER'), ('settlement offer', 'MISC'), ('litigation', 'MISC')]"
+Qwen3 / base / groups,7650,evaluation,U.S. Midwest hog market seen steady Tuesday - trade .,0,2,0,0,2,[],"[('hog market', 'MISC'), ('trade', 'MISC')]"
+Qwen3 / base / groups,5438,evaluation,Results of Major League,1,1,1,0,0,"[('Major League', 'MISC')]","[('Major League', 'ORG')]"
+Qwen3 / base / groups,6194,evaluation,"Ukraine 's black soil is so fertile that a diplomat described it as "" rich enough to grow rubber boots "" .",0,2,0,0,2,[],"[('black soil', 'MISC'), ('rubber boots', 'MISC')]"
+Qwen3 / base / groups,6667,evaluation,Slovan Bratislava 4 3 0 1 7 2 9,0,7,0,0,7,[],"[('4', 'MISC'), ('3', 'MISC'), ('0', 'MISC'), ('1', 'MISC'), ('7', 'MISC'), ('2', 'MISC'), ('9', 'MISC')]"
+Qwen3 / base / groups,8833,evaluation,PF IKS KB PLUS 156.00 156.00 6000 936.000,1,5,1,0,4,"[('PF IKS KB PLUS', 'ORG')]","[('PF IKS KB PLUS', 'MISC'), ('156.00', 'MISC'), ('156.00', 'MISC'), ('6000', 'MISC'), ('936.000', 'MISC')]"
+Qwen3 / base / groups,949,evaluation,3. Sweden 8.57,0,1,0,0,1,[],"[('8.57', 'MISC')]"
+Qwen3 / base / groups,10621,evaluation,"Attendance 27,600 .",0,1,0,0,1,[],"[('Attendance 27,600', 'MISC')]"
+Qwen3 / base / groups,3181,evaluation,VALLETTA 1996-08-23,0,1,0,0,1,[],"[('1996-08-23', 'MISC')]"
+Qwen3 / base / groups,9127,evaluation,A Central Bank spokesman said he could not confirm or deny the report .,0,0,0,0,0,[],[]
+Qwen3 / base / groups,12605,evaluation,NEW YORK 1996-08-28,0,1,0,0,1,[],"[('1996-08-28', 'MISC')]"
+Qwen3 / base / groups,9563,evaluation,"Hasina , speaking to a group of engineers in Dhaka on Monday , accused the BNP of resorting to "" terrorism "" as part of its plan to create instability and chaos in the country .",1,1,1,0,0,"[('BNP', 'ORG')]","[('BNP', 'MISC')]"
+Qwen3 / base / groups,5134,evaluation,F.C. Chindia Tirgoviste 4 2 0 2 3 4 6,0,8,0,0,8,[],"[('Tirgoviste', 'LOC'), ('4', 'MISC'), ('4', 'MISC'), ('2', 'MISC'), ('2', 'MISC'), ('0', 'MISC'), ('3', 'MISC'), ('6', 'MISC')]"
+Qwen3 / base / groups,6234,evaluation,Ingwe Coal Corporation Ltd was hit hard by heavy rains .,0,0,0,0,0,[],[]
+Qwen3 / base / groups,6487,evaluation,8-238 9-242,0,2,0,0,2,[],"[('8-238', 'MISC'), ('9-242', 'MISC')]"
+Qwen3 / base / groups,12942,evaluation,"Angel Aguirre pledged the elections will be free and fair and said he did not expect any trouble from the elusive new guerrilla group , the Popular Revolutionary Army .",1,1,0,1,1,"[('Popular Revolutionary Army', 'ORG')]","[('the Popular Revolutionary Army', 'ORG')]"
+Qwen3 / base / groups,7163,evaluation,Squad :,0,1,0,0,1,[],"[('Squad', 'MISC')]"
+Qwen3 / base / groups,10266,evaluation,"Sheffield , who was benched Monday , delivered a double down the left-field line in the first , scoring Luis Castilla and Alex Arias to put the Marlins ahead to stay .",0,1,0,0,1,[],"[('Sheffield', 'LOC')]"
+Qwen3 / base / groups,10407,evaluation,"Men 's singles , first round",0,2,0,0,2,[],"[(""Men 's singles"", 'MISC'), ('first round', 'MISC')]"
+Qwen3 / base / groups,5620,evaluation,1. Museeuw 162 points,0,1,0,0,1,[],"[('162 points', 'MISC')]"
+Qwen3 / base / groups,5177,evaluation,SOCCER - RUSSIAN PREMIER DIVISION RESULTS / STANDINGS .,1,2,0,1,2,"[('RUSSIAN', 'MISC')]","[('RUSSIAN PREMIER DIVISION', 'LOC'), ('SOCCER - RUSSIAN PREMIER DIVISION RESULTS / STANDINGS', 'MISC')]"
+Qwen3 / base / groups,10791,evaluation,Paris SG 1 Nantes 0,1,4,1,0,3,"[('Nantes', 'ORG')]","[('Paris', 'LOC'), ('Nantes', 'LOC'), ('1', 'MISC'), ('0', 'MISC')]"
+Qwen3 / base / groups,1069,evaluation,- stocks of finished goods +17 +19 +17 +25,0,5,0,0,5,[],"[('stocks of finished goods', 'MISC'), ('+17', 'MISC'), ('+17', 'MISC'), ('+19', 'MISC'), ('+25', 'MISC')]"
+Qwen3 / base / groups,8940,evaluation,"But Yeltsin 's spokesman rebuffed the suggestion , saying the president had left Moscow for a holiday near the capital .",0,2,0,0,2,[],"[('the president', 'PER'), ('the capital', 'LOC')]"
+Qwen3 / base / groups,9581,evaluation,1-mth Helibor 3.27 pct 3.29 pct,1,3,0,1,3,"[('Helibor', 'MISC')]","[('1-mth Helibor', 'MISC'), ('3.27 pct', 'MISC'), ('3.29 pct', 'MISC')]"
+Qwen3 / base / groups,11569,evaluation,The MQM speaks for Urdu-speaking Moslems who migrated from India at Partition in 1947 and their descendants .,0,0,0,0,0,[],[]
+Qwen3 / base / groups,1198,evaluation,"Koranic reading sessions and prayers were to be held in the farming town of Badi-Tondon , near his home about 60 km -LPR- 40 miles -RPR- from the capital Conakry .",1,2,0,1,2,"[('Koranic', 'MISC')]","[('60 km', 'MISC'), ('40 miles', 'MISC')]"
+Qwen3 / base / groups,3869,evaluation,SAN DIEGO 70 60 .538 -,1,4,1,0,3,"[('SAN DIEGO', 'ORG')]","[('SAN DIEGO', 'LOC'), ('70', 'MISC'), ('60', 'MISC'), ('.538', 'MISC')]"
+Qwen3 / base / groups,1363,evaluation,"Chairman Mohamed Fahim Rayyan told a news conference at Cairo airport : "" The control tower should have allocated the plane another runway , instead of the one the plane landed on . """,1,2,0,1,2,"[('Cairo', 'LOC')]","[('Cairo airport', 'LOC'), ('control tower', 'MISC')]"
+Qwen3 / base / groups,13577,evaluation,About 200 German anti-nuclear activists protested on Thursday against nuclear waste transportation by re-enacting scenes from a demonstration they staged in May that turned into a violent clash with police .,1,2,0,1,2,"[('German', 'MISC')]","[('Germany', 'LOC'), ('May', 'MISC')]"
+Qwen3 / base / groups,10600,evaluation,Empoli 1 Milan 1,0,0,0,0,0,[],[]
+Qwen3 / base / groups,613,evaluation,Ferenc Horvath -LPR- 15th -RPR-,0,3,0,0,3,[],"[('LPR', 'ORG'), ('RPR', 'ORG'), ('15th', 'MISC')]"
+Qwen3 / base / groups,11974,evaluation,"Australia 's six states and two territories are involved in heated debate over the introduction of tough new firearm laws , including the banning rapid fire weapons , after a shooting massacre in the island state of Tasmania .",0,2,0,0,2,[],"[('six states and two territories', 'MISC'), ('rapid fire weapons', 'MISC')]"
+Qwen3 / base / groups,9796,evaluation,"Drew said Peiris , a bird enthusiast , would have succeeded with the fraud if he had not tried to trade a fourth pair of bogus birds after an associate had told police of the scam .",0,2,0,0,2,[],"[('a fourth pair of bogus birds', 'MISC'), ('an associate', 'MISC')]"
+Qwen3 / base / groups,6106,evaluation,"If it does n't do well , do n't expect a raise .",0,1,0,0,1,[],"[('a raise', 'MISC')]"
+Qwen3 / base / groups,11997,evaluation,"The cause of the crash of the helicopter , which went down on Sunday while on a routine resupply flight between Phnom Penh and Stung Treng , was not known .",0,1,0,0,1,[],"[('the helicopter', 'MISC')]"
+Qwen3 / base / groups,2723,evaluation,No replacements had been named .,0,1,0,0,1,[],"[('No replacements had been named', 'MISC')]"
+Qwen3 / base / groups,5092,evaluation,Division A,0,1,0,0,1,[],"[('Division A', 'MISC')]"
+Qwen3 / base / groups,891,evaluation,SOCCER - DUTCH FIRST DIVISION RESULT .,1,2,0,1,2,"[('DUTCH', 'MISC')]","[('DUTCH FIRST DIVISION', 'LOC'), ('SOCCER', 'MISC')]"
+Qwen3 / base / groups,1313,evaluation,"Brunswijk turned himself into police after Freddy Pinas , a Surinamese-born visitor from the Netherlands , accused Brunswijk of trying to kill him on Sunday after a bar-room brawl in the small mining town of Moengo , about 56 miles -LPR- 90 km -RPR- east of Paramaribo , said police spokesman Ro Gajadhar .",3,1,0,3,1,"[('Brunswijk', 'PER'), ('Surinamese-born', 'MISC'), ('Netherlands', 'LOC')]","[('56 miles -LPR- 90 km -RPR-', 'MISC')]"
+Qwen3 / base / groups,6985,evaluation,Stich said he felt the players ought to have organised an active protest .,0,0,0,0,0,[],[]
+Qwen3 / base / groups,13612,evaluation,The only other community is in the Russian village of Barentsburg .,1,0,0,1,0,"[('Russian', 'MISC')]",[]
+Qwen3 / base / groups,6120,evaluation,Geert de Clercq,0,0,0,0,0,[],[]
+Qwen3 / base / groups,4382,evaluation,"VERONA , Italy 1996-08-24",0,1,0,0,1,[],"[('1996-08-24', 'MISC')]"
+Qwen3 / base / groups,11293,evaluation,"The quake struck at 11.16 a.m. -LPR- 1716 GMT -RPR- and was centred 10 miles -LPR- 16 km -RPR- south of the port of Quepos , which is 90 miles -LPR- 140 km -RPR- south of the capital San Jose , the Costa Rican Volcanic and Seismologicial Observatory said .",1,7,0,1,7,"[('GMT', 'MISC')]","[('Costa Rican Volcanic and Seismologicial Observatory', 'LOC'), ('11.16 a.m.', 'MISC'), ('1716 GMT', 'MISC'), ('10 miles', 'MISC'), ('16 km', 'MISC'), ('90 miles', 'MISC'), ('140 km', 'MISC')]"
+Qwen3 / base / groups,8831,evaluation,637.50 637.50 1626 1036.575,0,4,0,0,4,[],"[('637.50', 'MISC'), ('637.50', 'MISC'), ('1626', 'MISC'), ('1036.575', 'MISC')]"
+Qwen3 / base / groups,9484,evaluation,""" A great game has been started in Afghanistan as America feels that Tehran and Moscow have got stronger in the Afghan picture -- something Washington wants to change , "" he said .",2,1,0,2,1,"[('America', 'LOC'), ('Afghan', 'MISC')]","[('he', 'PER')]"
+Qwen3 / base / groups,6578,evaluation,"Mauritius now play in group seven of the qualifiers against Malawi , Mozambique and favourites Zambia .",0,1,0,0,1,[],"[('group seven of the qualifiers', 'MISC')]"
+Qwen3 / base / groups,10915,evaluation,"It said this acreage earning well brought an interest in an additional 5,120 acres , building the company 's gross land position in this area to 8,320 acres .",0,2,0,0,2,[],"[('5,120 acres', 'MISC'), ('8,320 acres', 'MISC')]"
+Qwen3 / base / groups,5754,evaluation,Willem II Tilburg 0 Fortuna Sittard 1,0,2,0,0,2,[],"[('Tilburg', 'LOC'), ('Sittard', 'LOC')]"
+Qwen3 / base / groups,4958,evaluation,Bolton 3 2 1 0 5 2 7,1,8,1,0,7,"[('Bolton', 'ORG')]","[('Bolton', 'MISC'), ('3', 'MISC'), ('2', 'MISC'), ('2', 'MISC'), ('1', 'MISC'), ('0', 'MISC'), ('5', 'MISC'), ('7', 'MISC')]"
+Qwen3 / base / groups,10428,evaluation,"lost , winning percentage and games behind -RPR- :",0,4,0,0,4,[],"[('lost', 'MISC'), ('winning percentage', 'MISC'), ('games behind', 'MISC'), ('RPR', 'MISC')]"
+Qwen3 / base / groups,1820,evaluation,China cancelled a visit by a top-level delegation in protest .,1,2,1,0,1,"[('China', 'LOC')]","[('China', 'ORG'), ('a top-level delegation', 'MISC')]"
+Qwen3 / base / groups,9621,evaluation,Miscellaneous charges --- 16 --- 30,0,3,0,0,3,[],"[('Miscellaneous charges', 'MISC'), ('16', 'MISC'), ('30', 'MISC')]"
+Qwen3 / base / groups,4628,evaluation,1. Ray Belim -LPR- Britain -RPR- / James Weaver -LPR- Britain -RPR- / J.J.Lehto,1,3,0,1,3,"[('Britain', 'LOC')]","[('J.J.Lehto', 'PER'), ('LPR', 'ORG'), ('RPR', 'ORG')]"
+Qwen3 / base / groups,1244,evaluation,"GDANSK , Poland 1996-08-22",0,1,0,0,1,[],"[('1996-08-22', 'MISC')]"
+Qwen3 / base / groups,7914,evaluation,"The bank earlier warned that profit growth would slow in the second half , citing the increasing momentum in profit growth in the comparative period of 1995 and increased investment .",0,2,0,0,2,[],"[('bank', 'ORG'), ('1995', 'MISC')]"
+Qwen3 / base / groups,6287,evaluation,New York Stock Exchange advances lagged declines by 476/698 while NASDAQ advances led declines 837/763 .,1,4,1,0,3,"[('NASDAQ', 'MISC')]","[('New York', 'LOC'), ('NASDAQ', 'ORG'), ('476/698', 'MISC'), ('837/763', 'MISC')]"
+Qwen3 / base / groups,11678,evaluation,Gold fixed at $ 388.50 versus Tuesday 's London close of $ 388.55 .,1,3,1,0,2,"[('London', 'LOC')]","[('388.50', 'MISC'), ('388.55', 'MISC'), ('London', 'MISC')]"
+Qwen3 / improved / groups,6130,development,The other was insurer Thierry Dehaan .,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,13184,development,"But European grain traders and officials said the Saudis might reduce the purchase to 600,000 tonnes .",2,0,0,2,0,"[('European', 'MISC'), ('Saudis', 'MISC')]",[]
+Qwen3 / improved / groups,9391,development,PARIS 1996-08-27,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,6531,development,English division one - West Bromwich v Sheffield United .,1,0,0,1,0,"[('English', 'MISC')]",[]
+Qwen3 / improved / groups,6293,development,"In rain-soaked conditions , centre Alan Hunte grabbed a hat-trick of tries , while Tommy Martyn , Anthony Sullivan and Paul Newlove each scored two .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,10890,development,"It also wants to hear from those who committed the abuses , to whom it can offer amnesty in return for frankness .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,2159,development,"In the American League wild-card race , the Mariners are three games behind the White Sox , two behind Baltimore and two ahead of the Red Sox heading into Boston for a weekend series .",2,2,1,1,1,"[('American League', 'MISC'), ('Boston', 'LOC')]","[('American League wild-card race', 'MISC'), ('Boston', 'MISC')]"
+Qwen3 / improved / groups,4563,development,First race,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,2310,development,"American world champion Gwen Torrence , the bronze medallist in Atlanta , was second in 11.00 .",2,1,1,1,0,"[('American', 'MISC'), ('Atlanta', 'LOC')]","[('Atlanta', 'MISC')]"
+Qwen3 / improved / groups,10013,development,"-LPR- Australia -RPR- , Mark Roe , Emanuele Canonica -LPR- Italy -RPR-",2,2,2,0,0,"[('Australia', 'LOC'), ('Italy', 'LOC')]","[('Australia', 'MISC'), ('Italy', 'MISC')]"
+Qwen3 / improved / groups,2549,development,Sri Lanka and Australia agreed on Friday that relations between the two teams had healed since the Sri Lankans ' acrimonious tour last year .,1,0,0,1,0,"[('Sri Lankans', 'MISC')]",[]
+Qwen3 / improved / groups,6967,development,"I know that if I want to play professional tennis I have to do my best to try to beat her and I ca n't be scared . """,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,6038,development,- State security court starts investigating suspects in unrest .,0,1,0,0,1,[],"[('State security court', 'ORG')]"
+Qwen3 / improved / groups,11493,development,Evelyn Leopold,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,5189,development,Lokomotiv Nizhny Novgorod 2 Uralmash Yekaterinburg 2,1,3,0,1,3,"[('Uralmash Yekaterinburg', 'ORG')]","[('Nizhny Novgorod', 'LOC'), ('Yekaterinburg', 'LOC'), ('Uralmash', 'ORG')]"
+Qwen3 / improved / groups,9727,development,Emnid Aug 18 41.0 34.0 6.0 10.0 5.0,1,0,0,1,0,"[('Emnid', 'ORG')]",[]
+Qwen3 / improved / groups,11677,development,PRECIOUS METALS,0,1,0,0,1,[],"[('PRECIOUS METALS', 'MISC')]"
+Qwen3 / improved / groups,2810,development,"Hong Kong Financial Secretary Donald Tsang will visit Indonesia and New Zealand from August 25 to 31 , the government said on Friday .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,12409,development,Final Partizan v Olympiakos .,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,13549,development,"The first commodity to be traded on the PULPEX bourse will be pulp , but OM said trade would be extended to include products such as timber , recycled paper and other paper qualities .",1,4,0,1,4,"[('OM', 'ORG')]","[('pulp', 'MISC'), ('timber', 'MISC'), ('recycled paper', 'MISC'), ('paper qualities', 'MISC')]"
+Qwen3 / improved / groups,3175,evaluation,ATHENS 1996-08-23,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,12917,evaluation,"Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday , a ministry spokeswoman said .",2,2,0,2,2,"[('Brazilian', 'MISC'), ('Congress', 'ORG')]","[('1997', 'MISC'), ('federal budget', 'MISC')]"
+Qwen3 / improved / groups,12493,evaluation,16 - Martina Hingis -LPR- Switzerland -RPR- beat Miriam Oremans -LPR- Netherlands -RPR- 6-4 6-4,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,1788,evaluation,Dollar / yen ....,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,2253,evaluation,"metres world record -LPR- tabulated under time , name / nationality ,",0,3,0,0,3,[],"[('metres world record', 'MISC'), ('time', 'MISC'), ('name / nationality', 'MISC')]"
+Qwen3 / improved / groups,11722,evaluation,He said Turkey considered Jordan a suitable country with which to cooperate on Middle East matters .,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,11149,evaluation,"Rudolf Gajdos , head of Slovak Interpol , told a news conference Dutroux was also believed to have planned the kidnapping of at least one Slovak woman .",3,1,0,3,1,"[('Slovak', 'MISC'), ('Slovak', 'MISC'), ('Interpol', 'ORG')]","[('Slovak Interpol', 'ORG')]"
+Qwen3 / improved / groups,2655,evaluation,- UK / CONT,1,0,0,1,0,"[('UK', 'LOC')]",[]
+Qwen3 / improved / groups,10632,evaluation,Arminia Bielefeld 1 -LPR- Von Heesen 56th -RPR- Duisburg 1 -LPR- Hirsch 65th -RPR- .,2,0,0,2,0,"[('Von Heesen', 'PER'), ('Hirsch', 'PER')]",[]
+Qwen3 / improved / groups,1962,evaluation,D. Cork c Moin Khan b Waqar Younis 0,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,3362,evaluation,Ford owns 138.643 million shares in the firm .,0,1,0,0,1,[],"[('firm', 'ORG')]"
+Qwen3 / improved / groups,7750,evaluation,""" There is no market at the moment , "" one Rotterdam trader said . """,0,1,0,0,1,[],"[('one Rotterdam trader', 'PER')]"
+Qwen3 / improved / groups,9822,evaluation,Nuclear pact will be a step to disarmament-China .,1,3,0,1,3,"[('disarmament-China', 'MISC')]","[('China', 'LOC'), ('Nuclear pact', 'MISC'), ('disarmament', 'MISC')]"
+Qwen3 / improved / groups,7345,evaluation,""" But there is a significant influence of opposition parties that are collecting points ahead of coming elections . """,0,2,0,0,2,[],"[('opposition parties', 'MISC'), ('coming elections', 'MISC')]"
+Qwen3 / improved / groups,7619,evaluation,52 cents / pound,0,1,0,0,1,[],"[('52 cents / pound', 'MISC')]"
+Qwen3 / improved / groups,4047,evaluation,"Stuttgart 2 -LPR- Balakow 50th , Bobic 61st -RPR- Werder Bremen 1 -LPR- Votava",3,3,1,2,2,"[('Balakow', 'PER'), ('Bobic', 'PER'), ('Votava', 'PER')]","[('Balakow', 'ORG'), ('50th', 'MISC'), ('61st', 'MISC')]"
+Qwen3 / improved / groups,12684,evaluation,But Christie did not announce his decision to run until the eve of the meeting when organisers also confirmed Johnson would take part .,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,10971,evaluation,-- New York Commodities 212-859-1646,1,2,0,1,2,"[('New York Commodities', 'ORG')]","[('New York', 'ORG'), ('212-859-1646', 'MISC')]"
+Qwen3 / improved / groups,8992,evaluation,"Neither Meri , who oversaw Estonia 's first steps into statehood after the collapse of the Soviet Union , nor his arch-rival , former communist Arnold Ruutel , have secured the 68 votes necessary from the 101-member parliament .",2,4,2,0,2,"[('Estonia', 'LOC'), ('Soviet Union', 'LOC')]","[('Estonia', 'MISC'), ('Soviet Union', 'MISC'), ('68', 'MISC'), ('101', 'MISC')]"
+Qwen3 / improved / groups,10772,evaluation,Lyon 4 2 1 1 6 4 7,1,1,1,0,0,"[('Lyon', 'ORG')]","[('Lyon', 'LOC')]"
+Qwen3 / improved / groups,1287,evaluation,"Lebed said on Wednesday he had clinched a truce with Chechen separatists and he promised to halt a threatened bombing assault on Grozny , which the rebels have held since August 6 .",1,1,0,1,1,"[('Chechen', 'MISC')]","[('Chechen separatists', 'MISC')]"
+Qwen3 / improved / groups,11812,evaluation,"The individual Names , however , now must decide whether to accept Lloyd 's settlement offer or reject the offer and pursue litigation .",2,0,0,2,0,"[('Names', 'MISC'), (""Lloyd 's"", 'ORG')]",[]
+Qwen3 / improved / groups,7650,evaluation,U.S. Midwest hog market seen steady Tuesday - trade .,0,2,0,0,2,[],"[('hog market', 'MISC'), ('trade', 'MISC')]"
+Qwen3 / improved / groups,5438,evaluation,Results of Major League,1,0,0,1,0,"[('Major League', 'MISC')]",[]
+Qwen3 / improved / groups,6194,evaluation,"Ukraine 's black soil is so fertile that a diplomat described it as "" rich enough to grow rubber boots "" .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,6667,evaluation,Slovan Bratislava 4 3 0 1 7 2 9,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,8833,evaluation,PF IKS KB PLUS 156.00 156.00 6000 936.000,0,4,0,0,4,[],"[('156.00', 'MISC'), ('156.00', 'MISC'), ('6000', 'MISC'), ('936.000', 'MISC')]"
+Qwen3 / improved / groups,949,evaluation,3. Sweden 8.57,0,1,0,0,1,[],"[('8.57', 'MISC')]"
+Qwen3 / improved / groups,10621,evaluation,"Attendance 27,600 .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,3181,evaluation,VALLETTA 1996-08-23,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,9127,evaluation,A Central Bank spokesman said he could not confirm or deny the report .,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,12605,evaluation,NEW YORK 1996-08-28,0,1,0,0,1,[],"[('1996-08-28', 'MISC')]"
+Qwen3 / improved / groups,9563,evaluation,"Hasina , speaking to a group of engineers in Dhaka on Monday , accused the BNP of resorting to "" terrorism "" as part of its plan to create instability and chaos in the country .",1,1,1,0,0,"[('BNP', 'ORG')]","[('BNP', 'MISC')]"
+Qwen3 / improved / groups,5134,evaluation,F.C. Chindia Tirgoviste 4 2 0 2 3 4 6,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,6234,evaluation,Ingwe Coal Corporation Ltd was hit hard by heavy rains .,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,6487,evaluation,8-238 9-242,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,12942,evaluation,"Angel Aguirre pledged the elections will be free and fair and said he did not expect any trouble from the elusive new guerrilla group , the Popular Revolutionary Army .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,7163,evaluation,Squad :,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,10266,evaluation,"Sheffield , who was benched Monday , delivered a double down the left-field line in the first , scoring Luis Castilla and Alex Arias to put the Marlins ahead to stay .",1,0,0,1,0,"[('Sheffield', 'PER')]",[]
+Qwen3 / improved / groups,10407,evaluation,"Men 's singles , first round",0,2,0,0,2,[],"[(""Men's singles"", 'MISC'), ('first round', 'MISC')]"
+Qwen3 / improved / groups,5620,evaluation,1. Museeuw 162 points,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,5177,evaluation,SOCCER - RUSSIAN PREMIER DIVISION RESULTS / STANDINGS .,1,2,0,1,2,"[('RUSSIAN', 'MISC')]","[('RUSSIAN PREMIER DIVISION', 'MISC'), ('STANDINGS', 'MISC')]"
+Qwen3 / improved / groups,10791,evaluation,Paris SG 1 Nantes 0,0,2,0,0,2,[],"[('Paris', 'LOC'), ('Nantes', 'LOC')]"
+Qwen3 / improved / groups,1069,evaluation,- stocks of finished goods +17 +19 +17 +25,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,8940,evaluation,"But Yeltsin 's spokesman rebuffed the suggestion , saying the president had left Moscow for a holiday near the capital .",0,1,0,0,1,[],"[('capital', 'LOC')]"
+Qwen3 / improved / groups,9581,evaluation,1-mth Helibor 3.27 pct 3.29 pct,0,5,0,0,5,[],"[('1-mth', 'MISC'), ('3.27', 'MISC'), ('pct', 'MISC'), ('pct', 'MISC'), ('3.29', 'MISC')]"
+Qwen3 / improved / groups,11569,evaluation,The MQM speaks for Urdu-speaking Moslems who migrated from India at Partition in 1947 and their descendants .,1,0,0,1,0,"[('Urdu-speaking Moslems', 'MISC')]",[]
+Qwen3 / improved / groups,1198,evaluation,"Koranic reading sessions and prayers were to be held in the farming town of Badi-Tondon , near his home about 60 km -LPR- 40 miles -RPR- from the capital Conakry .",1,2,0,1,2,"[('Koranic', 'MISC')]","[('60 km', 'MISC'), ('40 miles', 'MISC')]"
+Qwen3 / improved / groups,3869,evaluation,SAN DIEGO 70 60 .538 -,1,1,1,0,0,"[('SAN DIEGO', 'ORG')]","[('SAN DIEGO', 'LOC')]"
+Qwen3 / improved / groups,1363,evaluation,"Chairman Mohamed Fahim Rayyan told a news conference at Cairo airport : "" The control tower should have allocated the plane another runway , instead of the one the plane landed on . """,0,1,0,0,1,[],"[('Cairo airport', 'MISC')]"
+Qwen3 / improved / groups,13577,evaluation,About 200 German anti-nuclear activists protested on Thursday against nuclear waste transportation by re-enacting scenes from a demonstration they staged in May that turned into a violent clash with police .,1,4,0,1,4,"[('German', 'MISC')]","[('Germany', 'LOC'), ('nuclear waste transportation', 'MISC'), ('demonstration', 'MISC'), ('violent clash', 'MISC')]"
+Qwen3 / improved / groups,10600,evaluation,Empoli 1 Milan 1,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,613,evaluation,Ferenc Horvath -LPR- 15th -RPR-,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,11974,evaluation,"Australia 's six states and two territories are involved in heated debate over the introduction of tough new firearm laws , including the banning rapid fire weapons , after a shooting massacre in the island state of Tasmania .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,9796,evaluation,"Drew said Peiris , a bird enthusiast , would have succeeded with the fraud if he had not tried to trade a fourth pair of bogus birds after an associate had told police of the scam .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,6106,evaluation,"If it does n't do well , do n't expect a raise .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,11997,evaluation,"The cause of the crash of the helicopter , which went down on Sunday while on a routine resupply flight between Phnom Penh and Stung Treng , was not known .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,2723,evaluation,No replacements had been named .,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,5092,evaluation,Division A,0,1,0,0,1,[],"[('Division A', 'MISC')]"
+Qwen3 / improved / groups,891,evaluation,SOCCER - DUTCH FIRST DIVISION RESULT .,1,1,0,1,1,"[('DUTCH', 'MISC')]","[('DUTCH FIRST DIVISION', 'MISC')]"
+Qwen3 / improved / groups,1313,evaluation,"Brunswijk turned himself into police after Freddy Pinas , a Surinamese-born visitor from the Netherlands , accused Brunswijk of trying to kill him on Sunday after a bar-room brawl in the small mining town of Moengo , about 56 miles -LPR- 90 km -RPR- east of Paramaribo , said police spokesman Ro Gajadhar .",3,1,0,3,1,"[('Brunswijk', 'PER'), ('Surinamese-born', 'MISC'), ('Netherlands', 'LOC')]","[('90 km', 'MISC')]"
+Qwen3 / improved / groups,6985,evaluation,Stich said he felt the players ought to have organised an active protest .,1,0,0,1,0,"[('Stich', 'PER')]",[]
+Qwen3 / improved / groups,13612,evaluation,The only other community is in the Russian village of Barentsburg .,1,0,0,1,0,"[('Russian', 'MISC')]",[]
+Qwen3 / improved / groups,6120,evaluation,Geert de Clercq,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,4382,evaluation,"VERONA , Italy 1996-08-24",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,11293,evaluation,"The quake struck at 11.16 a.m. -LPR- 1716 GMT -RPR- and was centred 10 miles -LPR- 16 km -RPR- south of the port of Quepos , which is 90 miles -LPR- 140 km -RPR- south of the capital San Jose , the Costa Rican Volcanic and Seismologicial Observatory said .",1,7,0,1,7,"[('GMT', 'MISC')]","[('Costa Rican Volcanic and Seismologicial Observatory', 'LOC'), ('11.16 a.m.', 'MISC'), ('1716 GMT', 'MISC'), ('10 miles', 'MISC'), ('16 km', 'MISC'), ('90 miles', 'MISC'), ('140 km', 'MISC')]"
+Qwen3 / improved / groups,8831,evaluation,637.50 637.50 1626 1036.575,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,9484,evaluation,""" A great game has been started in Afghanistan as America feels that Tehran and Moscow have got stronger in the Afghan picture -- something Washington wants to change , "" he said .",1,0,0,1,0,"[('Afghan', 'MISC')]",[]
+Qwen3 / improved / groups,6578,evaluation,"Mauritius now play in group seven of the qualifiers against Malawi , Mozambique and favourites Zambia .",0,1,0,0,1,[],"[('group seven', 'ORG')]"
+Qwen3 / improved / groups,10915,evaluation,"It said this acreage earning well brought an interest in an additional 5,120 acres , building the company 's gross land position in this area to 8,320 acres .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,5754,evaluation,Willem II Tilburg 0 Fortuna Sittard 1,0,0,0,0,0,[],[]
+Qwen3 / improved / groups,4958,evaluation,Bolton 3 2 1 0 5 2 7,1,0,0,1,0,"[('Bolton', 'ORG')]",[]
+Qwen3 / improved / groups,10428,evaluation,"lost , winning percentage and games behind -RPR- :",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,1820,evaluation,China cancelled a visit by a top-level delegation in protest .,1,0,0,1,0,"[('China', 'LOC')]",[]
+Qwen3 / improved / groups,9621,evaluation,Miscellaneous charges --- 16 --- 30,0,3,0,0,3,[],"[('Miscellaneous charges', 'MISC'), ('16', 'MISC'), ('30', 'MISC')]"
+Qwen3 / improved / groups,4628,evaluation,1. Ray Belim -LPR- Britain -RPR- / James Weaver -LPR- Britain -RPR- / J.J.Lehto,1,1,0,1,1,"[('Britain', 'LOC')]","[('J.J.Lehto', 'PER')]"
+Qwen3 / improved / groups,1244,evaluation,"GDANSK , Poland 1996-08-22",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,7914,evaluation,"The bank earlier warned that profit growth would slow in the second half , citing the increasing momentum in profit growth in the comparative period of 1995 and increased investment .",0,0,0,0,0,[],[]
+Qwen3 / improved / groups,6287,evaluation,New York Stock Exchange advances lagged declines by 476/698 while NASDAQ advances led declines 837/763 .,1,1,1,0,0,"[('NASDAQ', 'MISC')]","[('NASDAQ', 'ORG')]"
+Qwen3 / improved / groups,11678,evaluation,Gold fixed at $ 388.50 versus Tuesday 's London close of $ 388.55 .,1,3,1,0,2,"[('London', 'LOC')]","[('£388.50', 'MISC'), ('£388.55', 'MISC'), ('London', 'MISC')]"
+Qwen3 / improved / list,6130,development,The other was insurer Thierry Dehaan .,0,0,0,0,0,[],[]
+Qwen3 / improved / list,13184,development,"But European grain traders and officials said the Saudis might reduce the purchase to 600,000 tonnes .",1,4,1,0,3,"[('Saudis', 'MISC')]","[('grain', 'MISC'), ('Saudis', 'PER'), ('600,000', 'MISC'), ('tonnes', 'MISC')]"
+Qwen3 / improved / list,9391,development,PARIS 1996-08-27,1,0,0,1,0,"[('PARIS', 'LOC')]",[]
+Qwen3 / improved / list,6531,development,English division one - West Bromwich v Sheffield United .,3,3,1,2,2,"[('English', 'MISC'), ('West Bromwich', 'ORG'), ('Sheffield United', 'ORG')]","[('West Bromwich', 'LOC'), ('Sheffield', 'LOC'), ('United', 'ORG')]"
+Qwen3 / improved / list,6293,development,"In rain-soaked conditions , centre Alan Hunte grabbed a hat-trick of tries , while Tommy Martyn , Anthony Sullivan and Paul Newlove each scored two .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,10890,development,"It also wants to hear from those who committed the abuses , to whom it can offer amnesty in return for frankness .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,2159,development,"In the American League wild-card race , the Mariners are three games behind the White Sox , two behind Baltimore and two ahead of the Red Sox heading into Boston for a weekend series .",2,1,1,1,0,"[('American League', 'MISC'), ('Baltimore', 'ORG')]","[('Baltimore', 'LOC')]"
+Qwen3 / improved / list,4563,development,First race,0,0,0,0,0,[],[]
+Qwen3 / improved / list,2310,development,"American world champion Gwen Torrence , the bronze medallist in Atlanta , was second in 11.00 .",1,1,0,1,1,"[('American', 'MISC')]","[('11.00', 'MISC')]"
+Qwen3 / improved / list,10013,development,"-LPR- Australia -RPR- , Mark Roe , Emanuele Canonica -LPR- Italy -RPR-",0,0,0,0,0,[],[]
+Qwen3 / improved / list,2549,development,Sri Lanka and Australia agreed on Friday that relations between the two teams had healed since the Sri Lankans ' acrimonious tour last year .,1,1,1,0,0,"[('Sri Lankans', 'MISC')]","[('Sri Lankans', 'PER')]"
+Qwen3 / improved / list,6967,development,"I know that if I want to play professional tennis I have to do my best to try to beat her and I ca n't be scared . """,0,0,0,0,0,[],[]
+Qwen3 / improved / list,6038,development,- State security court starts investigating suspects in unrest .,0,1,0,0,1,[],"[('State security court', 'ORG')]"
+Qwen3 / improved / list,11493,development,Evelyn Leopold,1,2,0,1,2,"[('Evelyn Leopold', 'PER')]","[('Evelyn', 'PER'), ('Leopold', 'PER')]"
+Qwen3 / improved / list,5189,development,Lokomotiv Nizhny Novgorod 2 Uralmash Yekaterinburg 2,2,4,0,2,4,"[('Lokomotiv Nizhny Novgorod', 'ORG'), ('Uralmash Yekaterinburg', 'ORG')]","[('Lokomotiv', 'ORG'), ('Nizhny Novgorod', 'LOC'), ('Uralmash', 'ORG'), ('Yekaterinburg', 'LOC')]"
+Qwen3 / improved / list,9727,development,Emnid Aug 18 41.0 34.0 6.0 10.0 5.0,1,0,0,1,0,"[('Emnid', 'ORG')]",[]
+Qwen3 / improved / list,11677,development,PRECIOUS METALS,0,0,0,0,0,[],[]
+Qwen3 / improved / list,2810,development,"Hong Kong Financial Secretary Donald Tsang will visit Indonesia and New Zealand from August 25 to 31 , the government said on Friday .",0,2,0,0,2,[],"[('August 25', 'MISC'), ('August 31', 'MISC')]"
+Qwen3 / improved / list,12409,development,Final Partizan v Olympiakos .,0,0,0,0,0,[],[]
+Qwen3 / improved / list,13549,development,"The first commodity to be traded on the PULPEX bourse will be pulp , but OM said trade would be extended to include products such as timber , recycled paper and other paper qualities .",1,4,0,1,4,"[('OM', 'ORG')]","[('pulp', 'MISC'), ('timber', 'MISC'), ('recycled paper', 'MISC'), ('other paper qualities', 'MISC')]"
+Qwen3 / improved / list,3175,evaluation,ATHENS 1996-08-23,1,0,0,1,0,"[('ATHENS', 'LOC')]",[]
+Qwen3 / improved / list,12917,evaluation,"Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday , a ministry spokeswoman said .",0,2,0,0,2,[],"[('1997', 'MISC'), ('federal budget', 'MISC')]"
+Qwen3 / improved / list,12493,evaluation,16 - Martina Hingis -LPR- Switzerland -RPR- beat Miriam Oremans -LPR- Netherlands -RPR- 6-4 6-4,0,0,0,0,0,[],[]
+Qwen3 / improved / list,1788,evaluation,Dollar / yen ....,0,0,0,0,0,[],[]
+Qwen3 / improved / list,2253,evaluation,"metres world record -LPR- tabulated under time , name / nationality ,",0,5,0,0,5,[],"[('metres', 'MISC'), ('world record', 'MISC'), ('time', 'MISC'), ('name', 'MISC'), ('nationality', 'MISC')]"
+Qwen3 / improved / list,11722,evaluation,He said Turkey considered Jordan a suitable country with which to cooperate on Middle East matters .,1,1,1,0,0,"[('Middle East', 'LOC')]","[('Middle East', 'MISC')]"
+Qwen3 / improved / list,11149,evaluation,"Rudolf Gajdos , head of Slovak Interpol , told a news conference Dutroux was also believed to have planned the kidnapping of at least one Slovak woman .",2,1,0,2,1,"[('Slovak', 'MISC'), ('Interpol', 'ORG')]","[('Slovak Interpol', 'ORG')]"
+Qwen3 / improved / list,2655,evaluation,- UK / CONT,1,0,0,1,0,"[('UK', 'LOC')]",[]
+Qwen3 / improved / list,10632,evaluation,Arminia Bielefeld 1 -LPR- Von Heesen 56th -RPR- Duisburg 1 -LPR- Hirsch 65th -RPR- .,3,1,1,2,0,"[('Von Heesen', 'PER'), ('Duisburg', 'ORG'), ('Hirsch', 'PER')]","[('Duisburg', 'LOC')]"
+Qwen3 / improved / list,1962,evaluation,D. Cork c Moin Khan b Waqar Younis 0,0,0,0,0,0,[],[]
+Qwen3 / improved / list,3362,evaluation,Ford owns 138.643 million shares in the firm .,0,1,0,0,1,[],"[('138.643 million', 'MISC')]"
+Qwen3 / improved / list,7750,evaluation,""" There is no market at the moment , "" one Rotterdam trader said . """,0,0,0,0,0,[],[]
+Qwen3 / improved / list,9822,evaluation,Nuclear pact will be a step to disarmament-China .,1,1,0,1,1,"[('disarmament-China', 'MISC')]","[('China', 'LOC')]"
+Qwen3 / improved / list,7345,evaluation,""" But there is a significant influence of opposition parties that are collecting points ahead of coming elections . """,0,0,0,0,0,[],[]
+Qwen3 / improved / list,7619,evaluation,52 cents / pound,0,0,0,0,0,[],[]
+Qwen3 / improved / list,4047,evaluation,"Stuttgart 2 -LPR- Balakow 50th , Bobic 61st -RPR- Werder Bremen 1 -LPR- Votava",2,1,1,1,0,"[('Stuttgart', 'ORG'), ('Bobic', 'PER')]","[('Stuttgart', 'LOC')]"
+Qwen3 / improved / list,12684,evaluation,But Christie did not announce his decision to run until the eve of the meeting when organisers also confirmed Johnson would take part .,0,0,0,0,0,[],[]
+Qwen3 / improved / list,10971,evaluation,-- New York Commodities 212-859-1646,1,3,0,1,3,"[('New York Commodities', 'ORG')]","[('New York', 'LOC'), ('Commodities', 'ORG'), ('212-859-1646', 'MISC')]"
+Qwen3 / improved / list,8992,evaluation,"Neither Meri , who oversaw Estonia 's first steps into statehood after the collapse of the Soviet Union , nor his arch-rival , former communist Arnold Ruutel , have secured the 68 votes necessary from the 101-member parliament .",0,3,0,0,3,[],"[('68', 'MISC'), ('101', 'MISC'), ('parliament', 'MISC')]"
+Qwen3 / improved / list,10772,evaluation,Lyon 4 2 1 1 6 4 7,1,0,0,1,0,"[('Lyon', 'ORG')]",[]
+Qwen3 / improved / list,1287,evaluation,"Lebed said on Wednesday he had clinched a truce with Chechen separatists and he promised to halt a threatened bombing assault on Grozny , which the rebels have held since August 6 .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,11812,evaluation,"The individual Names , however , now must decide whether to accept Lloyd 's settlement offer or reject the offer and pursue litigation .",2,1,0,2,1,"[('Names', 'MISC'), (""Lloyd 's"", 'ORG')]","[('Lloyd', 'PER')]"
+Qwen3 / improved / list,7650,evaluation,U.S. Midwest hog market seen steady Tuesday - trade .,1,0,0,1,0,"[('U.S. Midwest', 'LOC')]",[]
+Qwen3 / improved / list,5438,evaluation,Results of Major League,1,0,0,1,0,"[('Major League', 'MISC')]",[]
+Qwen3 / improved / list,6194,evaluation,"Ukraine 's black soil is so fertile that a diplomat described it as "" rich enough to grow rubber boots "" .",0,2,0,0,2,[],"[('black soil', 'MISC'), ('rubber boots', 'MISC')]"
+Qwen3 / improved / list,6667,evaluation,Slovan Bratislava 4 3 0 1 7 2 9,0,0,0,0,0,[],[]
+Qwen3 / improved / list,8833,evaluation,PF IKS KB PLUS 156.00 156.00 6000 936.000,1,0,0,1,0,"[('PF IKS KB PLUS', 'ORG')]",[]
+Qwen3 / improved / list,949,evaluation,3. Sweden 8.57,0,0,0,0,0,[],[]
+Qwen3 / improved / list,10621,evaluation,"Attendance 27,600 .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,3181,evaluation,VALLETTA 1996-08-23,1,0,0,1,0,"[('VALLETTA', 'LOC')]",[]
+Qwen3 / improved / list,9127,evaluation,A Central Bank spokesman said he could not confirm or deny the report .,0,1,0,0,1,[],"[('spokesman', 'PER')]"
+Qwen3 / improved / list,12605,evaluation,NEW YORK 1996-08-28,0,0,0,0,0,[],[]
+Qwen3 / improved / list,9563,evaluation,"Hasina , speaking to a group of engineers in Dhaka on Monday , accused the BNP of resorting to "" terrorism "" as part of its plan to create instability and chaos in the country .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,5134,evaluation,F.C. Chindia Tirgoviste 4 2 0 2 3 4 6,0,0,0,0,0,[],[]
+Qwen3 / improved / list,6234,evaluation,Ingwe Coal Corporation Ltd was hit hard by heavy rains .,0,0,0,0,0,[],[]
+Qwen3 / improved / list,6487,evaluation,8-238 9-242,0,0,0,0,0,[],[]
+Qwen3 / improved / list,12942,evaluation,"Angel Aguirre pledged the elections will be free and fair and said he did not expect any trouble from the elusive new guerrilla group , the Popular Revolutionary Army .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,7163,evaluation,Squad :,0,0,0,0,0,[],[]
+Qwen3 / improved / list,10266,evaluation,"Sheffield , who was benched Monday , delivered a double down the left-field line in the first , scoring Luis Castilla and Alex Arias to put the Marlins ahead to stay .",1,1,1,0,0,"[('Sheffield', 'PER')]","[('Sheffield', 'LOC')]"
+Qwen3 / improved / list,10407,evaluation,"Men 's singles , first round",0,0,0,0,0,[],[]
+Qwen3 / improved / list,5620,evaluation,1. Museeuw 162 points,0,0,0,0,0,[],[]
+Qwen3 / improved / list,5177,evaluation,SOCCER - RUSSIAN PREMIER DIVISION RESULTS / STANDINGS .,1,0,0,1,0,"[('RUSSIAN', 'MISC')]",[]
+Qwen3 / improved / list,10791,evaluation,Paris SG 1 Nantes 0,1,1,0,1,1,"[('Paris SG', 'ORG')]","[('Paris', 'ORG')]"
+Qwen3 / improved / list,1069,evaluation,- stocks of finished goods +17 +19 +17 +25,0,0,0,0,0,[],[]
+Qwen3 / improved / list,8940,evaluation,"But Yeltsin 's spokesman rebuffed the suggestion , saying the president had left Moscow for a holiday near the capital .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,9581,evaluation,1-mth Helibor 3.27 pct 3.29 pct,1,0,0,1,0,"[('Helibor', 'MISC')]",[]
+Qwen3 / improved / list,11569,evaluation,The MQM speaks for Urdu-speaking Moslems who migrated from India at Partition in 1947 and their descendants .,2,4,1,1,3,"[('Urdu-speaking Moslems', 'MISC'), ('Partition', 'LOC')]","[('Urdu-speaking', 'MISC'), ('Moslems', 'MISC'), ('Partition', 'MISC'), ('1947', 'MISC')]"
+Qwen3 / improved / list,1198,evaluation,"Koranic reading sessions and prayers were to be held in the farming town of Badi-Tondon , near his home about 60 km -LPR- 40 miles -RPR- from the capital Conakry .",1,0,0,1,0,"[('Koranic', 'MISC')]",[]
+Qwen3 / improved / list,3869,evaluation,SAN DIEGO 70 60 .538 -,1,0,0,1,0,"[('SAN DIEGO', 'ORG')]",[]
+Qwen3 / improved / list,1363,evaluation,"Chairman Mohamed Fahim Rayyan told a news conference at Cairo airport : "" The control tower should have allocated the plane another runway , instead of the one the plane landed on . """,0,2,0,0,2,[],"[('control tower', 'MISC'), ('runway', 'MISC')]"
+Qwen3 / improved / list,13577,evaluation,About 200 German anti-nuclear activists protested on Thursday against nuclear waste transportation by re-enacting scenes from a demonstration they staged in May that turned into a violent clash with police .,0,4,0,0,4,[],"[('anti-nuclear', 'MISC'), ('nuclear', 'MISC'), ('nuclear waste', 'MISC'), ('May', 'MISC')]"
+Qwen3 / improved / list,10600,evaluation,Empoli 1 Milan 1,0,0,0,0,0,[],[]
+Qwen3 / improved / list,613,evaluation,Ferenc Horvath -LPR- 15th -RPR-,0,0,0,0,0,[],[]
+Qwen3 / improved / list,11974,evaluation,"Australia 's six states and two territories are involved in heated debate over the introduction of tough new firearm laws , including the banning rapid fire weapons , after a shooting massacre in the island state of Tasmania .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,9796,evaluation,"Drew said Peiris , a bird enthusiast , would have succeeded with the fraud if he had not tried to trade a fourth pair of bogus birds after an associate had told police of the scam .",1,0,0,1,0,"[('Drew', 'PER')]",[]
+Qwen3 / improved / list,6106,evaluation,"If it does n't do well , do n't expect a raise .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,11997,evaluation,"The cause of the crash of the helicopter , which went down on Sunday while on a routine resupply flight between Phnom Penh and Stung Treng , was not known .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,2723,evaluation,No replacements had been named .,0,0,0,0,0,[],[]
+Qwen3 / improved / list,5092,evaluation,Division A,0,0,0,0,0,[],[]
+Qwen3 / improved / list,891,evaluation,SOCCER - DUTCH FIRST DIVISION RESULT .,1,0,0,1,0,"[('DUTCH', 'MISC')]",[]
+Qwen3 / improved / list,1313,evaluation,"Brunswijk turned himself into police after Freddy Pinas , a Surinamese-born visitor from the Netherlands , accused Brunswijk of trying to kill him on Sunday after a bar-room brawl in the small mining town of Moengo , about 56 miles -LPR- 90 km -RPR- east of Paramaribo , said police spokesman Ro Gajadhar .",2,1,0,2,1,"[('Brunswijk', 'PER'), ('Surinamese-born', 'MISC')]","[('Surinamese', 'MISC')]"
+Qwen3 / improved / list,6985,evaluation,Stich said he felt the players ought to have organised an active protest .,0,0,0,0,0,[],[]
+Qwen3 / improved / list,13612,evaluation,The only other community is in the Russian village of Barentsburg .,1,0,0,1,0,"[('Russian', 'MISC')]",[]
+Qwen3 / improved / list,6120,evaluation,Geert de Clercq,1,2,0,1,2,"[('Geert de Clercq', 'PER')]","[('Geert', 'PER'), ('de Clercq', 'PER')]"
+Qwen3 / improved / list,4382,evaluation,"VERONA , Italy 1996-08-24",0,1,0,0,1,[],"[('1996-08-24', 'MISC')]"
+Qwen3 / improved / list,11293,evaluation,"The quake struck at 11.16 a.m. -LPR- 1716 GMT -RPR- and was centred 10 miles -LPR- 16 km -RPR- south of the port of Quepos , which is 90 miles -LPR- 140 km -RPR- south of the capital San Jose , the Costa Rican Volcanic and Seismologicial Observatory said .",1,0,0,1,0,"[('GMT', 'MISC')]",[]
+Qwen3 / improved / list,8831,evaluation,637.50 637.50 1626 1036.575,0,0,0,0,0,[],[]
+Qwen3 / improved / list,9484,evaluation,""" A great game has been started in Afghanistan as America feels that Tehran and Moscow have got stronger in the Afghan picture -- something Washington wants to change , "" he said .",3,2,2,1,0,"[('America', 'LOC'), ('Afghan', 'MISC'), ('Washington', 'LOC')]","[('America', 'PER'), ('Washington', 'PER')]"
+Qwen3 / improved / list,6578,evaluation,"Mauritius now play in group seven of the qualifiers against Malawi , Mozambique and favourites Zambia .",1,1,1,0,0,"[('Mauritius', 'LOC')]","[('Mauritius', 'PER')]"
+Qwen3 / improved / list,10915,evaluation,"It said this acreage earning well brought an interest in an additional 5,120 acres , building the company 's gross land position in this area to 8,320 acres .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,5754,evaluation,Willem II Tilburg 0 Fortuna Sittard 1,2,4,0,2,4,"[('Willem II Tilburg', 'ORG'), ('Fortuna Sittard', 'ORG')]","[('Willem II', 'ORG'), ('Tilburg', 'LOC'), ('Fortuna', 'ORG'), ('Sittard', 'LOC')]"
+Qwen3 / improved / list,4958,evaluation,Bolton 3 2 1 0 5 2 7,1,0,0,1,0,"[('Bolton', 'ORG')]",[]
+Qwen3 / improved / list,10428,evaluation,"lost , winning percentage and games behind -RPR- :",0,0,0,0,0,[],[]
+Qwen3 / improved / list,1820,evaluation,China cancelled a visit by a top-level delegation in protest .,0,1,0,0,1,[],"[('delegation', 'MISC')]"
+Qwen3 / improved / list,9621,evaluation,Miscellaneous charges --- 16 --- 30,0,0,0,0,0,[],[]
+Qwen3 / improved / list,4628,evaluation,1. Ray Belim -LPR- Britain -RPR- / James Weaver -LPR- Britain -RPR- / J.J.Lehto,2,2,1,1,1,"[('Britain', 'LOC'), ('Britain', 'LOC')]","[('J.J.Lehto', 'PER'), ('Britain', 'MISC')]"
+Qwen3 / improved / list,1244,evaluation,"GDANSK , Poland 1996-08-22",0,0,0,0,0,[],[]
+Qwen3 / improved / list,7914,evaluation,"The bank earlier warned that profit growth would slow in the second half , citing the increasing momentum in profit growth in the comparative period of 1995 and increased investment .",0,0,0,0,0,[],[]
+Qwen3 / improved / list,6287,evaluation,New York Stock Exchange advances lagged declines by 476/698 while NASDAQ advances led declines 837/763 .,1,1,1,0,0,"[('NASDAQ', 'MISC')]","[('NASDAQ', 'ORG')]"
+Qwen3 / improved / list,11678,evaluation,Gold fixed at $ 388.50 versus Tuesday 's London close of $ 388.55 .,1,0,0,1,0,"[('London', 'LOC')]",[]
+Qwen2.5 / improved / groups,6130,development,The other was insurer Thierry Dehaan .,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,13184,development,"But European grain traders and officials said the Saudis might reduce the purchase to 600,000 tonnes .",2,3,0,2,3,"[('European', 'MISC'), ('Saudis', 'MISC')]","[('Saudi Arabia', 'LOC'), ('European grain traders', 'MISC'), ('officials', 'MISC')]"
+Qwen2.5 / improved / groups,9391,development,PARIS 1996-08-27,1,3,0,1,3,"[('PARIS', 'LOC')]","[('Paris', 'LOC'), ('France', 'MISC'), ('FIFA World Cup', 'MISC')]"
+Qwen2.5 / improved / groups,6531,development,English division one - West Bromwich v Sheffield United .,3,3,1,2,2,"[('English', 'MISC'), ('West Bromwich', 'ORG'), ('Sheffield United', 'ORG')]","[('West Bromwich', 'LOC'), ('Sheffield', 'LOC'), ('Division One', 'MISC')]"
+Qwen2.5 / improved / groups,6293,development,"In rain-soaked conditions , centre Alan Hunte grabbed a hat-trick of tries , while Tommy Martyn , Anthony Sullivan and Paul Newlove each scored two .",4,3,0,4,3,"[('Alan Hunte', 'PER'), ('Tommy Martyn', 'PER'), ('Anthony Sullivan', 'PER'), ('Paul Newlove', 'PER')]","[('England', 'LOC'), ('Worcestershire County Cricket Club', 'ORG'), ('Somerset County Cricket Club', 'ORG')]"
+Qwen2.5 / improved / groups,10890,development,"It also wants to hear from those who committed the abuses , to whom it can offer amnesty in return for frankness .",0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,2159,development,"In the American League wild-card race , the Mariners are three games behind the White Sox , two behind Baltimore and two ahead of the Red Sox heading into Boston for a weekend series .",6,4,4,2,0,"[('American League', 'MISC'), ('Mariners', 'ORG'), ('White Sox', 'ORG'), ('Baltimore', 'ORG'), ('Red Sox', 'ORG'), ('Boston', 'LOC')]","[('Mariners', 'PER'), ('White Sox', 'PER'), ('Baltimore', 'PER'), ('Red Sox', 'PER')]"
+Qwen2.5 / improved / groups,4563,development,First race,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,2310,development,"American world champion Gwen Torrence , the bronze medallist in Atlanta , was second in 11.00 .",1,1,0,1,1,"[('American', 'MISC')]","[('bronze', 'MISC')]"
+Qwen2.5 / improved / groups,10013,development,"-LPR- Australia -RPR- , Mark Roe , Emanuele Canonica -LPR- Italy -RPR-",1,0,0,1,0,"[('Emanuele Canonica', 'PER')]",[]
+Qwen2.5 / improved / groups,2549,development,Sri Lanka and Australia agreed on Friday that relations between the two teams had healed since the Sri Lankans ' acrimonious tour last year .,1,2,0,1,2,"[('Sri Lankans', 'MISC')]","[('Australia', 'PER'), ('Sri Lanka', 'PER')]"
+Qwen2.5 / improved / groups,6967,development,"I know that if I want to play professional tennis I have to do my best to try to beat her and I ca n't be scared . """,0,1,0,0,1,[],"[('her', 'PER')]"
+Qwen2.5 / improved / groups,6038,development,- State security court starts investigating suspects in unrest .,0,2,0,0,2,[],"[('United States', 'LOC'), ('State Security Court', 'ORG')]"
+Qwen2.5 / improved / groups,11493,development,Evelyn Leopold,1,1,0,1,1,"[('Evelyn Leopold', 'PER')]","[('Evelyn', 'PER')]"
+Qwen2.5 / improved / groups,5189,development,Lokomotiv Nizhny Novgorod 2 Uralmash Yekaterinburg 2,2,3,0,2,3,"[('Lokomotiv Nizhny Novgorod', 'ORG'), ('Uralmash Yekaterinburg', 'ORG')]","[('Nizhny Novgorod', 'LOC'), ('Yekaterinburg', 'LOC'), ('Uralmash', 'ORG')]"
+Qwen2.5 / improved / groups,9727,development,Emnid Aug 18 41.0 34.0 6.0 10.0 5.0,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,11677,development,PRECIOUS METALS,0,1,0,0,1,[],"[('precious metals', 'LOC')]"
+Qwen2.5 / improved / groups,2810,development,"Hong Kong Financial Secretary Donald Tsang will visit Indonesia and New Zealand from August 25 to 31 , the government said on Friday .",0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,12409,development,Final Partizan v Olympiakos .,2,4,0,2,4,"[('Partizan', 'ORG'), ('Olympiakos', 'ORG')]","[('Athens', 'LOC'), ('Greece', 'LOC'), ('Partizan Belgrade', 'ORG'), ('Olympiacos F.C.', 'ORG')]"
+Qwen2.5 / improved / groups,13549,development,"The first commodity to be traded on the PULPEX bourse will be pulp , but OM said trade would be extended to include products such as timber , recycled paper and other paper qualities .",2,2,2,0,0,"[('PULPEX', 'ORG'), ('OM', 'ORG')]","[('PULPEX', 'LOC'), ('OM', 'MISC')]"
+Qwen2.5 / improved / groups,3175,evaluation,ATHENS 1996-08-23,1,2,0,1,2,"[('ATHENS', 'LOC')]","[('Athens', 'LOC'), ('1996', 'MISC')]"
+Qwen2.5 / improved / groups,12917,evaluation,"Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday , a ministry spokeswoman said .",2,0,0,2,0,"[('Brazilian', 'MISC'), ('Congress', 'ORG')]",[]
+Qwen2.5 / improved / groups,12493,evaluation,16 - Martina Hingis -LPR- Switzerland -RPR- beat Miriam Oremans -LPR- Netherlands -RPR- 6-4 6-4,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,1788,evaluation,Dollar / yen ....,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,2253,evaluation,"metres world record -LPR- tabulated under time , name / nationality ,",0,2,0,0,2,[],"[('Metres', 'ORG'), ('World Record', 'MISC')]"
+Qwen2.5 / improved / groups,11722,evaluation,He said Turkey considered Jordan a suitable country with which to cooperate on Middle East matters .,2,1,1,1,0,"[('Turkey', 'LOC'), ('Middle East', 'LOC')]","[('Turkey', 'PER')]"
+Qwen2.5 / improved / groups,11149,evaluation,"Rudolf Gajdos , head of Slovak Interpol , told a news conference Dutroux was also believed to have planned the kidnapping of at least one Slovak woman .",5,1,0,5,1,"[('Rudolf Gajdos', 'PER'), ('Slovak', 'MISC'), ('Slovak', 'MISC'), ('Interpol', 'ORG'), ('Dutroux', 'PER')]","[('Gajdos', 'PER')]"
+Qwen2.5 / improved / groups,2655,evaluation,- UK / CONT,1,0,0,1,0,"[('UK', 'LOC')]",[]
+Qwen2.5 / improved / groups,10632,evaluation,Arminia Bielefeld 1 -LPR- Von Heesen 56th -RPR- Duisburg 1 -LPR- Hirsch 65th -RPR- .,4,4,3,1,1,"[('Arminia Bielefeld', 'ORG'), ('Von Heesen', 'PER'), ('Duisburg', 'ORG'), ('Hirsch', 'PER')]","[('Bielefeld', 'LOC'), ('Duisburg', 'LOC'), ('Arminia Bielefeld', 'MISC'), ('Hirsch', 'MISC')]"
+Qwen2.5 / improved / groups,1962,evaluation,D. Cork c Moin Khan b Waqar Younis 0,2,2,0,2,2,"[('D. Cork', 'PER'), ('Moin Khan', 'PER')]","[('Cork', 'PER'), ('Cork', 'LOC')]"
+Qwen2.5 / improved / groups,3362,evaluation,Ford owns 138.643 million shares in the firm .,1,2,1,0,1,"[('Ford', 'ORG')]","[('Ford', 'PER'), ('firm', 'ORG')]"
+Qwen2.5 / improved / groups,7750,evaluation,""" There is no market at the moment , "" one Rotterdam trader said . """,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,9822,evaluation,Nuclear pact will be a step to disarmament-China .,1,3,0,1,3,"[('disarmament-China', 'MISC')]","[('China', 'LOC'), ('nuclear pact', 'MISC'), ('disarmament', 'MISC')]"
+Qwen2.5 / improved / groups,7345,evaluation,""" But there is a significant influence of opposition parties that are collecting points ahead of coming elections . """,0,1,0,0,1,[],"[('Opposition parties', 'ORG')]"
+Qwen2.5 / improved / groups,7619,evaluation,52 cents / pound,0,2,0,0,2,[],"[('GBP', 'ORG'), ('pound', 'MISC')]"
+Qwen2.5 / improved / groups,4047,evaluation,"Stuttgart 2 -LPR- Balakow 50th , Bobic 61st -RPR- Werder Bremen 1 -LPR- Votava",5,5,0,5,5,"[('Stuttgart', 'ORG'), ('Balakow', 'PER'), ('Bobic', 'PER'), ('Werder Bremen', 'ORG'), ('Votava', 'PER')]","[('Germany', 'LOC'), ('United Kingdom', 'LOC'), ('Stuttgart 2 -LPR- Balakow 50th', 'ORG'), ('Bobic 61st -RPR-', 'ORG'), ('Werder Bremen 1 -LPR- Votava', 'ORG')]"
+Qwen2.5 / improved / groups,12684,evaluation,But Christie did not announce his decision to run until the eve of the meeting when organisers also confirmed Johnson would take part .,1,0,0,1,0,"[('Johnson', 'PER')]",[]
+Qwen2.5 / improved / groups,10971,evaluation,-- New York Commodities 212-859-1646,1,2,0,1,2,"[('New York Commodities', 'ORG')]","[('New York', 'LOC'), ('Commodities', 'ORG')]"
+Qwen2.5 / improved / groups,8992,evaluation,"Neither Meri , who oversaw Estonia 's first steps into statehood after the collapse of the Soviet Union , nor his arch-rival , former communist Arnold Ruutel , have secured the 68 votes necessary from the 101-member parliament .",2,0,0,2,0,"[('Estonia', 'LOC'), ('Soviet Union', 'LOC')]",[]
+Qwen2.5 / improved / groups,10772,evaluation,Lyon 4 2 1 1 6 4 7,1,1,1,0,0,"[('Lyon', 'ORG')]","[('Lyon', 'LOC')]"
+Qwen2.5 / improved / groups,1287,evaluation,"Lebed said on Wednesday he had clinched a truce with Chechen separatists and he promised to halt a threatened bombing assault on Grozny , which the rebels have held since August 6 .",1,2,0,1,2,"[('Chechen', 'MISC')]","[('Chechnya', 'LOC'), ('separatists', 'MISC')]"
+Qwen2.5 / improved / groups,11812,evaluation,"The individual Names , however , now must decide whether to accept Lloyd 's settlement offer or reject the offer and pursue litigation .",2,1,0,2,1,"[('Names', 'MISC'), (""Lloyd 's"", 'ORG')]","[('Lloyd', 'PER')]"
+Qwen2.5 / improved / groups,7650,evaluation,U.S. Midwest hog market seen steady Tuesday - trade .,1,3,0,1,3,"[('U.S. Midwest', 'LOC')]","[('Midwest', 'LOC'), ('hog', 'MISC'), ('trade', 'MISC')]"
+Qwen2.5 / improved / groups,5438,evaluation,Results of Major League,1,2,0,1,2,"[('Major League', 'MISC')]","[('United States', 'LOC'), ('Major League Baseball', 'ORG')]"
+Qwen2.5 / improved / groups,6194,evaluation,"Ukraine 's black soil is so fertile that a diplomat described it as "" rich enough to grow rubber boots "" .",0,3,0,0,3,[],"[('black soil', 'MISC'), ('diplomat', 'MISC'), ('rich enough to grow rubber boots', 'MISC')]"
+Qwen2.5 / improved / groups,6667,evaluation,Slovan Bratislava 4 3 0 1 7 2 9,1,2,0,1,2,"[('Slovan Bratislava', 'ORG')]","[('Bratislava', 'LOC'), ('Slovan', 'MISC')]"
+Qwen2.5 / improved / groups,8833,evaluation,PF IKS KB PLUS 156.00 156.00 6000 936.000,1,1,0,1,1,"[('PF IKS KB PLUS', 'ORG')]","[('KB', 'ORG')]"
+Qwen2.5 / improved / groups,949,evaluation,3. Sweden 8.57,0,1,0,0,1,[],"[('8.57', 'MISC')]"
+Qwen2.5 / improved / groups,10621,evaluation,"Attendance 27,600 .",0,1,0,0,1,[],"[('Stadium', 'ORG')]"
+Qwen2.5 / improved / groups,3181,evaluation,VALLETTA 1996-08-23,1,2,0,1,2,"[('VALLETTA', 'LOC')]","[('Valletta', 'LOC'), ('Maltese', 'MISC')]"
+Qwen2.5 / improved / groups,9127,evaluation,A Central Bank spokesman said he could not confirm or deny the report .,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,12605,evaluation,NEW YORK 1996-08-28,1,3,0,1,3,"[('NEW YORK', 'LOC')]","[('New York', 'LOC'), ('United States', 'MISC'), ('football', 'MISC')]"
+Qwen2.5 / improved / groups,9563,evaluation,"Hasina , speaking to a group of engineers in Dhaka on Monday , accused the BNP of resorting to "" terrorism "" as part of its plan to create instability and chaos in the country .",1,1,1,0,0,"[('BNP', 'ORG')]","[('BNP', 'MISC')]"
+Qwen2.5 / improved / groups,5134,evaluation,F.C. Chindia Tirgoviste 4 2 0 2 3 4 6,1,3,0,1,3,"[('F.C. Chindia Tirgoviste', 'ORG')]","[('Chindia', 'LOC'), ('Tirgoviste', 'LOC'), ('F.C.', 'ORG')]"
+Qwen2.5 / improved / groups,6234,evaluation,Ingwe Coal Corporation Ltd was hit hard by heavy rains .,1,4,0,1,4,"[('Ingwe Coal Corporation Ltd', 'ORG')]","[('Ingwe', 'LOC'), ('Coal', 'ORG'), ('Corporation', 'ORG'), ('Ltd', 'ORG')]"
+Qwen2.5 / improved / groups,6487,evaluation,8-238 9-242,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,12942,evaluation,"Angel Aguirre pledged the elections will be free and fair and said he did not expect any trouble from the elusive new guerrilla group , the Popular Revolutionary Army .",2,1,0,2,1,"[('Angel Aguirre', 'PER'), ('Popular Revolutionary Army', 'ORG')]","[('Aguirre', 'PER')]"
+Qwen2.5 / improved / groups,7163,evaluation,Squad :,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,10266,evaluation,"Sheffield , who was benched Monday , delivered a double down the left-field line in the first , scoring Luis Castilla and Alex Arias to put the Marlins ahead to stay .",2,1,1,1,0,"[('Sheffield', 'PER'), ('Marlins', 'ORG')]","[('Sheffield', 'LOC')]"
+Qwen2.5 / improved / groups,10407,evaluation,"Men 's singles , first round",0,1,0,0,1,[],"[(""Men's Singles"", 'ORG')]"
+Qwen2.5 / improved / groups,5620,evaluation,1. Museeuw 162 points,1,2,1,0,1,"[('Museeuw', 'PER')]","[('Museeuw', 'LOC'), ('points', 'MISC')]"
+Qwen2.5 / improved / groups,5177,evaluation,SOCCER - RUSSIAN PREMIER DIVISION RESULTS / STANDINGS .,1,2,0,1,2,"[('RUSSIAN', 'MISC')]","[('Russian Premier League', 'ORG'), ('soccer', 'MISC')]"
+Qwen2.5 / improved / groups,10791,evaluation,Paris SG 1 Nantes 0,1,1,1,0,0,"[('Nantes', 'ORG')]","[('Nantes', 'LOC')]"
+Qwen2.5 / improved / groups,1069,evaluation,- stocks of finished goods +17 +19 +17 +25,0,7,0,0,7,[],"[('stocks', 'ORG'), ('finished', 'ORG'), ('goods', 'ORG'), ('+17', 'MISC'), ('+17', 'MISC'), ('+19', 'MISC'), ('+25', 'MISC')]"
+Qwen2.5 / improved / groups,8940,evaluation,"But Yeltsin 's spokesman rebuffed the suggestion , saying the president had left Moscow for a holiday near the capital .",0,2,0,0,2,[],"[('holiday', 'MISC'), ('capital', 'MISC')]"
+Qwen2.5 / improved / groups,9581,evaluation,1-mth Helibor 3.27 pct 3.29 pct,1,1,1,0,0,"[('Helibor', 'MISC')]","[('Helibor', 'PER')]"
+Qwen2.5 / improved / groups,11569,evaluation,The MQM speaks for Urdu-speaking Moslems who migrated from India at Partition in 1947 and their descendants .,3,3,2,1,1,"[('MQM', 'ORG'), ('Urdu-speaking Moslems', 'MISC'), ('Partition', 'LOC')]","[('MQM', 'PER'), ('Urdu-speaking Moslems', 'LOC'), ('Partition in 1947', 'MISC')]"
+Qwen2.5 / improved / groups,1198,evaluation,"Koranic reading sessions and prayers were to be held in the farming town of Badi-Tondon , near his home about 60 km -LPR- 40 miles -RPR- from the capital Conakry .",1,2,0,1,2,"[('Koranic', 'MISC')]","[('farming', 'MISC'), ('town', 'MISC')]"
+Qwen2.5 / improved / groups,3869,evaluation,SAN DIEGO 70 60 .538 -,1,4,0,1,4,"[('SAN DIEGO', 'ORG')]","[('San Diego', 'LOC'), ('70', 'MISC'), ('60', 'MISC'), ('538', 'MISC')]"
+Qwen2.5 / improved / groups,1363,evaluation,"Chairman Mohamed Fahim Rayyan told a news conference at Cairo airport : "" The control tower should have allocated the plane another runway , instead of the one the plane landed on . """,1,1,0,1,1,"[('Cairo', 'LOC')]","[('Cairo airport', 'MISC')]"
+Qwen2.5 / improved / groups,13577,evaluation,About 200 German anti-nuclear activists protested on Thursday against nuclear waste transportation by re-enacting scenes from a demonstration they staged in May that turned into a violent clash with police .,1,3,0,1,3,"[('German', 'MISC')]","[('Germany', 'LOC'), ('anti-nuclear activists', 'MISC'), ('May', 'MISC')]"
+Qwen2.5 / improved / groups,10600,evaluation,Empoli 1 Milan 1,2,2,2,0,0,"[('Empoli', 'ORG'), ('Milan', 'ORG')]","[('Milan', 'PER'), ('Empoli', 'LOC')]"
+Qwen2.5 / improved / groups,613,evaluation,Ferenc Horvath -LPR- 15th -RPR-,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,11974,evaluation,"Australia 's six states and two territories are involved in heated debate over the introduction of tough new firearm laws , including the banning rapid fire weapons , after a shooting massacre in the island state of Tasmania .",1,0,0,1,0,"[('Australia', 'LOC')]",[]
+Qwen2.5 / improved / groups,9796,evaluation,"Drew said Peiris , a bird enthusiast , would have succeeded with the fraud if he had not tried to trade a fourth pair of bogus birds after an associate had told police of the scam .",1,0,0,1,0,"[('Drew', 'PER')]",[]
+Qwen2.5 / improved / groups,6106,evaluation,"If it does n't do well , do n't expect a raise .",0,2,0,0,2,[],"[('Microsoft', 'ORG'), ('raise', 'MISC')]"
+Qwen2.5 / improved / groups,11997,evaluation,"The cause of the crash of the helicopter , which went down on Sunday while on a routine resupply flight between Phnom Penh and Stung Treng , was not known .",1,1,0,1,1,"[('Phnom Penh', 'LOC')]","[('Cambodia', 'LOC')]"
+Qwen2.5 / improved / groups,2723,evaluation,No replacements had been named .,0,2,0,0,2,[],"[('Treat bracket markers such as -LPR- and -RPR- as punctuation, not names.', 'ORG'), ('no replacements had been named', 'MISC')]"
+Qwen2.5 / improved / groups,5092,evaluation,Division A,0,4,0,0,4,[],"[('United States', 'LOC'), ('New England Patriots', 'ORG'), ('Pittsburgh Steelers', 'ORG'), ('American football', 'MISC')]"
+Qwen2.5 / improved / groups,891,evaluation,SOCCER - DUTCH FIRST DIVISION RESULT .,0,3,0,0,3,[],"[('VOLVERE', 'ORG'), ('FIRST', 'MISC'), ('DIVISION', 'MISC')]"
+Qwen2.5 / improved / groups,1313,evaluation,"Brunswijk turned himself into police after Freddy Pinas , a Surinamese-born visitor from the Netherlands , accused Brunswijk of trying to kill him on Sunday after a bar-room brawl in the small mining town of Moengo , about 56 miles -LPR- 90 km -RPR- east of Paramaribo , said police spokesman Ro Gajadhar .",4,1,0,4,1,"[('Brunswijk', 'PER'), ('Surinamese-born', 'MISC'), ('Netherlands', 'LOC'), ('Ro Gajadhar', 'PER')]","[('Surinamese-born visitor from the Netherlands', 'MISC')]"
+Qwen2.5 / improved / groups,6985,evaluation,Stich said he felt the players ought to have organised an active protest .,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,13612,evaluation,The only other community is in the Russian village of Barentsburg .,2,2,2,0,0,"[('Russian', 'MISC'), ('Barentsburg', 'LOC')]","[('Russian', 'LOC'), ('Barentsburg', 'ORG')]"
+Qwen2.5 / improved / groups,6120,evaluation,Geert de Clercq,0,0,0,0,0,[],[]
+Qwen2.5 / improved / groups,4382,evaluation,"VERONA , Italy 1996-08-24",2,4,1,1,3,"[('VERONA', 'LOC'), ('Italy', 'LOC')]","[('Verona', 'LOC'), ('Italy', 'MISC'), ('1996', 'MISC'), ('08-24', 'MISC')]"
+Qwen2.5 / improved / groups,11293,evaluation,"The quake struck at 11.16 a.m. -LPR- 1716 GMT -RPR- and was centred 10 miles -LPR- 16 km -RPR- south of the port of Quepos , which is 90 miles -LPR- 140 km -RPR- south of the capital San Jose , the Costa Rican Volcanic and Seismologicial Observatory said .",2,1,0,2,1,"[('GMT', 'MISC'), ('Costa Rican Volcanic and Seismologicial Observatory', 'ORG')]","[('Costa Rican Volcanic and Seismological Observatory', 'MISC')]"
+Qwen2.5 / improved / groups,8831,evaluation,637.50 637.50 1626 1036.575,0,1,0,0,1,[],"[('637.50', 'ORG')]"
+Qwen2.5 / improved / groups,9484,evaluation,""" A great game has been started in Afghanistan as America feels that Tehran and Moscow have got stronger in the Afghan picture -- something Washington wants to change , "" he said .",5,2,2,3,0,"[('America', 'LOC'), ('Tehran', 'LOC'), ('Moscow', 'LOC'), ('Afghan', 'MISC'), ('Washington', 'LOC')]","[('Tehran', 'MISC'), ('Moscow', 'MISC')]"
+Qwen2.5 / improved / groups,6578,evaluation,"Mauritius now play in group seven of the qualifiers against Malawi , Mozambique and favourites Zambia .",1,1,0,1,1,"[('Zambia', 'LOC')]","[('group seven', 'MISC')]"
+Qwen2.5 / improved / groups,10915,evaluation,"It said this acreage earning well brought an interest in an additional 5,120 acres , building the company 's gross land position in this area to 8,320 acres .",0,1,0,0,1,[],"[('area', 'LOC')]"
+Qwen2.5 / improved / groups,5754,evaluation,Willem II Tilburg 0 Fortuna Sittard 1,2,3,1,1,2,"[('Willem II Tilburg', 'ORG'), ('Fortuna Sittard', 'ORG')]","[('Willem II', 'PER'), ('Tilburg', 'LOC'), ('Fortuna Sittard', 'LOC')]"
+Qwen2.5 / improved / groups,4958,evaluation,Bolton 3 2 1 0 5 2 7,1,1,1,0,0,"[('Bolton', 'ORG')]","[('Bolton', 'LOC')]"
+Qwen2.5 / improved / groups,10428,evaluation,"lost , winning percentage and games behind -RPR- :",0,3,0,0,3,[],"[('lost', 'MISC'), ('winning percentage', 'MISC'), ('games behind', 'MISC')]"
+Qwen2.5 / improved / groups,1820,evaluation,China cancelled a visit by a top-level delegation in protest .,1,1,0,1,1,"[('China', 'LOC')]","[('中国', 'ORG')]"
+Qwen2.5 / improved / groups,9621,evaluation,Miscellaneous charges --- 16 --- 30,0,3,0,0,3,[],"[('Miscellaneous', 'ORG'), ('charges', 'MISC'), ('Miscellaneous', 'MISC')]"
+Qwen2.5 / improved / groups,4628,evaluation,1. Ray Belim -LPR- Britain -RPR- / James Weaver -LPR- Britain -RPR- / J.J.Lehto,2,1,0,2,1,"[('Britain', 'LOC'), ('Britain', 'LOC')]","[('J. J. Lehto', 'ORG')]"
+Qwen2.5 / improved / groups,1244,evaluation,"GDANSK , Poland 1996-08-22",1,1,1,0,0,"[('Poland', 'LOC')]","[('Poland', 'MISC')]"
+Qwen2.5 / improved / groups,7914,evaluation,"The bank earlier warned that profit growth would slow in the second half , citing the increasing momentum in profit growth in the comparative period of 1995 and increased investment .",0,3,0,0,3,[],"[('United Kingdom', 'LOC'), ('Bank of England', 'ORG'), ('Citibank', 'ORG')]"
+Qwen2.5 / improved / groups,6287,evaluation,New York Stock Exchange advances lagged declines by 476/698 while NASDAQ advances led declines 837/763 .,2,4,1,1,3,"[('New York Stock Exchange', 'ORG'), ('NASDAQ', 'MISC')]","[('New York', 'LOC'), ('Stock', 'LOC'), ('Exchange', 'LOC'), ('NASDAQ', 'ORG')]"
+Qwen2.5 / improved / groups,11678,evaluation,Gold fixed at $ 388.50 versus Tuesday 's London close of $ 388.55 .,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,6130,development,The other was insurer Thierry Dehaan .,1,1,1,0,0,"[('Thierry Dehaan', 'PER')]","[('Thierry Dehaan', 'ORG')]"
+Qwen2.5 / improved / list,13184,development,"But European grain traders and officials said the Saudis might reduce the purchase to 600,000 tonnes .",2,0,0,2,0,"[('European', 'MISC'), ('Saudis', 'MISC')]",[]
+Qwen2.5 / improved / list,9391,development,PARIS 1996-08-27,1,3,0,1,3,"[('PARIS', 'LOC')]","[('Paris', 'LOC'), ('1996', 'MISC'), ('August 27', 'MISC')]"
+Qwen2.5 / improved / list,6531,development,English division one - West Bromwich v Sheffield United .,2,3,1,1,2,"[('English', 'MISC'), ('West Bromwich', 'ORG')]","[('-LPR- Division One - RPR-', 'MISC'), ('West Bromwich', 'LOC'), ('v', 'MISC')]"
+Qwen2.5 / improved / list,6293,development,"In rain-soaked conditions , centre Alan Hunte grabbed a hat-trick of tries , while Tommy Martyn , Anthony Sullivan and Paul Newlove each scored two .",0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,10890,development,"It also wants to hear from those who committed the abuses , to whom it can offer amnesty in return for frankness .",0,2,0,0,2,[],"[('those who committed the abuses', 'PER'), ('who offered amnesty', 'ORG')]"
+Qwen2.5 / improved / list,2159,development,"In the American League wild-card race , the Mariners are three games behind the White Sox , two behind Baltimore and two ahead of the Red Sox heading into Boston for a weekend series .",3,1,1,2,0,"[('American League', 'MISC'), ('Baltimore', 'ORG'), ('Boston', 'LOC')]","[('Baltimore', 'LOC')]"
+Qwen2.5 / improved / list,4563,development,First race,0,1,0,0,1,[],"[('first race', 'MISC')]"
+Qwen2.5 / improved / list,2310,development,"American world champion Gwen Torrence , the bronze medallist in Atlanta , was second in 11.00 .",1,0,0,1,0,"[('American', 'MISC')]",[]
+Qwen2.5 / improved / list,10013,development,"-LPR- Australia -RPR- , Mark Roe , Emanuele Canonica -LPR- Italy -RPR-",3,2,2,1,0,"[('Australia', 'LOC'), ('Emanuele Canonica', 'PER'), ('Italy', 'LOC')]","[('Australia', 'MISC'), ('Italy', 'MISC')]"
+Qwen2.5 / improved / list,2549,development,Sri Lanka and Australia agreed on Friday that relations between the two teams had healed since the Sri Lankans ' acrimonious tour last year .,3,2,2,1,0,"[('Sri Lanka', 'LOC'), ('Australia', 'LOC'), ('Sri Lankans', 'MISC')]","[('Sri Lanka', 'ORG'), ('Australia', 'ORG')]"
+Qwen2.5 / improved / list,6967,development,"I know that if I want to play professional tennis I have to do my best to try to beat her and I ca n't be scared . """,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,6038,development,- State security court starts investigating suspects in unrest .,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,11493,development,Evelyn Leopold,1,2,0,1,2,"[('Evelyn Leopold', 'PER')]","[('Evelyn', 'PER'), ('Leopold', 'MISC')]"
+Qwen2.5 / improved / list,5189,development,Lokomotiv Nizhny Novgorod 2 Uralmash Yekaterinburg 2,2,0,0,2,0,"[('Lokomotiv Nizhny Novgorod', 'ORG'), ('Uralmash Yekaterinburg', 'ORG')]",[]
+Qwen2.5 / improved / list,9727,development,Emnid Aug 18 41.0 34.0 6.0 10.0 5.0,1,0,0,1,0,"[('Emnid', 'ORG')]",[]
+Qwen2.5 / improved / list,11677,development,PRECIOUS METALS,0,1,0,0,1,[],"[('precious metals', 'MISC')]"
+Qwen2.5 / improved / list,2810,development,"Hong Kong Financial Secretary Donald Tsang will visit Indonesia and New Zealand from August 25 to 31 , the government said on Friday .",1,0,0,1,0,"[('Hong Kong', 'LOC')]",[]
+Qwen2.5 / improved / list,12409,development,Final Partizan v Olympiakos .,2,0,0,2,0,"[('Partizan', 'ORG'), ('Olympiakos', 'ORG')]",[]
+Qwen2.5 / improved / list,13549,development,"The first commodity to be traded on the PULPEX bourse will be pulp , but OM said trade would be extended to include products such as timber , recycled paper and other paper qualities .",2,0,0,2,0,"[('PULPEX', 'ORG'), ('OM', 'ORG')]",[]
+Qwen2.5 / improved / list,3175,evaluation,ATHENS 1996-08-23,1,0,0,1,0,"[('ATHENS', 'LOC')]",[]
+Qwen2.5 / improved / list,12917,evaluation,"Brazilian Planning Minister Antonio Kandir will submit to a draft copy of the 1997 federal budget to Congress on Thursday , a ministry spokeswoman said .",1,0,0,1,0,"[('Brazilian', 'MISC')]",[]
+Qwen2.5 / improved / list,12493,evaluation,16 - Martina Hingis -LPR- Switzerland -RPR- beat Miriam Oremans -LPR- Netherlands -RPR- 6-4 6-4,2,0,0,2,0,"[('Miriam Oremans', 'PER'), ('Netherlands', 'LOC')]",[]
+Qwen2.5 / improved / list,1788,evaluation,Dollar / yen ....,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,2253,evaluation,"metres world record -LPR- tabulated under time , name / nationality ,",0,3,0,0,3,[],"[('metres', 'MISC'), ('world record', 'MISC'), ('-LPR- tabulated under time', 'MISC')]"
+Qwen2.5 / improved / list,11722,evaluation,He said Turkey considered Jordan a suitable country with which to cooperate on Middle East matters .,2,1,1,1,0,"[('Turkey', 'LOC'), ('Middle East', 'LOC')]","[('Turkey', 'ORG')]"
+Qwen2.5 / improved / list,11149,evaluation,"Rudolf Gajdos , head of Slovak Interpol , told a news conference Dutroux was also believed to have planned the kidnapping of at least one Slovak woman .",4,4,0,4,4,"[('Rudolf Gajdos', 'PER'), ('Slovak', 'MISC'), ('Slovak', 'MISC'), ('Interpol', 'ORG')]","[('Rudolf', 'PER'), ('Gajdos', 'MISC'), ('Slovak Interpol', 'ORG'), ('at least one Slovak woman', 'MISC')]"
+Qwen2.5 / improved / list,2655,evaluation,- UK / CONT,1,1,1,0,0,"[('UK', 'LOC')]","[('UK', 'MISC')]"
+Qwen2.5 / improved / list,10632,evaluation,Arminia Bielefeld 1 -LPR- Von Heesen 56th -RPR- Duisburg 1 -LPR- Hirsch 65th -RPR- .,3,3,1,2,2,"[('Von Heesen', 'PER'), ('Duisburg', 'ORG'), ('Hirsch', 'PER')]","[('-LPR- Von Heesen -RPR-', 'MISC'), ('Duisburg', 'LOC'), ('-LPR- Hirsch -RPR-', 'MISC')]"
+Qwen2.5 / improved / list,1962,evaluation,D. Cork c Moin Khan b Waqar Younis 0,3,0,0,3,0,"[('D. Cork', 'PER'), ('Moin Khan', 'PER'), ('Waqar Younis', 'PER')]",[]
+Qwen2.5 / improved / list,3362,evaluation,Ford owns 138.643 million shares in the firm .,0,1,0,0,1,[],"[('firm', 'MISC')]"
+Qwen2.5 / improved / list,7750,evaluation,""" There is no market at the moment , "" one Rotterdam trader said . """,1,0,0,1,0,"[('Rotterdam', 'LOC')]",[]
+Qwen2.5 / improved / list,9822,evaluation,Nuclear pact will be a step to disarmament-China .,1,2,0,1,2,"[('disarmament-China', 'MISC')]","[('nuclear pact', 'MISC'), ('disarmament', 'MISC')]"
+Qwen2.5 / improved / list,7345,evaluation,""" But there is a significant influence of opposition parties that are collecting points ahead of coming elections . """,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,7619,evaluation,52 cents / pound,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,4047,evaluation,"Stuttgart 2 -LPR- Balakow 50th , Bobic 61st -RPR- Werder Bremen 1 -LPR- Votava",4,2,2,2,0,"[('Stuttgart', 'ORG'), ('Balakow', 'PER'), ('Bobic', 'PER'), ('Votava', 'PER')]","[('Stuttgart', 'LOC'), ('Balakow', 'MISC')]"
+Qwen2.5 / improved / list,12684,evaluation,But Christie did not announce his decision to run until the eve of the meeting when organisers also confirmed Johnson would take part .,2,0,0,2,0,"[('Christie', 'PER'), ('Johnson', 'PER')]",[]
+Qwen2.5 / improved / list,10971,evaluation,-- New York Commodities 212-859-1646,1,0,0,1,0,"[('New York Commodities', 'ORG')]",[]
+Qwen2.5 / improved / list,8992,evaluation,"Neither Meri , who oversaw Estonia 's first steps into statehood after the collapse of the Soviet Union , nor his arch-rival , former communist Arnold Ruutel , have secured the 68 votes necessary from the 101-member parliament .",2,0,0,2,0,"[('Estonia', 'LOC'), ('Soviet Union', 'LOC')]",[]
+Qwen2.5 / improved / list,10772,evaluation,Lyon 4 2 1 1 6 4 7,1,0,0,1,0,"[('Lyon', 'ORG')]",[]
+Qwen2.5 / improved / list,1287,evaluation,"Lebed said on Wednesday he had clinched a truce with Chechen separatists and he promised to halt a threatened bombing assault on Grozny , which the rebels have held since August 6 .",1,1,0,1,1,"[('Grozny', 'LOC')]","[('separatists', 'ORG')]"
+Qwen2.5 / improved / list,11812,evaluation,"The individual Names , however , now must decide whether to accept Lloyd 's settlement offer or reject the offer and pursue litigation .",2,0,0,2,0,"[('Names', 'MISC'), (""Lloyd 's"", 'ORG')]",[]
+Qwen2.5 / improved / list,7650,evaluation,U.S. Midwest hog market seen steady Tuesday - trade .,1,0,0,1,0,"[('U.S. Midwest', 'LOC')]",[]
+Qwen2.5 / improved / list,5438,evaluation,Results of Major League,1,1,0,1,1,"[('Major League', 'MISC')]","[('MISCELLANEOUS', 'MISC')]"
+Qwen2.5 / improved / list,6194,evaluation,"Ukraine 's black soil is so fertile that a diplomat described it as "" rich enough to grow rubber boots "" .",1,5,0,1,5,"[('Ukraine', 'LOC')]","[('black', 'MISC'), ('so', 'MISC'), ('fertile', 'MISC'), ('diplomat', 'PER'), ('rich', 'MISC')]"
+Qwen2.5 / improved / list,6667,evaluation,Slovan Bratislava 4 3 0 1 7 2 9,1,0,0,1,0,"[('Slovan Bratislava', 'ORG')]",[]
+Qwen2.5 / improved / list,8833,evaluation,PF IKS KB PLUS 156.00 156.00 6000 936.000,1,0,0,1,0,"[('PF IKS KB PLUS', 'ORG')]",[]
+Qwen2.5 / improved / list,949,evaluation,3. Sweden 8.57,1,0,0,1,0,"[('Sweden', 'LOC')]",[]
+Qwen2.5 / improved / list,10621,evaluation,"Attendance 27,600 .",0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,3181,evaluation,VALLETTA 1996-08-23,1,0,0,1,0,"[('VALLETTA', 'LOC')]",[]
+Qwen2.5 / improved / list,9127,evaluation,A Central Bank spokesman said he could not confirm or deny the report .,1,0,0,1,0,"[('Central Bank', 'ORG')]",[]
+Qwen2.5 / improved / list,12605,evaluation,NEW YORK 1996-08-28,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,9563,evaluation,"Hasina , speaking to a group of engineers in Dhaka on Monday , accused the BNP of resorting to "" terrorism "" as part of its plan to create instability and chaos in the country .",3,1,0,3,1,"[('Hasina', 'PER'), ('Dhaka', 'LOC'), ('BNP', 'ORG')]","[('Bangladesh Nationalist Party (BNP) ', 'ORG')]"
+Qwen2.5 / improved / list,5134,evaluation,F.C. Chindia Tirgoviste 4 2 0 2 3 4 6,1,0,0,1,0,"[('F.C. Chindia Tirgoviste', 'ORG')]",[]
+Qwen2.5 / improved / list,6234,evaluation,Ingwe Coal Corporation Ltd was hit hard by heavy rains .,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,6487,evaluation,8-238 9-242,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,12942,evaluation,"Angel Aguirre pledged the elections will be free and fair and said he did not expect any trouble from the elusive new guerrilla group , the Popular Revolutionary Army .",0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,7163,evaluation,Squad :,0,2,0,0,2,[],"[('New York', 'LOC'), ('Los Angeles', 'LOC')]"
+Qwen2.5 / improved / list,10266,evaluation,"Sheffield , who was benched Monday , delivered a double down the left-field line in the first , scoring Luis Castilla and Alex Arias to put the Marlins ahead to stay .",2,2,1,1,1,"[('Sheffield', 'PER'), ('Marlins', 'ORG')]","[('Sheffield', 'LOC'), ('Monday', 'MISC')]"
+Qwen2.5 / improved / list,10407,evaluation,"Men 's singles , first round",0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,5620,evaluation,1. Museeuw 162 points,0,1,0,0,1,[],"[('162 points', 'MISC')]"
+Qwen2.5 / improved / list,5177,evaluation,SOCCER - RUSSIAN PREMIER DIVISION RESULTS / STANDINGS .,1,0,0,1,0,"[('RUSSIAN', 'MISC')]",[]
+Qwen2.5 / improved / list,10791,evaluation,Paris SG 1 Nantes 0,2,0,0,2,0,"[('Paris SG', 'ORG'), ('Nantes', 'ORG')]",[]
+Qwen2.5 / improved / list,1069,evaluation,- stocks of finished goods +17 +19 +17 +25,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,8940,evaluation,"But Yeltsin 's spokesman rebuffed the suggestion , saying the president had left Moscow for a holiday near the capital .",0,4,0,0,4,[],"[('spokesman', 'MISC'), ('rebuffed', 'MISC'), ('suggestion', 'MISC'), ('president', 'ORG')]"
+Qwen2.5 / improved / list,9581,evaluation,1-mth Helibor 3.27 pct 3.29 pct,1,0,0,1,0,"[('Helibor', 'MISC')]",[]
+Qwen2.5 / improved / list,11569,evaluation,The MQM speaks for Urdu-speaking Moslems who migrated from India at Partition in 1947 and their descendants .,2,2,2,0,0,"[('Urdu-speaking Moslems', 'MISC'), ('Partition', 'LOC')]","[('Urdu-speaking Moslems', 'PER'), ('Partition', 'MISC')]"
+Qwen2.5 / improved / list,1198,evaluation,"Koranic reading sessions and prayers were to be held in the farming town of Badi-Tondon , near his home about 60 km -LPR- 40 miles -RPR- from the capital Conakry .",2,1,1,1,0,"[('Koranic', 'MISC'), ('Conakry', 'LOC')]","[('Conakry', 'MISC')]"
+Qwen2.5 / improved / list,3869,evaluation,SAN DIEGO 70 60 .538 -,1,0,0,1,0,"[('SAN DIEGO', 'ORG')]",[]
+Qwen2.5 / improved / list,1363,evaluation,"Chairman Mohamed Fahim Rayyan told a news conference at Cairo airport : "" The control tower should have allocated the plane another runway , instead of the one the plane landed on . """,1,1,0,1,1,"[('Cairo', 'LOC')]","[('Cairo airport', 'LOC')]"
+Qwen2.5 / improved / list,13577,evaluation,About 200 German anti-nuclear activists protested on Thursday against nuclear waste transportation by re-enacting scenes from a demonstration they staged in May that turned into a violent clash with police .,0,3,0,0,3,[],"[('anti-nuclear', 'PER'), ('nuclear', 'MISC'), ('waste', 'MISC')]"
+Qwen2.5 / improved / list,10600,evaluation,Empoli 1 Milan 1,2,0,0,2,0,"[('Empoli', 'ORG'), ('Milan', 'ORG')]",[]
+Qwen2.5 / improved / list,613,evaluation,Ferenc Horvath -LPR- 15th -RPR-,1,2,0,1,2,"[('Ferenc Horvath', 'PER')]","[('Ferenc', 'PER'), ('Horvath', 'MISC')]"
+Qwen2.5 / improved / list,11974,evaluation,"Australia 's six states and two territories are involved in heated debate over the introduction of tough new firearm laws , including the banning rapid fire weapons , after a shooting massacre in the island state of Tasmania .",1,0,0,1,0,"[('Australia', 'LOC')]",[]
+Qwen2.5 / improved / list,9796,evaluation,"Drew said Peiris , a bird enthusiast , would have succeeded with the fraud if he had not tried to trade a fourth pair of bogus birds after an associate had told police of the scam .",1,1,0,1,1,"[('Drew', 'PER')]","[('bird enthusiast', 'MISC')]"
+Qwen2.5 / improved / list,6106,evaluation,"If it does n't do well , do n't expect a raise .",0,3,0,0,3,[],"[(""do n't"", 'MISC'), ('a', 'MISC'), ('raise', 'ORG')]"
+Qwen2.5 / improved / list,11997,evaluation,"The cause of the crash of the helicopter , which went down on Sunday while on a routine resupply flight between Phnom Penh and Stung Treng , was not known .",2,0,0,2,0,"[('Phnom Penh', 'LOC'), ('Stung Treng', 'LOC')]",[]
+Qwen2.5 / improved / list,2723,evaluation,No replacements had been named .,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,5092,evaluation,Division A,0,1,0,0,1,[],"[('Division A', 'MISC')]"
+Qwen2.5 / improved / list,891,evaluation,SOCCER - DUTCH FIRST DIVISION RESULT .,1,0,0,1,0,"[('DUTCH', 'MISC')]",[]
+Qwen2.5 / improved / list,1313,evaluation,"Brunswijk turned himself into police after Freddy Pinas , a Surinamese-born visitor from the Netherlands , accused Brunswijk of trying to kill him on Sunday after a bar-room brawl in the small mining town of Moengo , about 56 miles -LPR- 90 km -RPR- east of Paramaribo , said police spokesman Ro Gajadhar .",7,2,1,6,1,"[('Brunswijk', 'PER'), ('Freddy Pinas', 'PER'), ('Surinamese-born', 'MISC'), ('Netherlands', 'LOC'), ('Moengo', 'LOC'), ('Paramaribo', 'LOC'), ('Ro Gajadhar', 'PER')]","[('Freddy Pinas', 'MISC'), ('Surinamese-born visitor from the Netherlands', 'ORG')]"
+Qwen2.5 / improved / list,6985,evaluation,Stich said he felt the players ought to have organised an active protest .,1,1,0,1,1,"[('Stich', 'PER')]","[('players', 'PER')]"
+Qwen2.5 / improved / list,13612,evaluation,The only other community is in the Russian village of Barentsburg .,2,1,0,2,1,"[('Russian', 'MISC'), ('Barentsburg', 'LOC')]","[('Russian village', 'LOC')]"
+Qwen2.5 / improved / list,6120,evaluation,Geert de Clercq,1,2,0,1,2,"[('Geert de Clercq', 'PER')]","[('Geert', 'PER'), ('de Clercq', 'MISC')]"
+Qwen2.5 / improved / list,4382,evaluation,"VERONA , Italy 1996-08-24",1,2,1,0,1,"[('Italy', 'LOC')]","[('Italy', 'MISC'), ('1996-08-24', 'MISC')]"
+Qwen2.5 / improved / list,11293,evaluation,"The quake struck at 11.16 a.m. -LPR- 1716 GMT -RPR- and was centred 10 miles -LPR- 16 km -RPR- south of the port of Quepos , which is 90 miles -LPR- 140 km -RPR- south of the capital San Jose , the Costa Rican Volcanic and Seismologicial Observatory said .",3,1,1,2,0,"[('GMT', 'MISC'), ('San Jose', 'LOC'), ('Costa Rican Volcanic and Seismologicial Observatory', 'ORG')]","[('San Jose', 'MISC')]"
+Qwen2.5 / improved / list,8831,evaluation,637.50 637.50 1626 1036.575,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,9484,evaluation,""" A great game has been started in Afghanistan as America feels that Tehran and Moscow have got stronger in the Afghan picture -- something Washington wants to change , "" he said .",6,0,0,6,0,"[('Afghanistan', 'LOC'), ('America', 'LOC'), ('Tehran', 'LOC'), ('Moscow', 'LOC'), ('Afghan', 'MISC'), ('Washington', 'LOC')]",[]
+Qwen2.5 / improved / list,6578,evaluation,"Mauritius now play in group seven of the qualifiers against Malawi , Mozambique and favourites Zambia .",4,2,1,3,1,"[('Mauritius', 'LOC'), ('Malawi', 'LOC'), ('Mozambique', 'LOC'), ('Zambia', 'LOC')]","[('Mauritius', 'ORG'), ('group seven', 'MISC')]"
+Qwen2.5 / improved / list,10915,evaluation,"It said this acreage earning well brought an interest in an additional 5,120 acres , building the company 's gross land position in this area to 8,320 acres .",0,3,0,0,3,[],"[('acreage', 'MISC'), ('additional', 'MISC'), ('acres', 'MISC')]"
+Qwen2.5 / improved / list,5754,evaluation,Willem II Tilburg 0 Fortuna Sittard 1,1,1,0,1,1,"[('Willem II Tilburg', 'ORG')]","[('Tilburg', 'LOC')]"
+Qwen2.5 / improved / list,4958,evaluation,Bolton 3 2 1 0 5 2 7,1,0,0,1,0,"[('Bolton', 'ORG')]",[]
+Qwen2.5 / improved / list,10428,evaluation,"lost , winning percentage and games behind -RPR- :",0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,1820,evaluation,China cancelled a visit by a top-level delegation in protest .,1,2,1,0,1,"[('China', 'LOC')]","[('China', 'ORG'), ('top-level delegation', 'MISC')]"
+Qwen2.5 / improved / list,9621,evaluation,Miscellaneous charges --- 16 --- 30,0,0,0,0,0,[],[]
+Qwen2.5 / improved / list,4628,evaluation,1. Ray Belim -LPR- Britain -RPR- / James Weaver -LPR- Britain -RPR- / J.J.Lehto,2,1,0,2,1,"[('Britain', 'LOC'), ('Britain', 'LOC')]","[('J. J. Lehto', 'PER')]"
+Qwen2.5 / improved / list,1244,evaluation,"GDANSK , Poland 1996-08-22",1,2,1,0,1,"[('Poland', 'LOC')]","[('Poland', 'MISC'), ('1996-08-22', 'MISC')]"
+Qwen2.5 / improved / list,7914,evaluation,"The bank earlier warned that profit growth would slow in the second half , citing the increasing momentum in profit growth in the comparative period of 1995 and increased investment .",0,2,0,0,2,[],"[('bank', 'ORG'), ('profit growth', 'MISC')]"
+Qwen2.5 / improved / list,6287,evaluation,New York Stock Exchange advances lagged declines by 476/698 while NASDAQ advances led declines 837/763 .,1,1,1,0,0,"[('NASDAQ', 'MISC')]","[('NASDAQ', 'ORG')]"
+Qwen2.5 / improved / list,11678,evaluation,Gold fixed at $ 388.50 versus Tuesday 's London close of $ 388.55 .,1,0,0,1,0,"[('London', 'LOC')]",[]
